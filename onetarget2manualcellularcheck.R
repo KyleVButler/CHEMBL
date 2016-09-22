@@ -1,4 +1,4 @@
-#big loss of specificity is in checking the functional assay, could not include any results that have " E coli " or " Sf9 "  (include spaces)
+#big loss of specificity is in checking the functional assay, could not include any results that have " E coli, baculovirus " or " Sf9 "  (include spaces)
 #in the description   -others?  insect, bacteria, E Coli, should we exclude CHO? maybe not, some results have good data for that
 #check some common probes and see how the funcitonal assays can be related to the target
 
@@ -123,6 +123,37 @@ agonist_check <- agonist_check %>% mutate(targets_identical = (target_check == p
 compound_summary <- full_join(compound_summary, agonist_check)
 compound_summary$is_agonist[is.na(compound_summary$is_agonist)] <- 0
 table(compound_summary$is_agonist)
+
+# add chembl ids and smiles
+molecule_dictionary <- tbl(chembl_db, "molecule_dictionary")
+join_vector <- molecule_dictionary %>% select(molregno, chembl_id) %>% filter(molregno %in% compound_summary$molregno)
+join_vector <- collect(join_vector, n = Inf)
+compound_summary <- left_join(compound_summary, join_vector, by = "molregno")
+compound_structures <- tbl(chembl_db, "compound_structures")
+join_vector <- compound_structures %>% select(molregno, canonical_smiles) %>% filter(molregno %in% compound_summary$molregno)
+join_vector <- collect(join_vector, n = Inf)
+compound_summary <- left_join(compound_summary, join_vector, by = "molregno")
+
+################## need to remove duplicated compounds
+
+
+#rank probes based on number of observations, for each target, find tanimoto distance from best probe 
+library(rcdk)
+agonists <- compound_summary %>% filter(is_agonist == 1) %>% mutate(tanimoto = 0) %>% group_by(pref_name) %>% 
+  arrange(pref_name, desc(n_total), desc(n_select), min_value) 
+
+x <- as.numeric()
+
+for(i in seq_along(unique(agonists$pref_name))){
+
+  x_subset <- agonists %>% filter(pref_name == unique(agonists$pref_name)[i]) 
+  query.mol <- parse.smiles(as.character(x_subset[1, which(names(x_subset) == "canonical_smiles")]))[[1]]
+  target.mols <- parse.smiles(x_subset[,which(names(x_subset) == "canonical_smiles")]$canonical_smiles)
+  query.fp <- get.fingerprint(query.mol, type='maccs')
+  target.fps <- lapply(target.mols, get.fingerprint, type='maccs')
+  sims <- unname(unlist(lapply(target.fps, distance, fp2=query.fp, method='tanimoto')))
+  x <- c(x, sims)
+}
 
 #select probes with highest total number of observations and highest selectivity observations, and tiebreak on potency
 #high_select_probes <- compound_summary %>% group_by(pref_name) %>% arrange(pref_name, desc(n_select), desc(n_total), min_value) %>% slice(1)

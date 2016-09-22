@@ -121,6 +121,9 @@ length(unique(compound_summary$pref_name))
 
 #select probes with highest total number of observations and highest selectivity observations, and tiebreak on potency
 #high_select_probes <- compound_summary %>% group_by(pref_name) %>% arrange(pref_name, desc(n_select), desc(n_total), min_value) %>% slice(1)
+#remove targets from the one target list
+cmpdstokeep <- compound_summary %>% filter(!pref_name %in% top_probes_onetarget$pref_name)
+compound_summary <- compound_summary %>% filter(molregno %in% cmpdstokeep$molregno)
 high_total_probes <- compound_summary %>% group_by(pref_name) %>% arrange(pref_name, desc(n_total), desc(n_select), min_value) %>% slice(1)
 #top_probes_twotarget <- compound_summary %>% filter(molregno %in% c(high_select_probes$molregno, high_total_probes$molregno))
 top_probes_twotarget <- high_total_probes
