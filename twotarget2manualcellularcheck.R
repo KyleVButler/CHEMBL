@@ -2,7 +2,8 @@ library(dplyr)
 library(tibble)
 library(stringr)
 library(readr)
-chembl_db <- src_sqlite("/Users/kylebutler/Desktop/chembl_21_sqlite/chembl_21.db", create = TRUE)
+#chembl_db <- src_sqlite("/Users/kylebutler/Desktop/chembl_21_sqlite/chembl_21.db", create = TRUE)
+chembl_db <- src_sqlite("chembl_21.db", create = TRUE)
 
 
 #What about Log Ki, Log EC50, pKb - need to change to nM for standard_units == NA -- chembl should have done this, use code below if not
@@ -122,11 +123,11 @@ length(unique(compound_summary$pref_name))
 #select probes with highest total number of observations and highest selectivity observations, and tiebreak on potency
 #high_select_probes <- compound_summary %>% group_by(pref_name) %>% arrange(pref_name, desc(n_select), desc(n_total), min_value) %>% slice(1)
 #remove targets from the one target list
-cmpdstokeep <- compound_summary %>% filter(!pref_name %in% top_probes_onetarget$pref_name)
+cmpdstokeep <- compound_summary %>% filter(!(pref_name %in% top_probes_onetarget$pref_name))
 compound_summary <- compound_summary %>% filter(molregno %in% cmpdstokeep$molregno)
-high_total_probes <- compound_summary %>% group_by(pref_name) %>% arrange(pref_name, desc(n_total), desc(n_select), min_value) %>% slice(1)
-#top_probes_twotarget <- compound_summary %>% filter(molregno %in% c(high_select_probes$molregno, high_total_probes$molregno))
-top_probes_twotarget <- high_total_probes
+cmpdstokeep <- compound_summary %>% group_by(pref_name) %>% arrange(pref_name, desc(n_total), desc(n_select), min_value) %>% slice(1)
+top_probes_twotarget <- compound_summary %>% group_by(pref_name) %>% arrange(molregno) %>% 
+  filter(molregno %in% cmpdstokeep$molregno) %>% slice(1)
 length(unique(top_probes_twotarget$pref_name))
 
 # add chembl ids and smiles
@@ -157,6 +158,5 @@ join_vector <- component_sequences %>% select(accession, component_id) %>% filte
 join_vector <- collect(join_vector, n = Inf)
 top_probes_twotarget <- left_join(top_probes_twotarget, join_vector, by = "component_id")
 
-top_probes_twotarget <- top_probes_twotarget %>% select(molregno, pref_name, chembl_id, n_total, n_select, canonical_smiles, accession) %>% mutate(group = 2) %>% 
-  rename(CHEMICAL_ID = chembl_id) %>% mutate(is_agonist = NA)
-
+top_probes_twotarget <-  top_probes_twotarget %>% mutate(group = 2) %>% rename(CHEMICAL_ID = chembl_id)
+View(top_probes_twotarget)

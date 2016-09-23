@@ -7,7 +7,9 @@ library(dplyr)
 library(tibble)
 library(stringr)
 library(readr)
-chembl_db <- src_sqlite("/Users/kylebutler/Desktop/chembl_21_sqlite/chembl_21.db", create = TRUE)
+#chembl_db <- src_sqlite("/Users/kylebutler/Desktop/chembl_21_sqlite/chembl_21.db", create = TRUE)
+chembl_db <- src_sqlite("chembl_21.db", create = TRUE)
+
 #only want to focus on common observations
 names(table(activities_collected$standard_type))[as.vector(table(activities_collected$standard_type) > 100)]
 
@@ -133,47 +135,48 @@ compound_structures <- tbl(chembl_db, "compound_structures")
 join_vector <- compound_structures %>% select(molregno, canonical_smiles) %>% filter(molregno %in% compound_summary$molregno)
 join_vector <- collect(join_vector, n = Inf)
 compound_summary <- left_join(compound_summary, join_vector, by = "molregno")
+#remove those with no smiles
+compound_summary <- compound_summary[!(is.na(compound_summary$canonical_smiles)), ]
 
 ################## need to remove duplicated compounds
+compound_summary <- compound_summary %>% group_by(molregno) %>% slice(1)
+
 
 
 #rank probes based on number of observations, for each target, find tanimoto distance from best probe 
 library(rcdk)
-agonists <- compound_summary %>% filter(is_agonist == 1) %>% mutate(tanimoto = 0) %>% group_by(pref_name) %>% 
-  arrange(pref_name, desc(n_total), desc(n_select), min_value) 
 
-x <- as.numeric()
-
-for(i in seq_along(unique(agonists$pref_name))){
-
-  x_subset <- agonists %>% filter(pref_name == unique(agonists$pref_name)[i]) 
-  query.mol <- parse.smiles(as.character(x_subset[1, which(names(x_subset) == "canonical_smiles")]))[[1]]
-  target.mols <- parse.smiles(x_subset[,which(names(x_subset) == "canonical_smiles")]$canonical_smiles)
+fun_get_tanimoto <- function(smilesin){
+  query.mol <- parse.smiles(smilesin)[[1]]
+  target.mols <- parse.smiles(smilesin)
   query.fp <- get.fingerprint(query.mol, type='maccs')
   target.fps <- lapply(target.mols, get.fingerprint, type='maccs')
   sims <- unname(unlist(lapply(target.fps, distance, fp2=query.fp, method='tanimoto')))
-  x <- c(x, sims)
+  return(sims)
 }
+compound_summary <- compound_summary %>% group_by(is_agonist, pref_name) %>% 
+  arrange(is_agonist, pref_name, desc(n_total), desc(n_select), min_value) %>% mutate(tanimoto = fun_get_tanimoto(canonical_smiles))
+View(agonists)
+detach("package:rcdk", unload=TRUE)
+detach("package:fingerprint", unload=TRUE)
+
 
 #select probes with highest total number of observations and highest selectivity observations, and tiebreak on potency
-#high_select_probes <- compound_summary %>% group_by(pref_name) %>% arrange(pref_name, desc(n_select), desc(n_total), min_value) %>% slice(1)
+high_select_probes <- compound_summary %>% group_by(pref_name) %>% arrange(pref_name, desc(n_select), desc(n_total), min_value) %>% slice(1)
+hist(compound_summary$tanimoto)
+#it is clear from distribution is bimodal and intersects at 0.75
 high_total_probes_agonist <- compound_summary %>% filter(is_agonist == 1) %>% group_by(pref_name) %>% arrange(pref_name, desc(n_total), desc(n_select), min_value) %>% 
   slice(1)
-high_total_probes_no_agonist <- compound_summary %>% filter(is_agonist != 1) %>% group_by(pref_name) %>% arrange(pref_name, desc(n_total), desc(n_select), min_value) %>% 
-  slice(1)
-top_probes_onetarget <- unique(rbind(high_total_probes_agonist, high_total_probes_no_agonist))
-
+high_total_probes_agonist_orthogonal <- compound_summary %>% filter(is_agonist == 1 & tanimoto < 0.75) %>% group_by(pref_name) %>% 
+  arrange(pref_name, desc(n_total), desc(n_select), min_value) %>% slice(1)
+high_total_probes_no_agonist <- compound_summary %>% filter(is_agonist != 1) %>% group_by(pref_name) %>% 
+  arrange(pref_name, desc(n_total), desc(n_select), min_value) %>% slice(1)
+high_total_probes_no_agonist_orthogonal <- compound_summary %>% filter(is_agonist != 1 & tanimoto < 0.75) %>% group_by(pref_name) %>% 
+  arrange(pref_name, desc(n_total), desc(n_select), min_value) %>% slice(1)
+top_probes_onetarget <- unique(rbind(high_total_probes_agonist, high_total_probes_no_agonist, high_total_probes_agonist_orthogonal, 
+                                     high_total_probes_no_agonist_orthogonal))
+View(top_probes_onetarget)
 length(unique(top_probes_onetarget$pref_name))
-
-# add chembl ids and smiles
-molecule_dictionary <- tbl(chembl_db, "molecule_dictionary")
-join_vector <- molecule_dictionary %>% select(molregno, chembl_id) %>% filter(molregno %in% top_probes_onetarget$molregno)
-join_vector <- collect(join_vector, n = Inf)
-top_probes_onetarget <- left_join(top_probes_onetarget, join_vector, by = "molregno")
-compound_structures <- tbl(chembl_db, "compound_structures")
-join_vector <- compound_structures %>% select(molregno, canonical_smiles) %>% filter(molregno %in% top_probes_onetarget$molregno)
-join_vector <- collect(join_vector, n = Inf)
-top_probes_onetarget <- left_join(top_probes_onetarget, join_vector, by = "molregno")
 
 #add accession to potential_probes
 #join protein information
@@ -193,5 +196,4 @@ join_vector <- component_sequences %>% select(accession, component_id) %>% filte
 join_vector <- collect(join_vector, n = Inf)
 top_probes_onetarget <- left_join(top_probes_onetarget, join_vector, by = "component_id")
 
-top_probes_onetarget <- top_probes_onetarget %>% select(molregno, pref_name, chembl_id, n_total, n_select, canonical_smiles, accession, is_agonist) %>% mutate(group = 1) %>% 
-  rename(CHEMICAL_ID = chembl_id)
+top_probes_onetarget <- top_probes_onetarget %>% mutate(group = 1) %>% rename(CHEMICAL_ID = chembl_id)
