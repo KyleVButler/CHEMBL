@@ -1,0 +1,783 @@
+molregno,n_total,n_select,pref_name,min_value,is_agonist,CHEMICAL_ID,canonical_smiles,tanimoto,tid,organism,component_id,accession,group,orthogonal
+1733482,8,4.0,Adenosine A1 receptor,1.8,FALSE,CHEMBL3234964,Nc1nc(SCc2csc(n2)N3CCOCC3)nc(c4ccc5OCOc5c4)c1C#N,1.0,114,Homo sapiens,159,P30542,1.0,PRIMARY
+1369782,16,10.0,Adenosine A2a receptor,1.0,FALSE,CHEMBL2096798,CCn1nnc(n1)[C@H]2O[C@H]([C@H](O)[C@@H]2O)n3cnc4c(N)nc(N[C@H](C)Cc5ccc(OC)cc5)nc34,1.0,252,Homo sapiens,326,P29274,1.0,PRIMARY
+475702,10,4.0,Alpha-1a adrenergic receptor,83.0,FALSE,CHEMBL481322,COCc1c(Cl)ccc2[C@@H](CCc12)c3ncc[nH]3,1.0,125,Homo sapiens,146,P35348,1.0,PRIMARY
+562574,8,5.0,Androgen Receptor,59.0,FALSE,CHEMBL551269,CN1[C@@H]2CC[C@@H]3[C@H](CC[C@@]4(C)[C@H]3C\C(=C/c5cncnc5)\[C@@H]4O)[C@@]2(C)C=CC1=O,1.0,56,Homo sapiens,187,P10275,1.0,PRIMARY
+165078,75,7.0,Bile acid receptor FXR,15.0,FALSE,CHEMBL318457,CC(C)c1onc(c1COc2ccc(\C=C\c3cccc(c3)C(=O)O)c(Cl)c2)c4c(Cl)cccc4Cl,1.0,11180,Homo sapiens,387,Q96RI1,1.0,PRIMARY
+1428004,19,2.0,Bombesin receptor subtype-3,1.4,FALSE,CHEMBL2164575,Cc1ccc2Nc3nc(ccc3CN(c2c1C)S(=O)(=O)c4ccc(cc4)C(C)(C)C)C(F)(F)F,1.0,10679,Homo sapiens,2399,P32247,1.0,PRIMARY
+49345,49,12.0,Cannabinoid CB1 receptor,0.32,FALSE,CHEMBL285932,Cc1c(nn(c2ccc(Cl)cc2Cl)c1c3ccc(I)cc3)C(=O)NN4CCCCC4,1.0,87,Homo sapiens,172,P21554,1.0,PRIMARY
+488282,32,11.0,Cannabinoid CB2 receptor,7.0,FALSE,CHEMBL468176,Fc1ccc(c(Cl)c1)c2noc(n2)C3CCN(CC3)c4cnc5ccc(Cl)cc5c4,1.0,259,Homo sapiens,104,P34972,1.0,PRIMARY
+163804,34,15.0,Delta opioid receptor,1.3,FALSE,CHEMBL317956,CC(C)[C@H](NC(=O)[C@@H](NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@@H](C)NC(=O)[C@@H](N)Cc2ccc(O)cc2)C(C)C)C(=O)NCC(=O)N,1.0,136,Homo sapiens,242,P41143,1.0,PRIMARY
+1828080,5,2.0,Dopamine D2 receptor,37.15,FALSE,CHEMBL3394266,CCCN(CCCCCCNc1nc(N)n2nc(nc2n1)c3occc3)CCc4cccc5NC(=O)Cc45,1.0,72,Homo sapiens,129,P14416,1.0,PRIMARY
+579864,22,9.0,Dopamine D3 receptor,0.52,FALSE,CHEMBL571992,CCCN(CCN1CCN(CC1)c2nccc3ccccc23)[C@H]4CCc5nc(N)sc5C4,1.0,130,Homo sapiens,149,P35462,1.0,PRIMARY
+1162082,29,8.0,Glucocorticoid receptor,1.2,FALSE,CHEMBL1801012,CC(C)([C@@H](c1ccccc1)c2ccc(O)cc2)C(=O)Nc3nccs3,1.0,25,Homo sapiens,371,P04150,1.0,PRIMARY
+294106,77,6.0,G-protein coupled receptor 35,2.1,FALSE,CHEMBL177880,OC(=O)c1cc2ccccc2c(Cc3c(O)c(cc4ccccc34)C(=O)O)c1O,1.0,103700,Homo sapiens,4970,Q9HC97,1.0,PRIMARY
+1728049,10,4.0,Histamine H3 receptor,0.42,FALSE,CHEMBL3221637,CC(C)N1CCC(CC1)Oc2ccc(cc2)C3(CCOCC3)C(=O)N,1.0,10280,Homo sapiens,2467,Q9Y5N1,1.0,PRIMARY
+595595,10,5.0,Histamine H4 receptor,1.12,FALSE,CHEMBL595180,CN1CCN(CC1)c2cc(NCc3c(Cl)cccc3Cl)nc(N)n2,1.0,11290,Homo sapiens,2075,Q9H3N8,1.0,PRIMARY
+508879,6,2.0,Hydroxycarboxylic acid receptor 2,8.0,FALSE,CHEMBL482698,OC(=O)C1=C(CCCC1)NC(=O)CCc2ccc3cc(O)ccc3c2,1.0,100579,Homo sapiens,2103,Q8TDS4,1.0,PRIMARY
+316568,18,7.0,Kappa opioid receptor,1.8,FALSE,CHEMBL370272,CCC(=O)O[C@H]1C[C@@H](C(=O)OC)[C@]2(C)CC[C@H]3C(=O)O[C@@H](C[C@]3(C)[C@H]2C1=O)c4cocc4,1.0,137,Homo sapiens,177,P41145,1.0,PRIMARY
+338339,6,3.0,Lysophosphatidic acid receptor Edg-7,3.0,FALSE,CHEMBL201482,CCCCCCCCOC[C@H](COP(=S)(O)O)OCCCCCCCC,1.0,19689,Homo sapiens,1571,Q9UBY5,1.0,PRIMARY
+353801,12,6.0,Melanocortin receptor 1,4.7,FALSE,CHEMBL211419,CC(=O)N[C@@H](Cc1c[nH]cn1)C(=O)N[C@H](Cc2ccccc2)C(=O)N3C[C@@H](C[C@H]3CCCN=C(N)N)OCc4ccc5ccccc5c4,1.0,11869,Homo sapiens,2113,Q01726,1.0,PRIMARY
+683594,14,5.0,Melanocortin receptor 4,2.0,FALSE,CHEMBL1209788,Cc1cc2[C@H](OC3(CCN(CC3)C(=O)[C@@H]4CN(C[C@H]4c5ccc(F)cc5F)C6CCOCC6)c2cc1Cl)C(C)(C)C#N,1.0,10142,Homo sapiens,1215,P32245,1.0,PRIMARY
+491255,7,3.0,Melatonin receptor 1B,0.42,FALSE,CHEMBL491604,COc1ccc2cc(cc(CCNC(=O)C)c2c1)c3cccc(C=O)c3,1.0,11085,Homo sapiens,269,P49286,1.0,PRIMARY
+1440123,62,57.0,Metabotropic glutamate receptor 2,15.0,FALSE,CHEMBL2179319,FC(F)(F)c1c(ccn2c(CC3CC3)nnc12)N4CCC(CC4)c5ccccc5,1.0,12895,Homo sapiens,3441,Q14416,1.0,PRIMARY
+1177420,12,6.0,Metabotropic glutamate receptor 4,7.0,FALSE,CHEMBL1830711,C1Cc2n[nH]cc2c3nc(Nc4ncccn4)sc3C1,1.0,11054,Homo sapiens,1072,Q14833,1.0,PRIMARY
+1422488,10,8.0,Metabotropic glutamate receptor 5,70.0,FALSE,CHEMBL2151817,C[C@@H](NC(=O)c1ccc(OCc2cccc(F)c2)nc1)C(C)(C)C,1.0,11280,Homo sapiens,1549,P41594,1.0,PRIMARY
+1352222,7,5.0,Mu opioid receptor,7.0,FALSE,CHEMBL2048786,CN1CC[C@]23[C@H]4Oc5c(NCc6cccc(O)c6)ccc(C[C@@H]1[C@@H]2C=C[C@@H]4O)c35,1.0,129,Homo sapiens,349,P35372,1.0,PRIMARY
+1759989,8,2.0,Muscarinic acetylcholine receptor M4,13.0,FALSE,CHEMBL3289442,CCOC(=O)N1CCC(C)(CN2CCC3(CC2)CN(c4ncccc34)S(=O)(=O)C)CC1,1.0,214,Homo sapiens,117,P08173,1.0,PRIMARY
+400492,25,4.0,Neurokinin 1 receptor,0.12,FALSE,CHEMBL235363,CSCC[C@H](NC(=O)[C@H](CC(C)C)NC(=O)CNC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](Cc2ccccc2)NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CCC(=O)N)NC(=O)[C@@H]3CCCN3C(=O)[C@H](CCCCN)NC(=O)[C@@H]4CCCN4C(=O)[C@@H](N)CCCN=C(N)N)C(=O)N,1.0,250,Homo sapiens,235,P25103,1.0,PRIMARY
+707012,19,4.0,Neuronal acetylcholine receptor protein alpha-7 subunit,1.0,FALSE,CHEMBL1258006,O=C(N[C@@H]1C2CCN(CC2)[C@H]1Cc3cccnc3)c4oc5ccccc5c4,1.0,10635,Homo sapiens,833,P36544,1.0,PRIMARY
+1586694,6,4.0,Neuropeptide Y receptor type 4,0.53,FALSE,CHEMBL2440193,CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](Cc2cnc[nH]2)NC(=O)[C@H](CCCNC(=N)N)NC(=O)C)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H]3C[C@H](C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H]4C[C@H](C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](Cc5ccc(O)cc5)C(=O)N)C4(C)C)C3(C)C,1.0,10143,Homo sapiens,3193,P50391,1.0,PRIMARY
+457258,35,3.0,Neurotensin receptor 1,0.99,FALSE,CHEMBL506981,COc1cccc(OC)c1c2cc(nn2c3ccnc4cc(Cl)ccc34)C(=O)NC5(C6CC7CC(CC5C7)C6)C(=O)O,1.0,12910,Homo sapiens,2442,P30989,1.0,PRIMARY
+1062932,10,4.0,Nociceptin receptor,0.96,FALSE,CHEMBL1650848,CC1CN(CCN1)c2nc3ccccc3n2C4CCN(CC4)C5(CO)CCCCCCC5,1.0,138,Homo sapiens,344,P41146,1.0,PRIMARY
+1511751,9,2.0,Peroxisome proliferator-activated receptor alpha,12.0,FALSE,CHEMBL2312702,CC(C)c1ccccc1c2ccc(O[C@@H](Cc3ccccc3)C(=O)O)cc2,1.0,163,Homo sapiens,245,Q07869,1.0,PRIMARY
+56133,119,12.0,Peroxisome proliferator-activated receptor delta,0.18,FALSE,CHEMBL38943,Cc1cc(SCc2sc(nc2C)c3ccc(cc3)C(F)(F)F)ccc1OCC(=O)O,1.0,12227,Homo sapiens,2298,Q03181,1.0,PRIMARY
+173090,90,3.0,Peroxisome proliferator-activated receptor gamma,0.339,FALSE,CHEMBL107367,Cc1oc(nc1CCOc2ccc(C[C@H](Nc3ccccc3C(=O)c4ccccc4)C(=O)O)cc2)c5ccccc5,1.0,133,Homo sapiens,241,P37231,1.0,PRIMARY
+1511270,12,7.0,Serotonin 1a (5-HT1a) receptor,0.55,FALSE,CHEMBL2312226,COc1cccc(OC)c1OCCNC[C@H]2COCC(O2)(c3ccccc3)c4ccccc4,1.0,51,Homo sapiens,266,P08908,1.0,PRIMARY
+311361,6,4.0,Serotonin 1f (5-HT1f) receptor,13.0,FALSE,CHEMBL186951,CN1CCC(CC1)N2CNc3ccc(NC(=O)c4ccc(F)cc4Cl)cc23,1.0,279,Homo sapiens,99,P30939,1.0,PRIMARY
+267852,11,7.0,Serotonin 2a (5-HT2a) receptor,50.7,FALSE,CHEMBL348588,CNCCc1c[nH]c2ccccc12,1.0,107,Homo sapiens,308,P28223,1.0,PRIMARY
+1839259,12,10.0,Serotonin 2c (5-HT2c) receptor,4.2,FALSE,CHEMBL3416063,Cl.NC[C@H]1C[C@@H]1c2cc(F)ccc2OCC=C,1.0,108,Homo sapiens,309,P28335,1.0,PRIMARY
+575750,24,19.0,Serotonin 6 (5-HT6) receptor,4.8,FALSE,CHEMBL571858,CN(C)CCn1cc(c2cccnc12)S(=O)(=O)c3cccc(F)c3,1.0,10627,Homo sapiens,1693,P50406,1.0,PRIMARY
+1784355,8,2.0,Serotonin 7 (5-HT7) receptor,2.7,FALSE,CHEMBL3321798,O=C1Cc2ccccc2N1CC\C=C\CCN3CC[C@H]4CCCC[C@@H]4C3,1.0,10209,Homo sapiens,1480,P34969,1.0,PRIMARY
+590329,10,6.0,Sphingosine 1-phosphate receptor Edg-1 ,2.0,FALSE,CHEMBL601062,Cc1nn(C(=O)\C=C\c2cccc3[nH]ccc23)c4C[C@@H]5[C@H](c14)C5(C)C,1.0,11631,Homo sapiens,2651,P21453,1.0,PRIMARY
+91783,92,21.0,Vanilloid receptor,5.3,FALSE,CHEMBL294199,COc1cc(CNC(=O)CCCC\C=C\C(C)C)ccc1O,1.0,10260,Homo sapiens,3111,Q8NER1,1.0,PRIMARY
+308821,18,3.0,Vasopressin V2 receptor,0.74,FALSE,CHEMBL363910,Cc1ccn(n1)c2ccc(C(=O)N3Cc4cccn4Cc5ccccc35)c(Cl)c2,1.0,112,Homo sapiens,81,P30518,1.0,PRIMARY
+1176462,17,14.0,11-beta-hydroxysteroid dehydrogenase 1,0.8,FALSE,CHEMBL1829763,C[C@H](N1CC[C@@](CCO)(OC1=O)c2ccc(F)cc2)c3ccc(cc3)c4ccc(F)cc4F,1.0,11489,Homo sapiens,2554,P28845,1.0,PRIMARY
+708504,12,4.0,11-beta-hydroxysteroid dehydrogenase 2,2.9,FALSE,CHEMBL1269273,CN(O)C(=O)[C@@]1(C)CC[C@]2(C)CC[C@]3(C)C(=CC(=O)[C@@H]4[C@@]5(C)CC[C@H](OC(=O)C)C(C)(C)[C@@H]5CC[C@@]34C)[C@@H]2C1,1.0,20127,Homo sapiens,2062,P80365,1.0,PRIMARY
+832142,19,4.0,15-hydroxyprostaglandin dehydrogenase [NAD+],54.0,FALSE,CHEMBL1408258,Cc1cc(c(C)n1c2ccccc2)c3nnc4CCCCCn34,1.0,103688,Homo sapiens,5150,P15428,1.0,PRIMARY
+1140776,12,5.0,3-phosphoinositide dependent protein kinase-1,0.794,FALSE,CHEMBL1765750,CNc1nc(cc(n1)c2ccc3c(N)n[nH]c3c2)N4C[C@H](C)C[C@H](C4)N(C)C(=O)OC(C)(C)C,1.0,10612,Homo sapiens,873,O15530,1.0,PRIMARY
+1266257,13,6.0,5-lipoxygenase activating protein,0.7,FALSE,CHEMBL1922660,CCOc1ccc(cn1)c2ccc(Cn3c(CC(C)(C)C(=O)O)c(SC(C)(C)C)c4cc(OCc5ccc(C)cn5)ccc34)cc2,1.0,10102,Homo sapiens,2867,P20292,1.0,PRIMARY
+1841167,7,3.0,"6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 3",21.0,FALSE,CHEMBL3421731,Cn1cc(cn1)c2cn(C)c3ccc(Oc4ccc(NC(=O)[C@@H]5CCCN5)cc4)cc23,1.0,105649,Homo sapiens,7285,Q16875,1.0,PRIMARY
+378065,129,16.0,Acetylcholinesterase,12.0,FALSE,CHEMBL226335,C[C@@H]1O[C@@H](OC[C@H]2O[C@@H](OC3=C(Oc4cc(O)cc(O)c4C3=O)c5ccc(O)c(O)c5)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O,1.0,93,Homo sapiens,357,P22303,1.0,PRIMARY
+350483,13,4.0,Acetyl-CoA carboxylase 2,19.0,FALSE,CHEMBL377212,CC(C)Oc1ccc(Oc2ncc(C#CC(C)NC(=O)C)s2)cc1,1.0,10608,Homo sapiens,3146,O00763,1.0,PRIMARY
+1794081,6,2.0,Activin receptor type-1,6.0,FALSE,CHEMBL3341943,COc1cc(cc(OC)c1OC)c2cc(cnc2N)c3cccc(NS(=O)(=O)C)c3,1.0,101598,Homo sapiens,4377,Q04771,1.0,PRIMARY
+478229,5,3.0,Acyl-CoA desaturase,0.05,FALSE,CHEMBL494748,COc1ccc(cc1)C2=Nc3ccc(NCc4ccc(Cl)c(c4)C(F)(F)F)cc3N(CCNC(=O)C)C2=O,1.0,101234,Homo sapiens,3846,O00767,1.0,PRIMARY
+319012,8,3.0,Acyl coenzyme A:cholesterol acyltransferase,2.2,FALSE,CHEMBL190672,Brc1csc(c1)C(=O)C(=O)c2cc(Br)cs2,1.0,11627,Homo sapiens,606,P23141,1.0,PRIMARY
+1524189,6,4.0,Acyl coenzyme A:cholesterol acyltransferase 2,0.9,FALSE,CHEMBL2334539,CC(=O)OC[C@]1(C)[C@H](CC[C@@]2(C)[C@H]1C[C@H](OC(=O)c3ccc(cc3)C#N)[C@@]4(C)OC5=C([C@H](O)[C@H]24)C(=O)OC(=C5)c6cccnc6)OC(=O)C,1.0,11204,Homo sapiens,2781,O75908,1.0,PRIMARY
+423909,6,5.0,ADAM10,12.0,FALSE,CHEMBL253665,Cc1cc(ccc1C2CCN(CC2)S(=O)(=O)CC3(CCN(CC3)C(=O)O[C@H]4CCOC4)C(=O)NO)C#N,1.0,100155,Homo sapiens,3339,O14672,1.0,PRIMARY
+353877,16,11.0,ADAM17,2.0,FALSE,CHEMBL380049,CC#CCOc1ccc(cc1)S(=O)(=O)CC2(CCN(CC2)C(=O)C)C(=O)NO,1.0,11473,Homo sapiens,2021,P78536,1.0,PRIMARY
+1427518,9,9.0,ADAMTS5,30.0,FALSE,CHEMBL2164094,CCCNc1nc(NCc2cn(C)cn2)nc(n1)N3CCC[C@@H]3CNS(=O)(=O)c4ccc(CCC)cc4,1.0,12862,Homo sapiens,626,Q9UNA0,1.0,PRIMARY
+147863,44,18.0,Adenosine A1 receptor,0.33,FALSE,CHEMBL327708,CCCN1C(=O)N(CCCOC(=O)c2ccc(cc2)S(=O)(=O)F)c3[nH]c(nc3C1=O)C4CCCC4,1.0,114,Homo sapiens,159,P30542,1.0,PRIMARY
+122252,47,10.0,Adenosine A2a receptor,2.2,FALSE,CHEMBL431770,CCN1C(=O)N(CC)c2nc(\C=C\c3ccc(OC)c(OC)c3)n(C)c2C1=O,1.0,252,Homo sapiens,326,P29274,1.0,PRIMARY
+431277,45,12.0,Adenosine A2b receptor,1.65,FALSE,CHEMBL260331,CCCN1C(=O)N(CCC)c2nc([nH]c2C1=O)c3cc(OCC(=O)Nc4ccc5OCOc5c4)nn3C,1.0,278,Homo sapiens,184,P29275,1.0,PRIMARY
+12170,131,4.0,Adenosine A3 receptor,16.0,FALSE,CHEMBL273481,NCc1onc(O)c1,1.0,280,Homo sapiens,275,P0DMS8,1.0,PRIMARY
+504507,33,10.0,Aldo-keto-reductase family 1 member C3,56.0,FALSE,CHEMBL511708,CC(=CCc1cc(\C=C\C(=O)O)ccc1OC(=O)CCc2ccccc2)C,1.0,100481,Homo sapiens,2999,P42330,1.0,PRIMARY
+772213,18,5.0,Aldose reductase,8.96,FALSE,CHEMBL1348329,O=C1NC(=O)\C(=C\c2cccc3ccccc23)\S1,1.0,242,Homo sapiens,215,P15121,1.0,PRIMARY
+1172607,12,3.0,ALK tyrosine kinase receptor,9.0,FALSE,CHEMBL1822525,COc1cc(ccc1Nc2ncc3ccc(c4ccccc4N(C)S(=O)(=O)C)n3n2)N5CCN(C[C@H](C)O)CC5,1.0,100417,Homo sapiens,2566,Q9UM73,1.0,PRIMARY
+1558152,5,5.0,"Alpha-1,6-mannosyl-glycoprotein 2-beta-N-acetylglucosaminyltransferase",1.58,FALSE,CHEMBL2376316,CCC1(CC)CNc2ccc(cc2C(=O)N1)S(=O)(=O)Nc3ccc(F)cc3F,1.0,105619,Homo sapiens,7251,Q10469,1.0,PRIMARY
+33734,30,7.0,Alpha-1a adrenergic receptor,1.0,FALSE,CHEMBL279436,CC1=C(C(C(=C(C)N1)C(=O)NCCCN2CCC(CC2)(c3ccccc3)c4ccccc4)c5ccc(cc5)[N+](=O)[O-])C(=O)N,1.0,125,Homo sapiens,146,P35348,1.0,PRIMARY
+1584126,44,40.0,Alpha-1b adrenergic receptor,9.4,FALSE,CHEMBL2432063,CN(CC1CCCCC1)[C@H]2C3C4CC5C6C4CC3C6C25,1.0,128,Homo sapiens,258,P35368,1.0,PRIMARY
+119851,5,2.0,Alpha-2a adrenergic receptor,10.0,FALSE,CHEMBL77913,COc1ccc(Nc2ncc[nH]2)c(C)c1,1.0,52,Homo sapiens,180,P08913,1.0,PRIMARY
+175722,85,9.0,Alpha-2c adrenergic receptor,27.99,FALSE,CHEMBL106525,CN1CCN(CC1)c2ccc(Nc3c4ccccc4nc5ccccc35)cc2,1.0,218,Homo sapiens,230,P18825,1.0,PRIMARY
+1615512,6,3.0,"Amine oxidase, copper containing",71.0,FALSE,CHEMBL3110303,O=C1C=C(NC2CCCCC2)C(=NN1c3ccccc3)c4nc[nH]n4,1.0,20143,Homo sapiens,1759,Q16853,1.0,PRIMARY
+429149,7,3.0,Aminopeptidase N,27.54,FALSE,CHEMBL259019,CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@@H](CN)C(C)C)C(=O)N[C@@H](Cc2cnc[nH]2)C(=O)N3CCC[C@H]3C(=O)N[C@H](CC(=O)O)Cc4ccccc4,1.0,243,Homo sapiens,220,P15144,1.0,PRIMARY
+450555,22,9.0,Anandamide amidohydrolase,11.0,FALSE,CHEMBL460273,O=C(Nc1ccccc1)N2CCN(CC2)c3nc(ns3)c4ccccc4,1.0,11291,Homo sapiens,584,O00519,1.0,PRIMARY
+6787,114,9.0,Androgen Receptor,25.0,FALSE,CHEMBL491,CC(C)(O)C(=O)Nc1ccc(c(c1)C(F)(F)F)[N+](=O)[O-],1.0,56,Homo sapiens,187,P10275,1.0,PRIMARY
+316752,12,3.0,Angiotensin II type 2 (AT-2) receptor,0.4,FALSE,CHEMBL189568,CCCCOC(=O)NS(=O)(=O)c1sc(CC(C)C)cc1c2ccc(Cn3ccnc3)cc2,1.0,10692,Homo sapiens,2924,P50052,1.0,PRIMARY
+1732959,3,3.0,Apelin,0.04,FALSE,CHEMBL3234446,CSCC[C@H](NC(=O)[C@@H]1CCCN1C(=O)CNC(=O)[C@H](CCCCN)NC(=O)[C@H](Cc2cnc[nH]2)NC(=O)[C@H](CO)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@@H]3CCCN3C(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](Cc4ccccc4)NC(=O)[C@@H](N)CCCCN)C(=O)N5CCC[C@H]5C(=O)N[C@@H](Cc6ccccc6)C(=O)O,1.0,108275,Homo sapiens,8519,Q9ULZ1,1.0,PRIMARY
+1793179,22,11.0,Apelin receptor,33.7,FALSE,CHEMBL3338677,CCCCCCCCCCCCCCCC(=O)N[C@@H](C(C)C)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CC(C)C)C(=O)N1CCC[C@H]1C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](Cc2c[nH]c3ccccc23)C(=O)N[C@@H](C)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](Cc4ccc(O)cc4)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](Cc5ccc(O)cc5)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N,1.0,103800,Homo sapiens,4828,P35414,1.0,PRIMARY
+1426284,8,2.0,Apoptosis regulator Bcl-X,1.0,FALSE,CHEMBL2159735,CN(C)CC[C@H](CSc1ccccc1)Nc2ccc(cc2[N+](=O)[O-])S(=O)(=O)Nc3ccc(cc3)N4CCN(CC4)c5cccc(c5)c6c(C(=O)NCCCN7CCN(C)CC7)c(C)n(C)c6c8ccc(Cl)cc8,1.0,100217,Homo sapiens,2942,Q07817,1.0,PRIMARY
+1574696,18,4.0,Arachidonate 5-lipoxygenase,13.0,FALSE,CHEMBL2413471,COc1cc(\C=C\c2cc([nH]n2)c3ccc(O)c(OC)c3)ccc1O,1.0,55,Homo sapiens,168,P09917,1.0,PRIMARY
+451889,39,5.0,ATP-binding cassette sub-family G member 2,12.0,FALSE,CHEMBL488910,COc1ccc2c3C[C@@H]4N([C@@H](CC(C)C)c3[nH]c2c1)C(=O)[C@H](CCC(=O)OC(C)(C)C)NC4=O,1.0,100974,Homo sapiens,3688,Q9UNQ0,1.0,PRIMARY
+1587951,11,10.0,ATP-sensitive inward rectifier potassium channel 1,64.0,FALSE,CHEMBL2441437,O=C(Cc1ccc(cc1)n2cnnn2)N3CCN(CCc4ccc5C(=O)OCc5c4)CC3,1.0,103725,Homo sapiens,5071,P48048,1.0,PRIMARY
+1608797,3,2.0,Baculoviral IAP repeat-containing protein 2,1.2,FALSE,CHEMBL3094407,CC[C@H](NC)C(=O)N[C@@H](C1CCCCC1)C(=O)N2C[C@H]3CCCN3C[C@H]2C(=O)N[C@@H]4CCOc5ccccc45,1.0,100988,Homo sapiens,3754,Q13490,1.0,PRIMARY
+1515302,4,3.0,Baculoviral IAP repeat-containing protein 3,1.3,FALSE,CHEMBL2316217,CCO[C@@H]1C[C@@H]2CN([C@@H](CN2C1)C(=O)N[C@@H]3CCOc4ccccc34)C(=O)[C@@H](NC(=O)[C@H](C)NC)C5CCC(F)(F)CC5,1.0,100952,Homo sapiens,3631,Q13489,1.0,PRIMARY
+122859,17,4.0,Beta-1 adrenergic receptor,10.96,FALSE,CHEMBL75753,OC(CNCCNC(=O)N1CCOCC1)COc2ccc(O)cc2,1.0,50,Homo sapiens,185,P08588,1.0,PRIMARY
+242716,117,16.0,Beta-2 adrenergic receptor,0.251,FALSE,CHEMBL1263,OCc1cc(ccc1O)C(O)CNCCCCCCOCCCCc2ccccc2,1.0,43,Homo sapiens,213,P07550,1.0,PRIMARY
+12055,29,11.0,Beta-3 adrenergic receptor,0.43,FALSE,CHEMBL12998,CCCCCCNC(=O)Nc1ccc(cc1)S(=O)(=O)Nc2ccc(CCNC[C@H](O)COc3ccc(O)cc3)cc2,1.0,226,Homo sapiens,2091,P13945,1.0,PRIMARY
+1341821,7,2.0,Beta-glucocerebrosidase,0.4,FALSE,CHEMBL2029773,Cl.CCCCCCCCSCC[C@H]1NC[C@@H](O)[C@H](O)[C@H]1O,1.0,10733,Homo sapiens,520,P04062,1.0,PRIMARY
+613995,13,5.0,Beta-glucosidase,1.0,FALSE,CHEMBL1086996,OC[C@H]1[C@@H](O)[C@H](O)[C@@H](O)CN1CCCCCOCC23CC4CC(CC(C4)C2)C3,1.0,11815,Homo sapiens,2077,Q9HCG7,1.0,PRIMARY
+317938,38,12.0,Beta-secretase 1,25.0,FALSE,CHEMBL190346,CCSc1nsc(NC(=O)Nc2cccc(c2)C(=O)C)n1,1.0,12252,Homo sapiens,3139,P56817,1.0,PRIMARY
+1791809,36,9.0,Bile acid receptor FXR,8.0,FALSE,CHEMBL3335672,COc1ccc(C(=O)Nc2cccc(c2)C(=O)O)c(NC(=O)c3ccc(cc3)C(C)(C)C)c1,1.0,11180,Homo sapiens,387,Q96RI1,1.0,PRIMARY
+1338484,8,2.0,Bombesin receptor subtype-3,1.4,FALSE,CHEMBL2023109,CC(C)(O)c1onc(n1)c2cccc3Nc4nc(ccc4CN(c23)S(=O)(=O)c5ccc(OC(F)(F)F)cc5)C(F)(F)F,1.0,10679,Homo sapiens,2399,P32247,1.0,PRIMARY
+382721,44,11.0,Bone morphogenetic protein 1,26.0,FALSE,CHEMBL226630,NC(=O)c1noc(n1)[C@H](CCCC2CCCCC2)CC(=O)NO,1.0,10144,Homo sapiens,2218,P13497,1.0,PRIMARY
+1365083,59,36.0,Bradykinin B1 receptor,1.6,FALSE,CHEMBL2087421,COc1cc(C)c(c(C)c1)S(=O)(=O)N(C)CCOCC(=O)N2CCN(CC2)C3CCN(C)CC3,1.0,11156,Homo sapiens,2625,P46663,1.0,PRIMARY
+366521,9,2.0,Bradykinin B2 receptor,0.0501,FALSE,CHEMBL218427,Cc1cc(C)c2cccc(OCc3c(Cl)ccc(c3Cl)S(=O)(=O)NC4(CCOCC4)C(=O)N5CCN(CC5)C(=O)[C@@H](N)CCC[N+](C)(C)C)c2n1,1.0,10034,Homo sapiens,1482,P30411,1.0,PRIMARY
+650181,6,2.0,C3a anaphylatoxin chemotactic receptor,12.59,FALSE,CHEMBL1170026,CSCC[C@H](NC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCCN)NC(=O)[C@H](Cc2ccccc2)NC(=O)[C@H](CO)NC(=O)[C@@H](N)Cc3ccc(O)cc3)C(=O)N4CCC[C@H]4C(=O)N[C@@H](CC(C)C)C(=O)N(C)[C@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)O,1.0,10785,Homo sapiens,3077,Q16581,1.0,PRIMARY
+1345513,23,5.0,Calcitonin gene-related peptide type 1 receptor,0.052,FALSE,CHEMBL2035983,C[C@]1(CNC2(CCCC2)C(=O)N1CC(=O)Nc3cnc4C[C@]5(Cc4c3)C(=O)Nc6ncccc56)c7cc(F)cc(F)c7,1.0,19904,Homo sapiens,2116,Q16602,1.0,PRIMARY
+110084,3,2.0,Calpain 1,30.0,FALSE,CHEMBL69715,NC(=O)C(=O)C(Cc1ccccc1)NC(=O)C2CCN(CC2)C(=O)c3ccc4ccccc4c3,1.0,12955,Homo sapiens,5024,P07384,1.0,PRIMARY
+110084,3,2.0,Calpain 1,30.0,FALSE,CHEMBL69715,NC(=O)C(=O)C(Cc1ccccc1)NC(=O)C2CCN(CC2)C(=O)c3ccc4ccccc4c3,1.0,105111,Homo sapiens,3275,P04632,1.0,PRIMARY
+110084,3,2.0,Calpain 1,30.0,FALSE,CHEMBL69715,NC(=O)C(=O)C(Cc1ccccc1)NC(=O)C2CCN(CC2)C(=O)c3ccc4ccccc4c3,1.0,105111,Homo sapiens,5024,P07384,1.0,PRIMARY
+364983,35,6.0,Cannabinoid CB1 receptor,0.094,FALSE,CHEMBL220360,C[C@H](NC(=O)C(C)(C)Oc1ccc(cn1)C(F)(F)F)[C@@H](Cc2ccc(Cl)cc2)c3cccc(c3)C#N,1.0,87,Homo sapiens,172,P21554,1.0,PRIMARY
+116551,47,25.0,Cannabinoid CB2 receptor,3.8,FALSE,CHEMBL73711,COc1ccc2c(c1)c(CCN3CCOCC3)c(C)n2C(=O)c4cccc(Cl)c4Cl,1.0,259,Homo sapiens,104,P34972,1.0,PRIMARY
+13329,213,48.0,Carbonic anhydrase II,90.0,FALSE,CHEMBL537,Oc1ccc(O)cc1,1.0,15,Homo sapiens,94,P00918,1.0,PRIMARY
+30697,80,19.0,Carbonic anhydrase IV,10.0,FALSE,CHEMBL23194,NCCCNCCCCNCCCN,1.0,12896,Homo sapiens,2045,P22748,1.0,PRIMARY
+1794648,11,6.0,Carbonic anhydrase XII,15.0,FALSE,CHEMBL3342504,NS(=O)(=O)c1ccc(cc1)n2cc(c3ccc(Br)cc3)c4C(=O)N(C(=O)c5ccc(Cl)cc5)C(=Nc24)c6ccc(Cl)cc6,1.0,12209,Homo sapiens,1563,O43570,1.0,PRIMARY
+1448122,7,3.0,"Carnitine O-palmitoyltransferase 1, liver isoform",19.6,FALSE,CHEMBL2216774,O=C(COc1ccccc1)N2CCCC[C@@H]2c3nc(cs3)c4ccccn4,1.0,103641,Homo sapiens,4843,P50416,1.0,PRIMARY
+358370,5,4.0,Caspase-1,30.0,FALSE,CHEMBL387453,OC1OC(=O)C[C@@H]1NC(=O)CN2CCSC[C@H](NC(=O)c3ccc4ccccc4c3)C2=O,1.0,11624,Homo sapiens,3119,P29466,1.0,PRIMARY
+307930,32,10.0,Cathepsin K,3.0,FALSE,CHEMBL184514,CC(C)C[C@@H](C(=O)NCC#N)c1cccc(c1)c2ccc(cc2)N3CCNCC3,1.0,10495,Homo sapiens,1387,P43235,1.0,PRIMARY
+682945,9,5.0,Cathepsin S,7.2,FALSE,CHEMBL1209145,CCN1CCN(CCCOc2ccc(cc2C(F)(F)F)c3cc4c(ncn4C)c(n3)C#N)CC1,1.0,11534,Homo sapiens,1285,P25774,1.0,PRIMARY
+1790952,15,2.0,C-C chemokine receptor type 1,1.0,FALSE,CHEMBL3334824,CC(C)[C@@H](NC(=O)NCC(C)(C)O)C(=O)N1CC[C@](O)(c2ccc(Cl)cc2)C(C)(C)C1,1.0,10547,Homo sapiens,753,P32246,1.0,PRIMARY
+78315,37,2.0,C-C chemokine receptor type 2,50.0,FALSE,CHEMBL432713,Oc1ccc2[nH]cc(C3CCN(CCCCCNC(=O)\C=C\c4ccc(Cl)c(Cl)c4)CC3)c2c1,1.0,11575,Homo sapiens,2334,P41597,1.0,PRIMARY
+421450,33,6.0,C-C chemokine receptor type 3,2.0,FALSE,CHEMBL250689,CC(=O)c1cccc(NC(=O)N[C@@H]2CCCC[C@H]2CN3CCC[C@@H](Cc4ccc(F)cc4)C3)c1,1.0,10548,Homo sapiens,1794,P51677,1.0,PRIMARY
+1336709,16,11.0,C-C chemokine receptor type 4,10.0,FALSE,CHEMBL2018969,COc1cccc2c1c(NS(=O)(=O)c3ccc(Cl)s3)nn2Cc4cccc(CNC(=O)C(C)(C)O)c4,1.0,10579,Homo sapiens,754,P51679,1.0,PRIMARY
+1066574,37,2.0,C-C chemokine receptor type 5,5.8,FALSE,CHEMBL1668019,Cl.CCCCN1C(=O)[C@H](NC(=O)C12CCN(Cc3ccc(Oc4ccc(cc4)C(=O)O)cc3)CC2)[C@H](O)C5CCCCC5,1.0,10580,Homo sapiens,256,P51681,1.0,PRIMARY
+366845,14,6.0,C-C chemokine receptor type 8,1.6,FALSE,CHEMBL218375,CCOC(=O)N1CCC(CC1)NS(=O)(=O)c2ccc(NC(=O)c3ccccc3C)c4ccccc24,1.0,100436,Homo sapiens,2913,P51685,1.0,PRIMARY
+1529989,4,3.0,Cell division cycle 7-related protein kinase,7.0,FALSE,CHEMBL2348154,Nc1nccc(n1)n2cc(c3cccnc3Cl)c4cnccc24,1.0,100077,Homo sapiens,5015,O00311,1.0,PRIMARY
+343119,10,4.0,Cholecystokinin A receptor,59.8,FALSE,CHEMBL202861,OC(=O)C(Cc1ccccc1)NC(=O)c2ccccc2NC(=O)c3cc4ccccc4[nH]3,1.0,10472,Homo sapiens,216,P32238,1.0,PRIMARY
+346375,4,2.0,Cholecystokinin B receptor,0.219,FALSE,CHEMBL382409,CCCC[C@H](N(C)C(=O)[C@H](Cc1c[nH]c2ccccc12)NC(=O)CNC(=O)[C@@H]3CCCN3C(=O)[C@@H](N)Cc4ccc(O)cc4)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](Cc5ccccc5)C(=O)N,1.0,11522,Homo sapiens,109,P32239,1.0,PRIMARY
+1819304,5,4.0,c-Jun N-terminal kinase 3,1.0,FALSE,CHEMBL3355178,Clc1ccccc1NC(=O)Nc2cnn(c2)c3cccc(c3)C(=O)Nc4cnn(c4)C5CCNC5,1.0,11408,Homo sapiens,973,P53779,1.0,PRIMARY
+9283,145,4.0,Coagulation factor III,8.35,FALSE,CHEMBL275097,COc1ccc2CC3N(CCc4cc5OCOc5cc34)Cc2c1OC,1.0,11092,Homo sapiens,2400,P13726,1.0,PRIMARY
+1164734,72,45.0,Corticotropin releasing factor receptor 1,1.0,FALSE,CHEMBL1807053,CCC(CC)Nc1nc(C)c(nc1OC)c2ccc(OC(F)(F)F)cc2OC,1.0,124,Homo sapiens,91,P34998,1.0,PRIMARY
+1531157,12,11.0,C-X3-C chemokine receptor 1,3.9,FALSE,CHEMBL2349310,CC(C)C[C@H](CO)Nc1nc(S[C@@H](C)c2ccccc2)nc3nc(N)sc13,1.0,100138,Homo sapiens,3159,P49238,1.0,PRIMARY
+494523,9,4.0,C-X-C chemokine receptor type 3,30.0,FALSE,CHEMBL497799,Brc1ccc(CN2CCC(CC2)C3(CCCN(C3)C(=O)Nc4ccccc4)c5ccccc5)cc1,1.0,12825,Homo sapiens,2758,P49682,1.0,PRIMARY
+1606050,21,15.0,C-X-C chemokine receptor type 4,3.0,FALSE,CHEMBL3091687,NCCCCN(C[C@H]1Cc2ccccc2CN1)[C@H]3CCCc4cccnc34,1.0,10473,Homo sapiens,449,P61073,1.0,PRIMARY
+300793,4,2.0,Cyclin-dependent kinase 2,4.0,FALSE,CHEMBL178179,CN(C)S(=O)(=O)c1ccc(Nc2cc(N[C@@H]3CC[C@@H](N)CC3)nc4c(cnn24)C5CCCC5)cc1,1.0,11678,Homo sapiens,36,P24941,1.0,PRIMARY
+38843,48,13.0,Cyclooxygenase-1,7.0,FALSE,CHEMBL26915,COc1ccc(cc1)n2nc(cc2c3ccc(Cl)cc3)C(F)(F)F,1.0,96,Homo sapiens,162,P23219,1.0,PRIMARY
+16866,26,7.0,Cyclooxygenase-2,50.0,FALSE,CHEMBL274990,CS(=O)(=O)c1ccc(cc1)n2nc(cc2c3ccc(F)cc3)C(F)(F)F,1.0,126,Homo sapiens,148,P35354,1.0,PRIMARY
+21523,111,27.0,Cysteinyl leukotriene receptor 1,0.316,FALSE,CHEMBL603,COc1cc(ccc1Cc2cn(C)c3ccc(NC(=O)OC4CCCC4)cc23)C(=O)NS(=O)(=O)c5ccccc5C,1.0,179,Homo sapiens,89,Q9Y271,1.0,PRIMARY
+613867,21,6.0,Cystic fibrosis transmembrane conductance regulator,90.0,FALSE,CHEMBL1087004,CN1C(=O)N(C)c2c(C1=O)c(c3ccccc3)n4c2C(Nc5ccccc45)c6oc(C)cc6,1.0,11540,Homo sapiens,2370,P13569,1.0,PRIMARY
+713602,5,2.0,Cystinyl aminopeptidase,3.3,FALSE,CHEMBL1277623,N[C@H]1CCSSC[C@H](NC(=O)C[C@H](Cc2ccc(O)cc2)NC1=O)C(=O)NCc3ccccc3CC(=O)O,1.0,11239,Homo sapiens,1029,Q9UIQ6,1.0,PRIMARY
+479089,6,2.0,D-amino-acid oxidase,4.6,FALSE,CHEMBL467660,OC1=Cc2c(Cl)c(F)ccc2NC1=O,1.0,101213,Homo sapiens,3777,P14920,1.0,PRIMARY
+165211,15,7.0,Delta opioid receptor,0.7,FALSE,CHEMBL327745,CN1CC[C@@]2(Cc3nc4ccccc4cc3C[C@H]2C1)c5cccc(O)c5,1.0,136,Homo sapiens,242,P41143,1.0,PRIMARY
+1179978,15,9.0,Diacylglycerol O-acyltransferase 1,8.0,FALSE,CHEMBL1835919,Nc1ncnc2OCCN(C(=O)c12)c3ccc(cc3)[C@@H]4CC[C@@H](CC(=O)O)CC4,1.0,101414,Homo sapiens,4531,O75907,1.0,PRIMARY
+382011,36,2.0,Dihydrofolate reductase,66.0,FALSE,CHEMBL438664,CCc1c(Sc2ccc(cc2)C(=O)N[C@@H](CCC(=O)O)C(=O)O)[nH]c3nc(N)nc(N)c13,1.0,6,Homo sapiens,396,P00374,1.0,PRIMARY
+1746889,8,5.0,Dipeptidyl peptidase I,1.0,FALSE,CHEMBL3261926,NC1(CCOCC1)C(=O)N[C@@H](Cc2ccc(cc2)c3ccc(cc3)C#N)C#N,1.0,12396,Homo sapiens,593,P53634,1.0,PRIMARY
+162220,8,5.0,Dipeptidyl peptidase II,0.23,FALSE,CHEMBL98762,N[C@@H](CCNCc1ccccc1Cl)C(=O)N2CCCCC2,1.0,12268,Homo sapiens,2295,Q9UHL4,1.0,PRIMARY
+149095,65,2.0,Dipeptidyl peptidase IV,62.0,FALSE,CHEMBL1090,Nc1ncnc2c1ncn2[C@@H]3O[C@H](CO)[C@@H](O)[C@@H]3O,1.0,11140,Homo sapiens,265,P27487,1.0,PRIMARY
+59721,66,24.0,Dopamine D1 receptor,3.0,FALSE,CHEMBL291143,NC[C@@H]1O[C@@H](Cc2c(O)c(O)ccc12)C34CC5CC(CC(C5)C3)C4,1.0,88,Homo sapiens,397,P21728,1.0,PRIMARY
+1164140,12,3.0,Dopamine D2 receptor,12.0,FALSE,CHEMBL1803049,CCCCn1cc(CCCOc2ccc(CN3CCN(CC3)c4ccccc4OC)cc2OC)nn1,1.0,72,Homo sapiens,129,P14416,1.0,PRIMARY
+390008,61,35.0,Dopamine D3 receptor,1.0,FALSE,CHEMBL244946,Cc1ccc2c(cccc2n1)c3nnc(SCCCN4CCc5ccc(cc5CC4)c6cc(C)nn6C)n3C,1.0,130,Homo sapiens,149,P35462,1.0,PRIMARY
+90867,39,21.0,Dopamine D4 receptor,0.51,FALSE,CHEMBL60518,Ic1ccc(cc1)N2CCN(Cc3c[nH]c4ncccc34)CC2,1.0,90,Homo sapiens,174,P21917,1.0,PRIMARY
+1582731,8,3.0,Dopamine transporter,33.1,FALSE,CHEMBL2430682,Clc1ccc(cc1)C2C(CNC2=O)c3cccc(Cl)c3,1.0,155,Homo sapiens,346,Q01959,1.0,PRIMARY
+336190,38,16.0,Dual specificity mitogen-activated protein kinase kinase 1,33.0,FALSE,CHEMBL201426,CCONC(=O)C1=CN(C)C(=O)C(=C1Nc2ccc(Br)cc2F)F,1.0,11409,Homo sapiens,1907,Q02750,1.0,PRIMARY
+1836858,21,3.0,Dual specificity protein kinase TTK,0.7,FALSE,CHEMBL3410084,CC(C)(Nc1cc(NCC2CCOCC2)c3ncc(c4ccc(cc4)C(=O)NC5CC5)n3n1)C(F)(F)F,1.0,30011,Homo sapiens,2302,P33981,1.0,PRIMARY
+1841407,5,4.0,Dual specificity tyrosine-phosphorylation-regulated kinase 1B,3.0,FALSE,CHEMBL3421968,COc1cc(ccc1Nc2nccc(n2)c3cn(C)c4cnccc34)N5CCN(C)CC5,1.0,101014,Homo sapiens,3834,Q9Y463,1.0,PRIMARY
+287949,12,5.0,Endothelin-converting enzyme 1,12.0,FALSE,CHEMBL367315,O=C1C=C(Oc2ccccc12)N3CCOCC3,1.0,11192,Homo sapiens,3108,P42892,1.0,PRIMARY
+490,26,9.0,Endothelin receptor ET-A,5.8,FALSE,CHEMBL267458,CN(C)c1cccc2c(cccc12)S(=O)(=O)Nc3onc(C)c3C,1.0,249,Homo sapiens,234,P25101,1.0,PRIMARY
+261625,6,2.0,Endothelin receptor ET-B,10.0,FALSE,CHEMBL413825,C[C@@H](O)[C@H]1NC(=O)CNC(=O)[C@@H](Cc2c[nH]cn2)NC(=O)[C@H](Cc3c[nH]c4ccccc34)NC(=O)[C@@H](CC(=O)N)NC(=O)CNC(=O)[C@H](CC(=O)N[C@@H](Cc5c[nH]c6ccccc56)C(=O)N[C@@H](Cc7ccccc7)C(=O)N[C@@H](Cc8ccccc8)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](Cc9ccc(O)cc9)C(=O)N[C@@H](Cc%10ccc(O)cc%10)C(=O)N[C@@H](Cc%11c[nH]c%12ccccc%11%12)C(=O)O)NC(=O)[C@H]%13CCCN%13C(=O)[C@H](C)NC1=O,1.0,247,Homo sapiens,76,P24530,1.0,PRIMARY
+1139819,4,3.0,Ephrin type-B receptor 4,2.0,FALSE,CHEMBL1762525,COc1cccc(c1)N(C)c2ccnc(Nc3cc(cc(c3)N4CCOCC4)N5CCOCC5)n2,1.0,100129,Homo sapiens,3451,P54760,1.0,PRIMARY
+80973,541,3.0,Epidermal growth factor receptor erbB1,15.0,FALSE,CHEMBL53753,CNc1cc2c(Nc3cccc(Br)c3)ncnc2cn1,1.0,9,Homo sapiens,147,P00533,1.0,PRIMARY
+1566276,53,42.0,Epoxide hydratase,0.5,FALSE,CHEMBL2392692,CNc1nc(C)nc(n1)N2CCC(CC2)C(=O)NCc3ccc(Br)cc3OC(F)(F)F,1.0,11727,Homo sapiens,750,P34913,1.0,PRIMARY
+407202,9,4.0,Equilibrative nucleoside transporter 1,0.501,FALSE,CHEMBL394171,Nc1nc(SCc2ccc(cc2)[N+](=O)[O-])c3ncn([C@@H]4O[C@H](CO)[C@@H](O)[C@H]4O)c3n1,1.0,175,Homo sapiens,328,Q99808,1.0,PRIMARY
+439337,17,2.0,Estradiol 17-beta-dehydrogenase 1,27.0,FALSE,CHEMBL410242,C[C@]12CC[C@H]3[C@@H](CCc4cc(O)ccc34)[C@@H]1C[C@H](Cc5cccc(c5)C(=O)N)[C@@H]2O,1.0,11512,Homo sapiens,1505,P14061,1.0,PRIMARY
+1518861,20,8.0,Estradiol 17-beta-dehydrogenase 2,58.0,FALSE,CHEMBL2324690,COc1cccc(c1)N(C)C(=O)c2ccc(s2)c3cccc(C)c3,1.0,13053,Homo sapiens,1120,P37059,1.0,PRIMARY
+590676,3,3.0,Estradiol 17-beta-dehydrogenase 3,1.5,FALSE,CHEMBL589158,Cc1cccc(SCC2=CC(=O)Oc3cc(O)ccc23)n1,1.0,11488,Homo sapiens,2553,P37058,1.0,PRIMARY
+1363818,13,2.0,Estrogen receptor alpha,32.0,FALSE,CHEMBL2079587,C[C@]1(O)CC[C@H]2[C@@H]3CC[C@H]4Cc5n[nH]cc5C[C@]4(C)[C@H]3CC[C@]12C,1.0,19,Homo sapiens,410,P03372,1.0,PRIMARY
+305025,8,5.0,Estrogen receptor beta,52.0,FALSE,CHEMBL182402,C[C@@H](COc1ccc(cc1)[C@@H]2Oc3ccc(O)cc3S[C@@H]2c4ccc(O)cc4)N5CC[C@@H](C)C5,1.0,174,Homo sapiens,317,Q92731,1.0,PRIMARY
+556320,15,2.0,Eukaryotic initiation factor 4A-I,0.8,FALSE,CHEMBL555196,CO[C@@H]1OC[C@@H](O[C@H]1Oc2cc(OC)c3c(O[C@]4([C@@H]([C@H]([C@@H](O)[C@@]34O)C(=O)OC)c5ccccc5)c6ccc(OC)cc6)c2)[C@H](O)CO,1.0,104570,Homo sapiens,5865,P60842,1.0,PRIMARY
+1430615,29,26.0,Eukaryotic translation initiation factor 2-alpha kinase 3,0.4,FALSE,CHEMBL2171124,Cn1cc(c2ccc3N(CCc3c2)C(=O)Cc4cccc(c4)C(F)(F)F)c5c(N)ncnc15,1.0,102669,Homo sapiens,4551,Q9NZJ5,1.0,PRIMARY
+1051520,6,3.0,Excitatory amino acid transporter 2,80.0,FALSE,CHEMBL1628669,N[C@@H](CC(=O)Nc1ccc(Oc2cc(F)c(F)cc2Br)cc1)C(=O)O,1.0,12640,Homo sapiens,3285,P43004,1.0,PRIMARY
+702389,11,7.0,Fibroblast activation protein alpha,1.3,FALSE,CHEMBL1243153,FC1(F)C[C@@H](C#N)N(C1)C(=O)[C@@H]2C[C@@H](CC(=O)N3Cc4ccccc4C3)C(=O)N2,1.0,100186,Homo sapiens,3001,Q12884,1.0,PRIMARY
+1365761,7,4.0,Fibroblast growth factor receptor 1,31.62,FALSE,CHEMBL2088092,Cc1cc(Nc2nc(NCc3onc(c3)C(C)(C)C)ncc2Br)n[nH]1,1.0,10266,Homo sapiens,1966,P11362,1.0,PRIMARY
+1791740,8,4.0,Folate receptor alpha,6.6,FALSE,CHEMBL3335604,NC1=Nc2[nH]c(CCCc3ccc(s3)C(=O)N[C@@H](CC(=O)O)C(=O)O)cc2C(=O)N1,1.0,10103,Homo sapiens,463,P15328,1.0,PRIMARY
+1924,12,6.0,Formyl peptide receptor 1,3.0,FALSE,CHEMBL267179,CSCC[C@H](NC=O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](Cc1ccccc1)C(=O)O,1.0,13010,Homo sapiens,1681,P21462,1.0,PRIMARY
+1845108,67,67.0,Free fatty acid receptor 1,3.7,FALSE,CHEMBL3427712,CCO[C@@H](CC(=O)O)c1ccc(O[C@@H]2CCc3c2cccc3C(F)(F)F)cc1,1.0,100431,Homo sapiens,2738,O14842,1.0,PRIMARY
+184149,28,6.0,GABA-B receptor 1,16.0,FALSE,CHEMBL112710,CP(=O)(O)CCCN,1.0,10227,Homo sapiens,404,Q9UBS5,1.0,PRIMARY
+400477,5,2.0,GABA receptor beta-3 subunit,0.659,FALSE,CHEMBL235623,CCCc1nnn(c1CCl)c2c(Cl)cc(cc2Cl)C(F)(F)F,1.0,11881,Homo sapiens,153,P28472,1.0,PRIMARY
+1056800,4,4.0,GABA transporter 1,14.79,FALSE,CHEMBL1641613,Cc1ccccc1\C(=C/CCN2CCC[C@H](C2)C(=O)O)\c3ccccc3F,1.0,113,Homo sapiens,218,P30531,1.0,PRIMARY
+318324,42,4.0,GAR transformylase,6.8,FALSE,CHEMBL365307,NC1=Nc2[nH]c(CCCCc3ccc(cc3)C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc2C(=O)N1,1.0,12291,Homo sapiens,2291,P22102,1.0,PRIMARY
+389238,13,7.0,Ghrelin receptor,4.0,FALSE,CHEMBL243001,CC(C)N1CCC[C@H](CN2C(=Nc3ccc(Oc4ccc(F)cc4)cc3C2=O)C)C1,1.0,11536,Homo sapiens,2933,Q92847,1.0,PRIMARY
+1270807,22,6.0,Glucagon receptor,6.6,FALSE,CHEMBL1933349,COc1ccc2cc(ccc2c1)c3cc(nn3[C@@H](C)c4ccc(cc4)C(=O)NCCC(=O)O)c5cc(Cl)cc(Cl)c5,1.0,146,Homo sapiens,311,P47871,1.0,PRIMARY
+675090,61,9.0,Glucocorticoid receptor,8.77,FALSE,CHEMBL1201139,CC(=O)O[C@@]1(CC[C@H]2[C@@H]3C=C(C)C4=CC(=O)CC[C@]4(C)[C@H]3CC[C@]12C)C(=O)C,1.0,25,Homo sapiens,371,P04150,1.0,PRIMARY
+1364345,11,4.0,Glucose-dependent insulinotropic receptor,3.0,FALSE,CHEMBL2086690,CC(C)c1onc(n1)N2CCN([C@H](C)C2)c3ncc(OCc4ccncc4C#N)cn3,1.0,101271,Homo sapiens,3962,Q8TDV5,1.0,PRIMARY
+1334262,9,2.0,Glutamate [NMDA] receptor subunit epsilon 2,7.94,FALSE,CHEMBL2013195,Oc1ccc2[nH]c(nc2c1CN3CCCCC3)c4ccccc4,1.0,222,Homo sapiens,59,Q13224,1.0,PRIMARY
+306688,11,5.0,Glycine transporter 1,0.39,FALSE,CHEMBL180966,CN(CC[C@@H](Oc1ccc(cc1)c2ccccc2)c3ccc(F)cc3)CC(=O)O,1.0,11682,Homo sapiens,678,P48067,1.0,PRIMARY
+300825,111,84.0,Glycogen synthase kinase-3 beta,1.3,FALSE,CHEMBL178737,O=C(N1CCOCC1)N2CCn3cc(C4=C(C(=O)NC4=O)c5cnc6ccccn56)c7cccc(C2)c37,1.0,10197,Homo sapiens,3114,P49841,1.0,PRIMARY
+449646,7,2.0,Gonadotropin-releasing hormone receptor,1.6,FALSE,CHEMBL460480,CCN1C=C(CN2CCN(CC2)c3cccc4[nH]c(nc34)c5ccc(cc5)C(C)(C)C)C(=O)NC1=O,1.0,118,Homo sapiens,163,P30968,1.0,PRIMARY
+1521269,10,2.0,G-protein coupled bile acid receptor 1,2.3,FALSE,CHEMBL2331648,CCNc1nc2CCN(Cc2c(n1)C(=O)N)C(=O)CCc3ccc(OC(F)(F)F)cc3,1.0,100857,Homo sapiens,3704,Q8TDU6,1.0,PRIMARY
+579905,18,3.0,G-protein coupled estrogen receptor 1,2.0,FALSE,CHEMBL569766,CC(=O)c1ccc2N[C@H]([C@H]3CC=C[C@H]3c2c1)c4cc5OCOc5cc4Br,1.0,102690,Homo sapiens,4332,Q99527,1.0,PRIMARY
+1780411,4,2.0,G-protein coupled receptor 120,79.43,FALSE,CHEMBL3311302,Cc1ccc(cc1)S(=O)(=O)NC2c3ccccc3Oc4ccccc24,1.0,100956,Homo sapiens,3635,Q5NUL3,1.0,PRIMARY
+808386,48,26.0,G-protein coupled receptor 35,8.76,FALSE,CHEMBL1384502,C\C(=C/c1ccccc1)\C=C\2/SC(=S)N(CCCC(=O)Nc3ccc(C(=O)O)c(O)c3)C2=O,1.0,103700,Homo sapiens,4970,Q9HC97,1.0,PRIMARY
+674630,11,6.0,G-protein coupled receptor 39,3.6,FALSE,CHEMBL1200679,[Cl-].[Cl-].[Zn+2],1.0,107977,Homo sapiens,8263,O43194,1.0,PRIMARY
+361042,122,33.0,G protein-coupled receptor 44,1.5,FALSE,CHEMBL217053,OC(=O)COc1ccc(Br)cc1C(=O)c2cnn(c2)c3ccccc3,1.0,20174,Homo sapiens,3380,Q9Y5Y4,1.0,PRIMARY
+206555,29,2.0,Heat shock protein HSP 90-beta,3.0,FALSE,CHEMBL339231,CO[C@H]1C[C@H](C)CC2=C(N)C(=O)C=C(NC(=O)\C(=C\C=C/[C@H](OC)[C@@H](OC(=O)N)\C(=C\[C@H](C)[C@H]1O)\C)\C)C2=O,1.0,11748,Homo sapiens,2620,P08238,1.0,PRIMARY
+1588645,31,20.0,Hepatocyte growth factor receptor,7.7,FALSE,CHEMBL2442124,C[C@@H](Sc1cc(cnc1N)c2cnn(c2)C3CCNCC3)c4c(Cl)ccc(F)c4Cl,1.0,11451,Homo sapiens,2033,P08581,1.0,PRIMARY
+479129,51,13.0,Histamine H1 receptor,1.0,FALSE,CHEMBL1633,CN1CCC(=C2c3ccccc3CC(=O)c4sccc24)CC1.OC(=O)\C=C\C(=O)O,1.0,127,Homo sapiens,121,P35367,1.0,PRIMARY
+1343805,77,76.0,Histamine H3 receptor,0.4,FALSE,CHEMBL2031737,C[C@@H]1CCCN1CCc2oc3ccc(cc3c2)C(=O)c4ccc(cc4)[N+](=O)[O-],1.0,10280,Homo sapiens,2467,Q9Y5N1,1.0,PRIMARY
+212343,82,12.0,Histamine H4 receptor,3.31,FALSE,CHEMBL129198,CN1CCN(CC1)C(=O)c2cc3cc(Cl)ccc3[nH]2,1.0,11290,Homo sapiens,2075,Q9H3N8,1.0,PRIMARY
+1180204,51,11.0,Histone deacetylase 1,0.28,FALSE,CHEMBL1836142,CC[C@H](C)[C@H]1NC(=O)[C@H]2CSSCC\C=C\[C@H](CC(=O)N[C@H](CCSC)C(=O)N2)OC(=O)C[C@@H]1O,1.0,12697,Homo sapiens,107,Q13547,1.0,PRIMARY
+1572651,15,11.0,Histone deacetylase 2,0.42,FALSE,CHEMBL2408240,COc1ccc(OC)c(c1)C2=CC=CC=C(O)C2=O,1.0,11206,Homo sapiens,257,Q92769,1.0,PRIMARY
+1576047,3,3.0,Histone deacetylase 4,18.0,FALSE,CHEMBL2414808,C[C@H](CN(C)Cc1ccccc1)NC(=O)c2ccc(nc2)c3noc(n3)C(F)(F)F,1.0,11232,Homo sapiens,1845,P56524,1.0,PRIMARY
+1336035,76,19.0,Histone deacetylase 6,2.0,FALSE,CHEMBL2018302,CN1CCc2c(C1)c3ccccc3n2Cc4ccc(cc4)C(=O)NO,1.0,11307,Homo sapiens,178,Q9UBN7,1.0,PRIMARY
+1758265,39,21.0,Histone-lysine N-methyltransferase EZH2,0.5,FALSE,CHEMBL3287735,CC[C@H](C)n1cc(C)c2c(cc(cc12)c3ccc(nc3)N4CCNCC4)C(=O)NCC5=C(C)C=C(C)NC5=O,1.0,105440,Homo sapiens,7079,Q15910,1.0,PRIMARY
+1429397,46,20.0,"Histone-lysine N-methyltransferase, H3 lysine-79 specific",0.25,FALSE,CHEMBL2169919,CC(C)N(CCCNC(=O)Nc1ccc(cc1)C(C)(C)C)C[C@H]2O[C@H]([C@H](O)[C@@H]2O)n3ccc4c(N)ncnc34,1.0,104197,Homo sapiens,5676,Q8TEK3,1.0,PRIMARY
+418845,20,2.0,HMG-CoA reductase,0.9,FALSE,CHEMBL1496,CC(C)c1nc(nc(c2ccc(F)cc2)c1\C=C\[C@@H](O)C[C@@H](O)CC(=O)O)N(C)S(=O)(=O)C,1.0,24,Homo sapiens,312,P04035,1.0,PRIMARY
+403324,11,3.0,Hydroxycarboxylic acid receptor 2,4.0,FALSE,CHEMBL237248,OC(=O)c1ccccc1NC(=O)CCc2onc(n2)c3ccc(O)cn3,1.0,100579,Homo sapiens,2103,Q8TDS4,1.0,PRIMARY
+341578,16,4.0,Hypoxia-inducible factor 1 alpha,0.65,FALSE,CHEMBL380456,CC1(C)Oc2cc3oc(cc3cc2CC1O)c4cc(O)cc(O)c4,1.0,100325,Homo sapiens,2580,Q16665,1.0,PRIMARY
+574429,7,3.0,"Indoleamine 2,3-dioxygenase",19.0,FALSE,CHEMBL584991,Nc1nonc1\C(=N\O)\Nc2ccc(F)c(Cl)c2,1.0,100643,Homo sapiens,3003,P14902,1.0,PRIMARY
+1069176,10,3.0,Induced myeloid leukemia cell differentiation protein Mcl-1,5.0,FALSE,CHEMBL1672082,Nc1ccc(Sc2ccc3C4=C(C#N)C(=O)N=C4c5cccc2c35)cc1,1.0,100468,Homo sapiens,2678,Q07820,1.0,PRIMARY
+365338,13,2.0,Inhibitor of apoptosis protein 3,61.0,FALSE,CHEMBL218832,CC[C@H](NC)C(=O)N[C@H]1CCC[C@H]2CC[C@H](N2C1=O)C(=O)NC(c3ccccc3)c4ccccc4,1.0,20130,Homo sapiens,2517,P98170,1.0,PRIMARY
+1267593,22,10.0,Inhibitor of nuclear factor kappa B kinase beta subunit,9.0,FALSE,CHEMBL1923983,CNc1nc2[nH]c(cc2c3c1ncn3C)c4cccc(CNC(=O)COC)n4,1.0,10752,Homo sapiens,321,O14920,1.0,PRIMARY
+1003668,17,4.0,Insulin-like growth factor I receptor,34.0,FALSE,CHEMBL1579784,OC(CN1CCN(CC1)C(c2ccccc2)c3ccccc3)c4ccc(Br)cc4,1.0,234,Homo sapiens,281,P08069,1.0,PRIMARY
+380287,3,2.0,Integrin alpha-4,1.3,FALSE,CHEMBL387659,OC(=O)c1ccc(OC[C@@H]2C[C@H](F)CN2C(=O)Cc3ccc(NC(=O)Nc4ccccc4Cl)c(Cl)c3)cc1,1.0,10892,Homo sapiens,21,P13612,1.0,PRIMARY
+397382,28,21.0,Interleukin-8 receptor B,54.0,FALSE,CHEMBL399203,Oc1cc(cc2c1NC(=NS2(=O)=O)Nc3ccccc3Oc4ccccc4)[N+](=O)[O-],1.0,10773,Homo sapiens,775,P25025,1.0,PRIMARY
+522773,10,2.0,Intermediate conductance calcium-activated potassium channel protein 4,20.0,FALSE,CHEMBL498270,Clc1ccccc1C(c2ccccc2)(c3ccccc3)n4cccn4,1.0,10992,Homo sapiens,2622,O15554,1.0,PRIMARY
+872907,33,16.0,Kappa opioid receptor,7.0,FALSE,CHEMBL1449023,Clc1ccc(cc1)C(=O)Nc2nc3ccccc3n2CCN4CCCC4,1.0,137,Homo sapiens,177,P41145,1.0,PRIMARY
+1334936,41,36.0,Ketohexokinase,12.0,FALSE,CHEMBL2017214,CSc1ccccc1Nc2nc(nc3c(NCC4CC4)ncnc23)N5CCNCC5,1.0,103593,Homo sapiens,5161,P50053,1.0,PRIMARY
+397744,401,3.0,Kinesin-like protein 1,26.0,FALSE,CHEMBL392695,N[C@@H](CSC(c1ccccc1)(c2ccccc2)c3ccccc3)C(=O)O,1.0,100166,Homo sapiens,2897,P52732,1.0,PRIMARY
+1749580,10,6.0,Legumain,0.9,FALSE,CHEMBL3264590,CCOc1cccc(c1)c2ccc(COC(=O)N3CCC[C@H]3C(=O)N[C@@H](CC(=O)N)C#N)cc2,1.0,11241,Homo sapiens,2563,Q99538,1.0,PRIMARY
+1429495,22,6.0,Leucine-rich repeat serine/threonine-protein kinase 2,3.0,FALSE,CHEMBL2170016,CNc1nc(Nc2ccc(cc2OC)C(=O)N3CCOCC3)ncc1Cl,1.0,103154,Homo sapiens,3994,Q5S007,1.0,PRIMARY
+1528245,107,61.0,Leukocyte elastase,77.5,FALSE,CHEMBL2338554,[Na+].CC[C@@H](C)[C@@H]1NC(=O)[C@H](Cc2ccccc2)N(C)C(=O)[C@H](Cc3ccccc3)N4[C@H](O)CC[C@H](NC(=O)\C(=C\C)\NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](COS(=O)(=O)[O-])OC)C(C)C)[C@@H](C)OC1=O)C4=O,1.0,235,Homo sapiens,366,P08246,1.0,PRIMARY
+1819611,27,25.0,LIM domain kinase 2,39.0,FALSE,CHEMBL3355482,CN(Cc1ccccc1)C(=O)c2ccc(cc2)S(=O)(=O)Nc3ccccc3,1.0,101386,Homo sapiens,4427,P53671,1.0,PRIMARY
+1142547,6,6.0,Low affinity sodium-glucose cotransporter,0.877,FALSE,CHEMBL1770248,CCOc1ccc(Cc2cc(ccc2Cl)[C@]34OC[C@](CO)(O3)[C@@H](O)[C@H](O)[C@H]4O)cc1,1.0,104139,Homo sapiens,5427,Q9NY91,1.0,PRIMARY
+592680,7,3.0,LXR-alpha,5.4,FALSE,CHEMBL594050,CC(C)S(=O)(=O)c1cccc(Oc2cccc(c2)n3c(C)nc4c(cccc34)C(F)(F)F)c1,1.0,11269,Homo sapiens,1138,Q13133,1.0,PRIMARY
+591174,13,3.0,LXR-beta,16.0,FALSE,CHEMBL593267,CS(=O)(=O)c1cccc(Oc2cccc(c2)c3c(cnc4c(Cl)cccc34)C(=O)N)c1,1.0,20113,Homo sapiens,2412,P55055,1.0,PRIMARY
+1160714,6,2.0,Lysine-specific histone demethylase 1,4.35,FALSE,CHEMBL1797652,CC(C)C[C@H](NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@@H]1CCCN1C(=O)[C@H](C)NC(=O)[C@H](CCCCN)NC(=O)CNC(=O)CNC(=O)[C@@H](NC(=O)[C@H](CO)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)NC(=O)[C@@H](NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CCCCNN)NC(=O)[C@@H](NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](C)N)[C@@H](C)O)[C@@H](C)O)[C@@H](C)O)C(=O)N[C@@H](C)C(=O)O,1.0,102439,Homo sapiens,4701,O60341,1.0,PRIMARY
+1787345,4,2.0,Lysophosphatidic acid receptor Edg-2,74.0,FALSE,CHEMBL3326527,COc1ccc(C(=O)\C(=N/C2CCCC2)\n3ncc(C#N)c3N)c(F)c1,1.0,10808,Homo sapiens,2137,Q92633,1.0,PRIMARY
+338347,8,4.0,Lysophosphatidic acid receptor Edg-7,5.0,FALSE,CHEMBL202361,CCCCCCCC(=O)OC[C@H](COP(=S)(O)O)OC(=O)CCCCCCC,1.0,19689,Homo sapiens,1571,Q9UBY5,1.0,PRIMARY
+417623,24,11.0,Macrophage colony stimulating factor  receptor ,47.0,FALSE,CHEMBL428056,[O-][N+](=O)c1oc(cc1)C(=O)Nc2ccccc2N3CCCCC3,1.0,12840,Homo sapiens,145,P07333,1.0,PRIMARY
+1780857,27,25.0,MAP kinase-activated protein kinase 2,25.5,FALSE,CHEMBL3314140,Clc1ccc(cc1)c2oc(cc2)c3nccn3c4ccc(cc4)N5CCNCC5,1.0,11082,Homo sapiens,549,P49137,1.0,PRIMARY
+370076,17,11.0,MAP kinase ERK2,2.0,FALSE,CHEMBL387385,OC[C@@H](NC(=O)c1cc(c[nH]1)c2n[nH]cc2c3cccc(Cl)c3)c4ccc(F)c(Cl)c4,1.0,11638,Homo sapiens,40,P28482,1.0,PRIMARY
+1263815,58,53.0,MAP kinase p38 alpha,14.0,FALSE,CHEMBL1916359,[O-][n+]1ccc2c(ccnc2c1c3c(Cl)cccc3Cl)c4ccc(F)cc4Cl,1.0,10188,Homo sapiens,2937,Q16539,1.0,PRIMARY
+1725483,3,3.0,Matriptase,8.0,FALSE,CHEMBL3219097,NCCC(=O)Nc1cccc(c1)S(=O)(=O)N[C@@H](Cc2cccc(c2)C(=N)N)C(=O)N3CCC(CC3)NC(=O)NC4CCCCC4,1.0,12725,Homo sapiens,1346,Q9Y5Y6,1.0,PRIMARY
+510816,3,2.0,Matrix metalloproteinase-1,0.1,FALSE,CHEMBL526566,C[C@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@@]1(OC(=O)NCC(C)(C)C)C(=O)CO,1.0,13000,Homo sapiens,3290,P03956,1.0,PRIMARY
+320166,18,11.0,Melanin-concentrating hormone receptor 1,16.0,FALSE,CHEMBL189118,CN(C)CCN(C)c1cc(C)c2cc(NC(=O)\C=C\c3ccc(OC(F)(F)F)cc3)ccc2n1,1.0,19905,Homo sapiens,3511,Q99705,1.0,PRIMARY
+1271595,6,5.0,Melanin-concentrating hormone receptor 2,13.0,FALSE,CHEMBL1934130,CC(=O)N[C@@H]1CC2(CCN(Cc3ccc4c(c3)c5ccccc5n4C(=O)N)CC2)c6ccccc16,1.0,20162,Homo sapiens,3349,Q969V1,1.0,PRIMARY
+13628,9,4.0,Melanocortin receptor 1,1.5,FALSE,CHEMBL446941,CCCC(=O)C1(CCN(CC1)C(=O)[C@@H](Cc2ccc(OC)cc2)NC(=O)[C@H](N)Cc3c[nH]cn3)c4ccccc4,1.0,11869,Homo sapiens,2113,Q01726,1.0,PRIMARY
+395876,11,7.0,Melanocortin receptor 3,50.0,FALSE,CHEMBL234629,CCCC[C@H](N)C(=O)N[C@H]1CC(=O)NCCCC[C@H](NC(=O)[C@H](Cc2c[nH]c3ccccc23)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@@H](Cc4ccccc4)N5Cc6ccccc6CC(NC1=O)C5=O)C(=O)N,1.0,11003,Homo sapiens,2962,P41968,1.0,PRIMARY
+304898,31,8.0,Melanocortin receptor 4,7.0,FALSE,CHEMBL368876,CN1CCN[C@@H](C1)C(=O)N[C@H](Cc2ccc(F)cc2)C(=O)N3CCC(CC3)(C4CCCCC4)C(=O)NC(C)(C)C,1.0,10142,Homo sapiens,1215,P32245,1.0,PRIMARY
+1546419,12,8.0,Melanocortin receptor 5,0.95,FALSE,CHEMBL2371968,CCCC[C@H](NC(=O)C)C(=O)N[C@H]1CC(=O)NCCCC[C@H](NC(=O)[C@H](Cc2c[nH]c3ccccc23)NC(=O)[C@@H]4CCCCN4C(=O)[C@H](Cc5ccc(cc5)c6ccccc6)NC(=O)[C@@H]7CC8CCCCC8N7C1=O)C(=O)N,1.0,11006,Homo sapiens,2925,P33032,1.0,PRIMARY
+1168353,5,3.0,Melatonin receptor 1A,3.39,FALSE,CHEMBL1813321,CN(CCNC(=O)C)c1cccc(OCCCCCCOc2cccc(c2)N(C)CCNC(=O)C)c1,1.0,11084,Homo sapiens,268,P48039,1.0,PRIMARY
+46606,13,2.0,Melatonin receptor 1B,8.7,FALSE,CHEMBL33185,CCC(=O)NCc1cc2c(OC)cccc2n1Cc3ccc(Cl)cc3,1.0,11085,Homo sapiens,269,P49286,1.0,PRIMARY
+1567857,13,10.0,Metabotropic glutamate receptor 1,97.72,FALSE,CHEMBL2397347,C[C@@H]1CN(CCN1C(=O)C23CC4CC(CC(C4)C2)C3)c5cccnc5C#N,1.0,11279,Homo sapiens,2089,Q13255,1.0,PRIMARY
+1587165,71,44.0,Metabotropic glutamate receptor 5,6.8,FALSE,CHEMBL2440659,Cc1csc(NC(=O)c2cc(F)cc(Oc3cncnc3)c2)n1,1.0,11280,Homo sapiens,1549,P41594,1.0,PRIMARY
+515806,5,4.0,Metastin receptor,4.6,FALSE,CHEMBL501043,CC(C)C\C(=C/CCNC(=O)[C@H](Cc1ccccc1)NC(=O)c2ccc(F)cc2)\C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](Cc3c[nH]c4ccccc34)C(=O)N,1.0,100862,Homo sapiens,3707,Q969F8,1.0,PRIMARY
+48859,51,3.0,Methionine aminopeptidase 2,0.63,FALSE,CHEMBL32838,CO[C@@H]1[C@@H](CC[C@]2(CO2)[C@H]1[C@@]3(C)O[C@@H]3CC=C(C)C)OC(=O)\C=C\C=C\C=C\C=C\C(=O)O,1.0,10702,Homo sapiens,2440,P50579,1.0,PRIMARY
+237121,4,2.0,Microsomal triglyceride transfer protein large subunit,3.5,FALSE,CHEMBL356310,Cc1cccc(C(=O)Nc2ccc3C[C@H](Cc3c2)NCc4ccccn4)c1c5ccc(cc5)C(F)(F)F,1.0,11452,Homo sapiens,906,P55157,1.0,PRIMARY
+982407,10,5.0,Microtubule-associated protein tau,25.1,FALSE,CHEMBL1558523,Clc1ccc(NC(=O)c2csc3CCCCCc23)cc1,1.0,103657,Homo sapiens,5140,P10636,1.0,PRIMARY
+11212,28,9.0,Mineralocorticoid receptor,0.18,FALSE,CHEMBL273453,C[C@]12CCC(=O)C=C1CC[C@H]3[C@@H]4CC[C@H](C(=O)CO)[C@]4(C[C@H](O)[C@H]23)C=O,1.0,48,Homo sapiens,324,P08235,1.0,PRIMARY
+1573031,9,6.0,Mitogen-activated protein kinase kinase kinase 7,20.0,FALSE,CHEMBL2408616,Nc1ncc(c2cnn(c2)[C@@H]3CC[C@@H](O)CC3)c4c(C(F)F)c(oc14)c5cccc6nnsc56,1.0,101324,Homo sapiens,4190,O43318,1.0,PRIMARY
+388445,51,11.0,Mitogen-activated protein kinase kinase kinase 8,12.0,FALSE,CHEMBL436817,Fc1ccc(Nc2c(cnc3c(Cl)cc(NCc4cnc[nH]4)cc23)C#N)cc1Cl,1.0,100414,Homo sapiens,3215,P41279,1.0,PRIMARY
+470616,3,2.0,Mitogen-activated protein kinase kinase kinase 9,49.0,FALSE,CHEMBL517743,OCCn1c2ccccc2c3c4CNC(=O)c4c5c(CCc6cc(OC7CCCC7)ccc56)c13,1.0,12038,Homo sapiens,1202,P80192,1.0,PRIMARY
+1063235,13,3.0,Monoamine oxidase A,0.83,FALSE,CHEMBL1651055,COc1cc2C(=O)c3ccccc3c4nccc(c1)c24,1.0,86,Homo sapiens,274,P21397,1.0,PRIMARY
+75752,42,13.0,Monoamine oxidase B,4.4,FALSE,CHEMBL887,C#CCN[C@@H]1CCc2ccccc12,1.0,104,Homo sapiens,377,P27338,1.0,PRIMARY
+345215,36,4.0,Monocarboxylate transporter 1,0.08,FALSE,CHEMBL205526,CC(C)CN1C(=O)N(C)C(=O)c2c(SCCCO)c(Cc3cccc4ccccc34)sc12,1.0,100467,Homo sapiens,2677,P53985,1.0,PRIMARY
+1604656,9,3.0,Monoglyceride lipase,0.36,FALSE,CHEMBL3087181,O=C(N1CCC(CC1)C(c2ccc3OCOc3c2)c4ccc5OCOc5c4)n6cncn6,1.0,100193,Homo sapiens,2510,Q99685,1.0,PRIMARY
+12506,304,9.0,Motilin receptor,43.65,FALSE,CHEMBL532,CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]3O[C@H](C)C[C@@H]([C@H]3O)N(C)C)[C@](C)(O)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O,1.0,11061,Homo sapiens,544,O43193,1.0,PRIMARY
+447087,15,7.0,Multidrug resistance-associated protein 1,35.0,FALSE,CHEMBL197,COc1ccc(CCN(C)CCC[C@@](C#N)(C(C)C)c2ccc(OC)c(OC)c2)cc1OC,1.0,12030,Homo sapiens,1333,P33527,1.0,PRIMARY
+762132,3,2.0,Multidrug resistance-associated protein 5,65.3,FALSE,CHEMBL1338248,CCCc1nn(C)c2c(O)nc(nc12)c3cc(ccc3OCC)S(=O)(=O)Nc4ccc(O)c(c4)C(=O)O,1.0,104559,Homo sapiens,5980,O15440,1.0,PRIMARY
+1589794,17,9.0,Mu opioid receptor,6.0,FALSE,CHEMBL2443262,COc1ccsc1CNCC[C@]2(CCOC3(CCCC3)C2)c4ccccn4,1.0,129,Homo sapiens,349,P35372,1.0,PRIMARY
+1051518,15,9.0,Muscarinic acetylcholine receptor M1,15.85,FALSE,CHEMBL1628667,O=C(CCNS(=O)(=O)c1cccc2nsnc12)N3CCN(CC3)c4ccncc4,1.0,61,Homo sapiens,170,P11229,1.0,PRIMARY
+1620795,8,2.0,Muscarinic acetylcholine receptor M2,75.86,FALSE,CHEMBL3121474,[Br-].[Br-].C[N+](C)(CCCCCC[N+](C)(C)CC#CCOC1=NOCC1)CCCN2C(=O)c3ccccc3C2=O,1.0,47,Homo sapiens,364,P08172,1.0,PRIMARY
+343850,40,4.0,Muscarinic acetylcholine receptor M3,3.2,FALSE,CHEMBL205654,Cc1c(NC2CC2)nc(nc1N3CCCCCC3)C4CC4,1.0,219,Homo sapiens,69,P20309,1.0,PRIMARY
+1529003,4,3.0,Myeloperoxidase,5.0,FALSE,CHEMBL2347177,Fc1ccc2[nH]cc(CCCSC#N)c2c1,1.0,10567,Homo sapiens,780,P05164,1.0,PRIMARY
+1795809,3,3.0,NAD-dependent deacetylase sirtuin 2,77.4,FALSE,CHEMBL3343653,Cc1ccc(cc1)C(=O)Nc2cccc3c(Oc4cncc(c4)C(=O)N)cccc23,1.0,100447,Homo sapiens,2778,Q8IXJ6,1.0,PRIMARY
+1334725,10,5.0,NEDD8-activating enzyme E1 regulatory subunit,10.0,FALSE,CHEMBL2017005,NS(=O)(=O)OC[C@H]1O[C@H]([C@H](O)[C@@H]1O)n2cnc3c(N[C@H]4CCc5ccccc45)ncnc23,1.0,104509,Homo sapiens,5892,Q13564,1.0,PRIMARY
+291635,351,2.0,Nerve growth factor receptor Trk-A,2.0,FALSE,CHEMBL176544,Cn1cc(\C=C\2/C(=O)Nc3cccnc23)c4ccccc14,1.0,11902,Homo sapiens,1145,P04629,1.0,PRIMARY
+16524,48,5.0,Neurokinin 1 receptor,0.2,FALSE,CHEMBL16192,COc1ccccc1CN[C@H]2C3CCN(CC3)[C@H]2C(c4ccccc4)c5ccccc5,1.0,250,Homo sapiens,235,P25103,1.0,PRIMARY
+115369,8,2.0,Neurokinin 2 receptor,0.13,FALSE,CHEMBL308148,CN(C[C@@H](CCN1CCC(CC1)(NC(=O)C)c2ccccc2)c3ccc(Cl)c(Cl)c3)C(=O)c4ccccc4,1.0,10184,Homo sapiens,668,P21452,1.0,PRIMARY
+573510,18,3.0,Neurokinin 3 receptor,0.013,FALSE,CHEMBL583102,CSCC[C@H](NC(=O)[C@H](CC(C)C)NC(=O)CNC(=O)[C@H](Cc1ccccc1)N(C)C(=O)[C@H](Cc2ccccc2)NC(=O)[C@H](Cc3ccccc3)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](Cc4cnc[nH]4)NC(=O)[C@H](CCSC)NC(=O)[C@@H](N)CC(=O)O)C(=O)N,1.0,10982,Homo sapiens,2745,P29371,1.0,PRIMARY
+482512,66,4.0,Neuronal acetylcholine receptor protein alpha-7 subunit,1.0,FALSE,CHEMBL510275,CCN1C[C@]2(COC(=O)c3ccccc3N4C(=O)C[C@H](C)C4=O)CC[C@H](OC)[C@@]56[C@@H]7C[C@@H]8[C@H](C[C@@](O)([C@H]7[C@H]8OC)[C@](O)([C@@H](OC)[C@H]25)[C@H]16)OC,1.0,10635,Homo sapiens,833,P36544,1.0,PRIMARY
+112822,9,4.0,Neuronal acetylcholine receptor subunit alpha-3,14.0,FALSE,CHEMBL309804,Clc1ccc(CN2CCNC2=N)cn1,1.0,11184,Homo sapiens,43,P32297,1.0,PRIMARY
+1447990,8,4.0,Neuropeptide FF receptor 1,0.32,FALSE,CHEMBL2208337,NC(=N)NCCC[C@H](NC(=O)c1ccccc1c2ccccc2)C(=O)N[C@@H](Cc3ccccc3)C(=O)N,1.0,102733,Homo sapiens,4446,Q9GZQ6,1.0,PRIMARY
+898271,15,4.0,Neuropeptide S receptor,0.96,FALSE,CHEMBL1474387,[Br-].Cc1c(n2ccccc2[n+]1C\C=C\c3ccccc3)P(=S)(c4ccccc4)c5ccccc5,1.0,101097,Homo sapiens,3466,Q6W5P4,1.0,PRIMARY
+1145390,10,4.0,Neuropeptide Y receptor type 1,5.0,FALSE,CHEMBL1774344,CN(C)c1ccc(\C=C\C=C\c2sc3ccccc3[n+]2CCCC(=O)NCCCCNC(=O)\N=C(\N)/NCCC[C@@H](NC(=O)C(c4ccccc4)c5ccccc5)C(=O)NCc6ccc(O)cc6)cc1.[O-]C(=O)C(F)(F)F,1.0,10475,Homo sapiens,3094,P25929,1.0,PRIMARY
+1507319,10,7.0,Neuropeptide Y receptor type 2,2.6,FALSE,CHEMBL2307889,NC(=N)NCCC[C@@H](NC(=O)CC1(CC(=O)N2CCN(CC2)C3c4ccccc4NC(=O)c5ccccc35)CCCC1)C(=O)NCCN6C(=O)N(N(C6=O)c7ccccc7)c8ccccc8,1.0,10477,Homo sapiens,2337,P49146,1.0,PRIMARY
+342833,9,6.0,Neuropeptide Y receptor type 4,5.3,FALSE,CHEMBL408891,CCC[C@H](NC(=O)[C@H](CCCN=C(N)N)NC(=O)[C@@H](N)Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CCCN=C(N)N)C(=O)N[C@@H](Cc3ccc(O)cc3)C(=O)N[C@@H](Cc4c[nH]c5ccccc45)C(=O)N[C@@H](CCCN=C(N)N)C(=O)N[C@@H](CCC)C(=O)N[C@@H](CCCN=C(N)N)C(=O)N[C@@H](Cc6ccc(O)cc6)C(=O)N,1.0,10143,Homo sapiens,3193,P50391,1.0,PRIMARY
+434988,19,14.0,Neuropeptide Y receptor type 5,1.8,FALSE,CHEMBL257940,CN(C1CCN(CC1)C(=O)C)C(=O)N[C@@H]2CC[C@H](CC2)c3cc(F)cc(F)c3,1.0,11336,Homo sapiens,2878,Q15761,1.0,PRIMARY
+1141976,3,3.0,Neurotensin receptor 2,5.4,FALSE,CHEMBL1766938,CC[C@H](C)[C@H](CC(=O)N[C@@H](CC(C)C)C(=O)O)NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@@H]2CCCN2C(=O)[C@H](CCCNC(=N)N)NC(=O)[C@@H](N)CCCNC(=N)N,1.0,10486,Homo sapiens,853,O95665,1.0,PRIMARY
+1010255,25,12.0,Nicotinamide phosphoribosyltransferase,7.0,FALSE,CHEMBL1586371,O=S(=O)(N1CCCCC1)c2ccc(NC(=S)NCc3cccnc3)cc2,1.0,104106,Homo sapiens,4914,P43490,1.0,PRIMARY
+21698,25,7.0,Nischarin,4.2,FALSE,CHEMBL19236,COc1nc(C)nc(Cl)c1NC2=NCCN2,1.0,11684,Homo sapiens,2243,Q9Y2I1,1.0,PRIMARY
+1704896,6,6.0,"Nitric-oxide synthase, brain",97.0,FALSE,CHEMBL3216119,Cl.Cl.CCN(C)CCN1CCCc2cc(NC(=N)c3cccs3)ccc12,1.0,11037,Homo sapiens,1888,P29475,1.0,PRIMARY
+460570,8,6.0,"Nitric oxide synthase, inducible",11.0,FALSE,CHEMBL522771,Cc1ncsc1C(=O)N(CC2=CC(=O)Nc3c(F)cccc23)c4cccc(Cl)c4,1.0,12425,Homo sapiens,2798,P35228,1.0,PRIMARY
+245652,30,4.0,Nociceptin receptor,0.403,FALSE,CHEMBL357076,CCN1C(=O)N([C@@H]2CCN(CC3CCCCCCC3)C[C@H]2CO)c4ccccc14,1.0,138,Homo sapiens,344,P41146,1.0,PRIMARY
+302799,31,12.0,Norepinephrine transporter,0.3,FALSE,CHEMBL180101,CCOc1ccccc1O[C@H]([C@@H]2CNCCO2)c3ccccc3,1.0,100,Homo sapiens,436,P23975,1.0,PRIMARY
+1748691,38,7.0,Nuclear receptor ROR-gamma,21.0,FALSE,CHEMBL3263710,CC(C)CN(Cc1ccc(cc1)c2ccc(cc2)S(=O)(=O)C)S(=O)(=O)Cc3ccccc3,1.0,103982,Homo sapiens,5336,P51449,1.0,PRIMARY
+515782,20,10.0,Nuclear receptor subfamily 1 group I member 3,75.0,FALSE,CHEMBL458603,Clc1ccc(cc1)c2nc3sccn3c2\C=N\OCc4ccc(Cl)c(Cl)c4,1.0,100997,Homo sapiens,3795,Q14994,1.0,PRIMARY
+407997,59,2.0,Nuclear receptor subfamily 4 group A member 2,26.0,FALSE,CHEMBL247879,CN(C)Cc1ccc(cc1)C2=Cc3onc(c4ccccc4)c3C(=O)N2C,1.0,101254,Homo sapiens,3314,P43354,1.0,PRIMARY
+1343549,5,3.0,Orexin receptor 1,8.0,FALSE,CHEMBL2031484,C[C@@H]1CCCN([C@@H]1CNC(=O)c2cccc3cccnc23)C(=O)c4nc(C)sc4c5ccc(F)cc5,1.0,10009,Homo sapiens,3418,O43613,1.0,PRIMARY
+1793350,6,2.0,Orexin receptor 2,0.3,FALSE,CHEMBL3338846,COc1ccc(CNC(=O)c2cc(cnc2c3ccccc3)c4cncc(C)c4)nc1OC,1.0,12968,Homo sapiens,3109,O43614,1.0,PRIMARY
+20616,8,4.0,Oxoeicosanoid receptor 1,3.0,FALSE,CHEMBL18028,CCCCC\C=C/C\C=C/C\C=C/C=C/C(=O)CCCC(=O)O,1.0,103780,Homo sapiens,5065,Q8TDS5,1.0,PRIMARY
+33420,25,6.0,Oxytocin receptor,4.6,FALSE,CHEMBL24781,COc1cc(OC2CCN(CC2)C(=O)C)ccc1C(=O)N3CCC(CC3)N4C(=O)OCc5ccccc45,1.0,116,Homo sapiens,389,P30559,1.0,PRIMARY
+591455,5,2.0,P2X purinoceptor 3,31.62,FALSE,CHEMBL596234,OC(=O)c1cc(C(=O)O)c(cc1C(=O)O)C(=O)N(Cc2cccc(Oc3ccccc3)c2)[C@H]4CCCc5ccccc45,1.0,11904,Homo sapiens,1328,P56373,1.0,PRIMARY
+1838531,7,2.0,P2X purinoceptor 7,50.0,FALSE,CHEMBL3415342,FC(F)(F)c1cc(ccc1Cl)C(=O)N2CCC(CC2)N3C(Cc4ccc(OS(=O)(=O)c5cccc6cnccc56)cc4)C(=O)NC3=O,1.0,10417,Homo sapiens,3123,Q99572,1.0,PRIMARY
+317700,360,3.0,p53-binding protein Mdm-2,18.0,FALSE,CHEMBL191334,COc1ccc(C2=N[C@H]([C@H](N2C(=O)N3CCNC(=O)C3)c4ccc(Cl)cc4)c5ccc(Cl)cc5)c(OC(C)C)c1,1.0,20131,Homo sapiens,55,Q00987,1.0,PRIMARY
+946197,14,8.0,Peregrin,79.43,FALSE,CHEMBL1522313,COc1ccccc1C(=O)Nc2cc3N(C)C(=O)N(C)c3cc2N4CCCCC4,1.0,108054,Homo sapiens,8340,P55201,1.0,PRIMARY
+366667,23,5.0,Peroxisome proliferator-activated receptor alpha,10.0,FALSE,CHEMBL219586,Cc1nc(sc1C(=O)NCc2ccc(OC(C)(C)C(=O)O)cc2)c3ccc(cc3)C(F)(F)F,1.0,163,Homo sapiens,245,Q07869,1.0,PRIMARY
+56132,97,19.0,Peroxisome proliferator-activated receptor delta,0.4,FALSE,CHEMBL38508,Cc1cc(SCc2sc(nc2C)c3ccc(c(F)c3)C(F)(F)F)ccc1OCC(=O)O,1.0,12227,Homo sapiens,2298,Q03181,1.0,PRIMARY
+244653,76,32.0,Peroxisome proliferator-activated receptor gamma,3.7,FALSE,CHEMBL434063,CN(CCOc1ccc(C[C@H](Nc2ccccc2C(=O)c3ccccc3)C(=O)O)cc1)c4ccccn4,1.0,133,Homo sapiens,241,P37231,1.0,PRIMARY
+515966,3,2.0,P-glycoprotein 1,80.0,FALSE,CHEMBL485918,COc1cccc(CCc2ccccc2OCCCCN3CCc4ccccc4C3)c1,1.0,11398,Homo sapiens,2619,P08183,1.0,PRIMARY
+631853,53,39.0,Phosphodiesterase 10A,7.0,FALSE,CHEMBL1086110,CCCc1nc(C)c2c(C)nc3ccc(OC)nc3n12,1.0,100010,Homo sapiens,2725,Q9Y233,1.0,PRIMARY
+1560598,19,18.0,Phosphodiesterase 2A,2.0,FALSE,CHEMBL2381192,Cn1ncc(c2nn(C)c3ncnc(N4CCC4)c23)c1c5ccc(cc5)C(F)(F)F,1.0,10594,Homo sapiens,989,O00408,1.0,PRIMARY
+565339,22,9.0,Phosphodiesterase 4A,13.0,FALSE,CHEMBL551783,COc1ccc(OC)c(c1)c2nnc3SCC(=Nn23)c4ccc(OC)c(OC5CCCC5)c4,1.0,276,Homo sapiens,306,P27815,1.0,PRIMARY
+578235,14,7.0,Phosphodiesterase 4B,0.01,FALSE,CHEMBL570015,COc1cccc(Nc2c(cnc3c(C)cc(cc23)S(=O)(=O)c4cccc(c4)C(=O)N(C)C)C(=O)N)c1,1.0,10599,Homo sapiens,2177,Q07343,1.0,PRIMARY
+512786,11,9.0,Phosphodiesterase 4D,18.2,FALSE,CHEMBL458298,CC(C)CC(=O)c1ccc(OC(F)F)c(OC2CCOC2)c1,1.0,11359,Homo sapiens,2079,Q08499,1.0,PRIMARY
+510955,5,4.0,Phosphodiesterase 5A,74.0,FALSE,CHEMBL498486,COc1ccc(cc1)C2=C(OCCO)C(=O)c3c(O)cc(OCCO)c(CC=C(C)C)c3O2,1.0,3,Homo sapiens,124,O76074,1.0,PRIMARY
+1251164,12,11.0,Phosphodiesterase 7A,13.0,FALSE,CHEMBL1911559,Fc1cccc(Cl)c1CN2C=C(C(=O)Nc3ccc(cc3)N4CCOCC4)C(=O)C5=C2C=CC(=O)N5,1.0,11910,Homo sapiens,1340,Q13946,1.0,PRIMARY
+571612,4,2.0,Phosphodiesterase 9A,10.96,FALSE,CHEMBL578033,C[C@@H]1CN(Cc2cnc(C)nc2)C[C@H]1C3=Nc4c(cnn4C5CCCC5)C(=O)N3,1.0,20035,Homo sapiens,1856,O76083,1.0,PRIMARY
+478447,5,3.0,Phospholipase D1,4.0,FALSE,CHEMBL493010,Fc1ccc2N(C3CCN(CCNC(=O)c4ccc5ccccc5c4)CC3)C(=O)Nc2c1,1.0,10845,Homo sapiens,875,Q13393,1.0,PRIMARY
+704042,10,7.0,Phospholipase D2,20.0,FALSE,CHEMBL1254577,Fc1cccc(c1)N2CNC(=O)C23CCN(CCNC(=O)c4ccc5ccccc5c4)CC3,1.0,11966,Homo sapiens,1070,O14939,1.0,PRIMARY
+1365154,52,24.0,PI3-kinase p110-alpha subunit,8.1,FALSE,CHEMBL2087491,CS(=O)(=O)N1CCN(Cc2nc3c(nc(cn3c2Br)c4cnc(N)nc4)N5CCOCC5)CC1,1.0,11362,Homo sapiens,2324,P42336,1.0,PRIMARY
+1516484,9,4.0,PI3-kinase p110-beta subunit,2.51,FALSE,CHEMBL2322337,Cc1c(Cc2cnn3c(O)cc(nc23)c4ccncc4)cccc1C(F)(F)F,1.0,12576,Homo sapiens,1470,P42338,1.0,PRIMARY
+1431443,12,6.0,PI3-kinase p110-delta subunit,2.0,FALSE,CHEMBL2171944,CCc1nc2ccccc2n1c3nc(N4CCOCC4)c5nc(CN6CCC(CC6)C(C)(C)O)n(C)c5n3,1.0,11177,Homo sapiens,5019,O00329,1.0,PRIMARY
+351626,133,78.0,PI3-kinase p110-gamma subunit,30.0,FALSE,CHEMBL379156,Oc1cc(F)ccc1c2oc(\C=C\3/SC(=O)NC3=O)cc2,1.0,11939,Homo sapiens,1588,P48736,1.0,PRIMARY
+1567825,9,7.0,PI4-kinase beta subunit,53.0,FALSE,CHEMBL2397315,C[C@@H](CC(F)(F)F)C(=O)Nc1nc(C)c(s1)c2ccc(N)nc2,1.0,11941,Homo sapiens,1589,Q9UBF8,1.0,PRIMARY
+461322,4,3.0,Pituitary adenylate cyclase-activating polypeptide type I receptor,56.7,FALSE,CHEMBL525267,CSCC[C@H](NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CO)NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@H](CO)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H](NC(=O)[C@@H](N)Cc3ccccc3)[C@@H](C)O)C(=O)N[C@@H](C)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](Cc4ccc(O)cc4)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@@H](C)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)NCC(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](Cc5ccc(O)cc5)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CCCCN)C(=O)N,1.0,101174,Homo sapiens,3694,P41586,1.0,PRIMARY
+63707,9,2.0,Plasminogen,6.0,FALSE,CHEMBL297220,NC(=N)c1ccc(cc1)C(=O)NCC2CCN(CC2)C(=O)OCc3ccc(COC(=O)N4CCC(CNC(=O)c5ccc(cc5)C(=N)N)CC4)cc3,1.0,12,Homo sapiens,93,P00747,1.0,PRIMARY
+331737,17,2.0,Platelet-derived growth factor receptor beta,18.0,FALSE,CHEMBL371949,COc1ccc2Cc3c(Nc4ccccc4)[nH]nc3c2c1,1.0,197,Homo sapiens,227,P09619,1.0,PRIMARY
+622193,11,10.0,Poly [ADP-ribose] polymerase-1,6.0,FALSE,CHEMBL1089101,NC(=O)c1cccc2[nH]c(nc12)c3ccc(cc3F)C4CCCCN4,1.0,11663,Homo sapiens,1432,P09874,1.0,PRIMARY
+904141,20,11.0,Potassium channel subfamily K member 3,73.0,FALSE,CHEMBL1480257,COc1ccccc1C(=O)Nc2cccc(NC(=O)c3ccccc3C)c2,1.0,105602,Homo sapiens,7234,O14649,1.0,PRIMARY
+502148,13,7.0,Pregnane X receptor,27.0,FALSE,CHEMBL501711,CC(C)C(=O)[C@@]12C(=O)C(=C(O)[C@@](CC=C(C)C)(C[C@H](CC=C(C)C)[C@@]1(C)CCC=C(C)C)C2=O)CC=C(C)C,1.0,11912,Homo sapiens,1723,O75469,1.0,PRIMARY
+50050,27,4.0,Progesterone receptor,0.7,FALSE,CHEMBL286595,CC1=CC(C)(C)Nc2ccc3c4ccccc4OC(c5ccc(Cl)cc5)c3c12,1.0,36,Homo sapiens,4847,P06401,1.0,PRIMARY
+1426297,20,2.0,Prolyl endopeptidase,45.0,FALSE,CHEMBL2159748,O=C(N1CCC[C@H]1C#N)c2cccc3CN(Cc4ccccc4)C(=O)c23,1.0,11968,Homo sapiens,1525,P48147,1.0,PRIMARY
+442303,41,8.0,Prostaglandin E synthase,1.0,FALSE,CHEMBL412099,Clc1ccc2c(c1)c3ccccc3c4[nH]c(nc24)c5c(cccc5C#N)C#N,1.0,101277,Homo sapiens,3968,O14684,1.0,PRIMARY
+347722,25,10.0,Prostanoid DP receptor,2.6,FALSE,CHEMBL383484,CC(=O)c1cc(cc2c3CC[C@H](CC(=O)O)c3n(Cc4ccc(Cl)cc4)c12)S(=O)(=O)C,1.0,12659,Homo sapiens,2743,Q13258,1.0,PRIMARY
+480883,15,8.0,Prostanoid EP1 receptor,2.51,FALSE,CHEMBL467510,[Na+].CC(C)COc1ccc(Cl)cc1c2ccccc2c3cccc(n3)C(=O)[O-],1.0,261,Homo sapiens,106,P34995,1.0,PRIMARY
+836138,31,14.0,Prostanoid EP2 receptor,33.1,FALSE,CHEMBL1412254,CCc1nnc(NS(=O)(=O)c2ccc(NC(=S)NC(=O)\C=C\c3cccs3)cc2)s1,1.0,142,Homo sapiens,197,P43116,1.0,PRIMARY
+367582,12,8.0,Prostanoid EP3 receptor,1.1,FALSE,CHEMBL220802,O=C(NS(=O)(=O)c1cccs1)\C=C\c2ccccc2Cc3ccc4ccccc4c3,1.0,10329,Homo sapiens,2026,P43115,1.0,PRIMARY
+632646,21,17.0,Prostanoid EP4 receptor,0.23,FALSE,CHEMBL1084009,OC(=O)c1ccc(cc1)C2(CC2)NC(=O)c3cccc4ccn(Cc5ccc(cc5)C(F)(F)F)c34,1.0,262,Homo sapiens,136,P35408,1.0,PRIMARY
+55034,17,9.0,Prostanoid FP receptor,1.0,FALSE,CHEMBL37853,O[C@@H](COc1cccc(Cl)c1)\C=C\[C@H]2[C@H](O)C[C@H](O)[C@@H]2C\C=C/CCCC(=O)O,1.0,140,Homo sapiens,316,P43088,1.0,PRIMARY
+1520448,20,6.0,Proteasome Macropain subunit,22.0,FALSE,CHEMBL2326261,CC(C)C[C@H](NC(=O)[C@H](Cc1ccc(CN)cc1)NC(=O)[C@H](Cc2ccccc2)N=[N+]=[N-])C(=O)N[C@@H](Cc3ccc(CN)cc3)\C=C\S(=O)(=O)C,1.0,100613,Homo sapiens,1813,P49721,1.0,PRIMARY
+1758476,183,2.0,Proteasome Macropain subunit MB1,60.0,FALSE,CHEMBL3287944,CC(C)C[C@H](NC(=O)CCN1C=Cc2ccc(Br)cc2C1=O)B(O)O,1.0,100624,Homo sapiens,2980,P28074,1.0,PRIMARY
+1736423,22,4.0,Proteasome subunit beta type-8,5.7,FALSE,CHEMBL3237875,COc1ccc(C[C@H](NC(=O)[C@H](C)NC(=O)CN2CCOCC2)C(=O)N[C@@H](Cc3ccccc3)C(=O)[C@@]4(C)CO4)cc1,1.0,101477,Homo sapiens,3921,P28062,1.0,PRIMARY
+1784261,11,2.0,Proteasome subunit beta type-9,95.0,FALSE,CHEMBL3319604,CCCC[C@H](NC(=O)[C@@H]1CC(F)(F)CN1C(=O)[C@H](C)NC(=O)CN=[N+]=[N-])C(=O)N[C@@H](CC2CCCCC2)C(=O)[C@@]3(C)CO3,1.0,104445,Homo sapiens,5604,P28065,1.0,PRIMARY
+87509,7,5.0,Protein kinase C alpha ,33.0,FALSE,CHEMBL55267,CCCCCCCC(=O)OC[C@H](CO)OC(=O)CCCCCCC,1.0,11635,Homo sapiens,966,P17252,1.0,PRIMARY
+1819262,7,3.0,Protein kinase C theta,2.0,FALSE,CHEMBL3355137,C[C@H]1CN(C)CC[C@H]1c2cc3N4[C@H](C)C(=O)NN=C4COc3cc2c5ccc(C)cc5F,1.0,12665,Homo sapiens,2241,Q04759,1.0,PRIMARY
+1567023,6,2.0,Protein kinase C zeta,1.0,FALSE,CHEMBL2393431,COc1cccc(COC(=O)c2c(N)scc2c3ccc(OC)c(OC)c3)c1,1.0,10216,Homo sapiens,1760,Q05513,1.0,PRIMARY
+899625,21,11.0,Protein phosphatase methylesterase 1,10.0,FALSE,CHEMBL1475741,COC(=O)N1N(C(=O)OC)[C@@](C2CCCC2)(C1=O)c3ccccc3,1.0,103753,Homo sapiens,5194,Q9Y570,1.0,PRIMARY
+578129,4,3.0,Protein tyrosine kinase 2 beta,49.0,FALSE,CHEMBL570369,COc1cc2nccc(Oc3ccc(NC(=O)C4=CC(=CN(C4=O)c5ccccc5)Cc6ccccc6)nc3)c2cc1OC,1.0,100995,Homo sapiens,3761,Q14289,1.0,PRIMARY
+1834968,14,5.0,Protein Wnt-3a,7.0,FALSE,CHEMBL3408213,Cn1cc(cn1)c2ccc(cc2)c3cncc(Cl)c3N4CCC5(CCNC5=O)CC4,1.0,103548,Homo sapiens,4817,P56704,1.0,PRIMARY
+218012,9,2.0,Proto-oncogene c-JUN,3.0,FALSE,CHEMBL337665,COc1ccc2nc(nc(NN3C(=O)C=C(C)C3=O)c2c1)c4cccs4,1.0,10028,Homo sapiens,3289,P05412,1.0,PRIMARY
+1608140,7,5.0,Proto-oncogene tyrosine-protein kinase MER,4.3,FALSE,CHEMBL3093756,CCCCNc1ncc(C(=O)NCc2ccc(cc2)n3ccnc3)c(N[C@@H]4CC[C@@H](O)CC4)n1,1.0,100948,Homo sapiens,3627,Q12866,1.0,PRIMARY
+217939,90,2.0,Purinergic receptor P2Y1,1.27,FALSE,CHEMBL435402,CSc1nc(N)c2ncn([C@@H]3O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]3O)c2n1,1.0,10544,Homo sapiens,2632,P47900,1.0,PRIMARY
+568275,21,5.0,Purinergic receptor P2Y12,8.5,FALSE,CHEMBL539733,CCCCCOC(=O)N1CCN(CC1)C(=O)[C@H](CCC(=O)O)NC(=O)c2cc(cc(n2)c3ccccc3)N4CCC(COC)CC4,1.0,176,Homo sapiens,332,Q9H244,1.0,PRIMARY
+1726448,10,5.0,Pyrimidinergic receptor P2Y6,9.0,FALSE,CHEMBL3220052,CCN(CC)CC.Nc1ccc2C(=C3C=CC(=N)C(=C3Oc2c1S(=O)(=O)O)S(=O)(=O)O)c4ccc(cc4C(=O)O)C(=O)NCCCCCCn5cc(CCC#Cc6cccc(CO\N=C\7/NC(=O)N(C=C7)[C@@H]8O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]8O)c6)nn5,1.0,10012,Homo sapiens,3031,Q15077,1.0,PRIMARY
+1781068,6,3.0,Pyroglutamylated RFamide peptide receptor,70.0,FALSE,CHEMBL3314349,CN(C)Cc1ccc2CN(CCc2c1)C(=O)c3cc4cc(Cl)ccc4n3C,1.0,101356,Homo sapiens,4312,Q96P65,1.0,PRIMARY
+496017,6,5.0,Quinone reductase 2,9.1,FALSE,CHEMBL457992,CNS(=O)(=O)c1ccc2cccc(CCNC(=O)c3occc3)c2c1,1.0,10170,Homo sapiens,2278,P16083,1.0,PRIMARY
+384933,20,16.0,Receptor protein-tyrosine kinase erbB-2,21.0,FALSE,CHEMBL375671,Cc1cc(Nc2ncnc3cnc(cc23)N4CCOCC4)ccc1Oc5ccc(cc5)C(=O)NCC(C)(C)C,1.0,188,Homo sapiens,120,P04626,1.0,PRIMARY
+572096,6,2.0,Retinoid X receptor alpha,12.0,FALSE,CHEMBL583996,Cc1cc2c(cc1Cc3ccc(C(=O)O)c(F)c3)C(C)(C)CCC2(C)C,1.0,275,Homo sapiens,402,P19793,1.0,PRIMARY
+572321,50,23.0,Rho-associated protein kinase 1 ,6.0,FALSE,CHEMBL575741,C1CN(CCN1)c2nc(NC3Cc4ccccc4C3)nc(Nc5ccncc5)n2,1.0,10811,Homo sapiens,1553,Q13464,1.0,PRIMARY
+1523523,9,7.0,Rho-associated protein kinase 2,2.5,FALSE,CHEMBL2333879,CN(C)c1nc(nc2ccc(cc12)c3cn[nH]c3)[C@@H]4CNC[C@H]4c5ccccc5,1.0,11149,Homo sapiens,1304,O75116,1.0,PRIMARY
+1333761,7,2.0,Ribosomal protein S6 kinase 1,3.0,FALSE,CHEMBL2012699,CCc1n[nH]c2ncnc(N3CCN(CC3)c4cc(Cl)cc(NCCN5CCCC5)c4C)c12,1.0,12944,Homo sapiens,2818,P23443,1.0,PRIMARY
+1762529,4,3.0,Ribosomal protein S6 kinase alpha 2,4.0,FALSE,CHEMBL3298194,COc1cc(Nc2oc3c(cccc3n2)c4cccc5[nH]cnc45)cc(OC)c1OC,1.0,11843,Homo sapiens,2226,Q15349,1.0,PRIMARY
+1819197,5,5.0,Serine-protein kinase ATR,1.0,FALSE,CHEMBL3355073,C[C@@H]1Cn2ncc(C3CCN(CC3)S(=O)(=O)C)c2CN1c4ccnc5[nH]ccc45,1.0,20139,Homo sapiens,3335,Q13535,1.0,PRIMARY
+350814,13,10.0,Serine/threonine-protein kinase AKT,0.17,FALSE,CHEMBL210954,CC(C)(Cc1occc1)C2C(=O)Nc3ccc(cc23)c4cncc(OC[C@@H](N)Cc5c[nH]c6ccccc56)c4,1.0,12666,Homo sapiens,5788,P31749,1.0,PRIMARY
+350814,13,10.0,Serine/threonine-protein kinase AKT,0.17,FALSE,CHEMBL210954,CC(C)(Cc1occc1)C2C(=O)Nc3ccc(cc23)c4cncc(OC[C@@H](N)Cc5c[nH]c6ccccc56)c4,1.0,105106,Homo sapiens,772,P31751,1.0,PRIMARY
+350814,13,10.0,Serine/threonine-protein kinase AKT,0.17,FALSE,CHEMBL210954,CC(C)(Cc1occc1)C2C(=O)Nc3ccc(cc23)c4cncc(OC[C@@H](N)Cc5c[nH]c6ccccc56)c4,1.0,105106,Homo sapiens,3133,Q9Y243,1.0,PRIMARY
+350814,13,10.0,Serine/threonine-protein kinase AKT,0.17,FALSE,CHEMBL210954,CC(C)(Cc1occc1)C2C(=O)Nc3ccc(cc23)c4cncc(OC[C@@H](N)Cc5c[nH]c6ccccc56)c4,1.0,105106,Homo sapiens,5788,P31749,1.0,PRIMARY
+596695,6,2.0,Serine/threonine-protein kinase AKT2,20.0,FALSE,CHEMBL597415,NC1(Cc2c(Cl)cccc2Cl)CCN(CC1)c3ncnc4[nH]ccc34,1.0,10695,Homo sapiens,772,P31751,1.0,PRIMARY
+1833230,14,7.0,Serine/threonine-protein kinase Aurora-A,46.0,FALSE,CHEMBL3403013,CN(C(=O)c1ccc(Cl)cc1)c2ccc3[nH]c(cc3n2)c4n[nH]c5ccccc45,1.0,20014,Homo sapiens,3039,O14965,1.0,PRIMARY
+702437,21,17.0,Serine/threonine-protein kinase Aurora-B,9.0,FALSE,CHEMBL1243200,CNc1nccc(n1)c2cccnc2Oc3ccc(NC(=O)c4ccccc4Nc5ccccc5)cc3,1.0,10781,Homo sapiens,526,Q96GD4,1.0,PRIMARY
+1514142,20,19.0,Serine/threonine-protein kinase B-raf,5.1,FALSE,CHEMBL2315069,Nc1ncc(c2cccnc2)c3scc(c4cccc(NC(=O)c5cccc(c5)C(F)(F)F)c4)c13,1.0,100126,Homo sapiens,3449,P15056,1.0,PRIMARY
+1269661,60,52.0,Serine/threonine-protein kinase Chk1 ,21.0,FALSE,CHEMBL1928692,COC(=O)c1cnc(Nc2cnc(cn2)C#N)cc1NCC3CCNCC3,1.0,12967,Homo sapiens,2947,O14757,1.0,PRIMARY
+1162276,555,3.0,Serine/threonine-protein kinase mTOR,0.13,FALSE,CHEMBL1801204,COc1ccc(cc1CO)c2ccc3c(nc(nc3n2)N4CCOC[C@@H]4C)N5CCOC[C@@H]5C,1.0,11400,Homo sapiens,1172,P42345,1.0,PRIMARY
+1563487,4,3.0,Serine/threonine-protein kinase PAK 1,5.13,FALSE,CHEMBL2386718,C[C@H](Nc1nccc(Nc2cc([nH]n2)C3CC3(F)F)n1)c4ccc5[nH]cnc5c4,1.0,30025,Homo sapiens,2917,Q13153,1.0,PRIMARY
+1762094,3,2.0,Serine/threonine-protein kinase PIM1 ,2.0,FALSE,CHEMBL3297764,CN1CCN(C[C@@H](NC(=O)C[C@H]2CNC(=O)c3cc(cn23)c4cc(Cl)ccc4F)C5CCCCC5)CC1,1.0,10839,Homo sapiens,489,P11309,1.0,PRIMARY
+1796354,4,3.0,Serine/threonine-protein kinase PLK1,3.0,FALSE,CHEMBL3344193,COc1cc(CNCc2ccncc2)ccc1OCc3ccc(Cl)cc3,1.0,10907,Homo sapiens,1352,P53350,1.0,PRIMARY
+1569666,5,3.0,Serine/threonine-protein kinase PLK2,9.0,FALSE,CHEMBL2402079,CCC1N(c2cc[nH]n2)c3nc(ncc3N(C)C1=O)n4ccnc4c5ccc(F)cc5,1.0,101610,Homo sapiens,4433,Q9NYY3,1.0,PRIMARY
+1572308,24,12.0,Serine/threonine-protein kinase PLK4,0.61,FALSE,CHEMBL2407900,COc1ccc2NC(=O)\C(=C\c3ccc4c(\C=C\c5ccc(nc5)N6CCN(C)CC6)n[nH]c4c3)\c2c1,1.0,30003,Homo sapiens,2106,O00444,1.0,PRIMARY
+1606839,14,3.0,Serine/threonine-protein kinase Sgk1,1.0,FALSE,CHEMBL3092468,Nc1n[nH]c2nc(cnc12)c3ccc(NS(=O)(=O)c4cc(Cl)ccc4F)cc3,1.0,12718,Homo sapiens,684,O00141,1.0,PRIMARY
+1425391,3,3.0,Serine/threonine-protein kinase SMG1,80.0,FALSE,CHEMBL2158851,N#Cc1cccc(Nc2nccc(n2)c3ccnc(c3)N4CCOCC4)c1,1.0,104275,Homo sapiens,5536,Q96Q15,1.0,PRIMARY
+1427776,44,36.0,Serotonin 1a (5-HT1a) receptor,1.21,FALSE,CHEMBL2164350,O=C(C1CCCCC1)N(CCN2CCN(CC2)c3ccccc3)c4ccccn4,1.0,51,Homo sapiens,266,P08908,1.0,PRIMARY
+102088,24,7.0,Serotonin 1d (5-HT1d) receptor,1.5,FALSE,CHEMBL304857,CN(Cc1ccccc1)C2CCN(CCCc3c[nH]c4ccc(cc34)n5cnnc5)CC2,1.0,105,Homo sapiens,307,P28221,1.0,PRIMARY
+1594698,10,9.0,Serotonin 2a (5-HT2a) receptor,1.1,FALSE,CHEMBL3084807,CN1[C@@H]2CC[C@H]1C[C@@H](C2)N3CCC(CC3)c4c([nH]c5ccccc45)c6ccccc6,1.0,107,Homo sapiens,308,P28223,1.0,PRIMARY
+704815,39,15.0,Serotonin 2b (5-HT2b) receptor,2.51,FALSE,CHEMBL1255834,CC(N)Cc1c[nH]c2ccc(OCc3cccs3)cc12,1.0,227,Homo sapiens,133,P41595,1.0,PRIMARY
+14131,51,28.0,Serotonin 2c (5-HT2c) receptor,1.0,FALSE,CHEMBL14563,Cc1cc2CCN(C(=O)Nc3ccc(Oc4cccnc4C)nc3)c2cc1Cl,1.0,108,Homo sapiens,309,P28335,1.0,PRIMARY
+13331,26,5.0,Serotonin 3a (5-HT3a) receptor,32.0,FALSE,CHEMBL13823,NC(=N)Nc1cccc(Cl)c1,1.0,144,Homo sapiens,214,P46098,1.0,PRIMARY
+49783,51,13.0,Serotonin 4 (5-HT4) receptor,0.0398,FALSE,CHEMBL33884,Cn1cc(C(=O)OCC2CCN(CCNS(=O)(=O)C)CC2)c3ccccc13,1.0,168,Homo sapiens,191,Q13639,1.0,PRIMARY
+38445,43,9.0,Serotonin 6 (5-HT6) receptor,0.66,FALSE,CHEMBL431298,COc1ccc(NS(=O)(=O)c2sc3ccc(Cl)cc3c2C)cc1N4CCNCC4,1.0,10627,Homo sapiens,1693,P50406,1.0,PRIMARY
+10841,22,3.0,Serotonin 7 (5-HT7) receptor,31.6,FALSE,CHEMBL12264,C[C@H](CCN1CCC(C)CC1)N(C)S(=O)(=O)c2cccc(C)c2,1.0,10209,Homo sapiens,1480,P34969,1.0,PRIMARY
+14367,58,20.0,Serotonin transporter,0.479,FALSE,CHEMBL549,CN(C)CCCC1(OCc2cc(ccc12)C#N)c3ccc(F)cc3,1.0,121,Homo sapiens,226,P31645,1.0,PRIMARY
+1339208,25,2.0,Sigma opioid receptor,0.27,FALSE,CHEMBL2023825,C1CCC(CC1)N2CCN(CC2)c3ccc(cc3)C(c4ccccc4)C56CC7CC(CC(C7)C5)C6,1.0,11272,Homo sapiens,186,Q99720,1.0,PRIMARY
+422489,100,2.0,Smoothened homolog,12.4,FALSE,CHEMBL254129,C[C@@H]1CN[C@@H]2[C@@H](C1)O[C@]3(CC[C@H]4[C@@H]5CC=C6C[C@@H](O)CC[C@]6(C)[C@H]5CC4=C3C)[C@@H]2C,1.0,101400,Homo sapiens,4478,Q99835,1.0,PRIMARY
+1784277,3,2.0,Sn1-specific diacylglycerol lipase alpha,18.0,FALSE,CHEMBL3319620,CC1(C)CCc2cc(ccc2O1)S(=O)(=O)N(CC(=O)O)Cc3ccc(Oc4ccccc4)cc3,1.0,101016,Homo sapiens,3836,Q9Y4D2,1.0,PRIMARY
+1427799,14,6.0,Sodium channel protein type IX alpha subunit,92.0,FALSE,CHEMBL2164373,FC(F)(F)Oc1ccc(CNC(=O)C2N(C3CCC(F)(F)CC3)C(=O)c4ccccc24)cc1,1.0,18061,Homo sapiens,2613,Q15858,1.0,PRIMARY
+420803,107,56.0,Sodium channel protein type X alpha subunit,8.0,FALSE,CHEMBL250699,COc1cc(NC(=O)c2oc(cc2)c3ccc(Cl)cc3)cc(OC)c1,1.0,18080,Homo sapiens,3744,Q9Y5Y9,1.0,PRIMARY
+1783233,3,2.0,Sodium-dependent proline transporter,18.0,FALSE,CHEMBL3318586,Clc1cccc(c1)c2ccc(cc2)C(=O)N3C4CCC3CN(C4)c5ncccn5,1.0,109456,Homo sapiens,9643,Q99884,1.0,PRIMARY
+1517856,4,4.0,Sodium/glucose cotransporter 1,11.0,FALSE,CHEMBL2323695,CC(C)c1[nH]nc(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)c1Cc3ccc(CCCC(=O)NC(C)(C)C(=O)N4CCNCC4)cc3C,1.0,18036,Homo sapiens,3292,P13866,1.0,PRIMARY
+1139798,10,3.0,Sodium/glucose cotransporter 2,10.0,FALSE,CHEMBL1762505,FC(F)(F)CCn1c(CCc2ccc(Cl)cc2)nnc1CN3C(=O)COc4c(Cl)cc(Cl)cc34,1.0,20092,Homo sapiens,2205,P31639,1.0,PRIMARY
+567040,6,5.0,Somatostatin receptor 1,14.0,FALSE,CHEMBL556949,CC(C)NCc1ccc(C[C@@H]2NC(=O)[C@@H](Cc3c[nH]c4ccccc34)NC(=O)[C@H](Cc5ccccc5)NC(=O)[C@H](Cc6ccccc6)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CSSC[C@H](NC(=O)[C@H](CO)NC(=O)[C@@H](NC(=O)[C@H](Cc7ccccc7)NC(=O)[C@@H](NC2=O)[C@@H](C)O)[C@@H](C)O)C(=O)O)NC(=O)[C@@H](N)Cc8ccc(O)cc8)cc1,1.0,12786,Homo sapiens,231,P30872,1.0,PRIMARY
+1633576,5,5.0,Somatostatin receptor 2,0.78,FALSE,CHEMBL3144285,C[C@@H](O)[C@H](NC(=O)[C@@H]1CSSC[C@H](NC(=O)[C@H](Cc2ccccc2)NC[C@]3(O)OC[C@H](O)[C@@H](O[C@@H]4O[C@@H](CO)[C@@H](O)[C@H](O)[C@@H]4O)[C@@H]3O)C(=O)N[C@@H](Cc5ccc(O)c(I)c5)C(=O)N[C@H](Cc6c[nH]c7ccccc67)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H]([C@@H](C)O)C(=O)N1)C(=O)O,1.0,117,Homo sapiens,98,P30874,1.0,PRIMARY
+1444554,22,11.0,Somatostatin receptor 3,0.66,FALSE,CHEMBL2204935,Cc1onc(n1)[C@@]2(N[C@H](Cc3c2[nH]c4ccccc34)c5nc(c[nH]5)c6ccc(F)cc6)c7cnn(C)c7,1.0,11261,Homo sapiens,363,P32745,1.0,PRIMARY
+166701,42,13.0,Somatostatin receptor 4,6.0,FALSE,CHEMBL103769,Clc1ccc(CN(CCCNC(=S)NCCCc2c[nH]cn2)c3ccc(Br)cn3)cc1Cl,1.0,10183,Homo sapiens,160,P31391,1.0,PRIMARY
+402028,15,9.0,Somatostatin receptor 5,13.0,FALSE,CHEMBL236788,CCOc1cc(CN2CCC(CC2)Nc3oc4ccc(cc4n3)S(=O)(=O)N)cc(OCC)c1N,1.0,11265,Homo sapiens,83,P35346,1.0,PRIMARY
+1439613,13,7.0,Sphingosine 1-phosphate receptor Edg-1 ,0.67,FALSE,CHEMBL2178814,CN(C)CC[C@H](N(C)C(=O)c1c(C)cc(cc1C)c2cccc(NS(=O)(=O)c3cc(C)c(Cl)cc3C)c2)C(=O)O,1.0,11631,Homo sapiens,2651,P21453,1.0,PRIMARY
+1831588,9,7.0,Sphingosine 1-phosphate receptor Edg-5,45.0,FALSE,CHEMBL3401388,CCC(CC)CC1(O)CCN(CC1)C(=O)Nc2cc(Oc3ccncc3)cc(Oc4ccc(F)cc4)c2,1.0,11562,Homo sapiens,1286,O95136,1.0,PRIMARY
+1840050,6,3.0,Sphingosine kinase 1,48.0,FALSE,CHEMBL3416846,Cl.CCCCCCCCc1ccc(cc1)c2noc(C[C@@H]3CCCN3C(=N)N)n2,1.0,11882,Homo sapiens,2710,Q9NYA1,1.0,PRIMARY
+195926,6,2.0,Steroid 5-alpha-reductase 1,2.7,FALSE,CHEMBL118446,CC1=C2CCc3cc(Cl)ccc3N2CCC1=O,1.0,79,Homo sapiens,78,P18405,1.0,PRIMARY
+699657,8,2.0,Steroid 5-alpha-reductase 2,3.4,FALSE,CHEMBL1237306,C[C@]12CCC3=C(CCC4=CC(=O)CCN34)C1CCC2=O.C[C@]56CC=C7[C@@H](CCC8=CC(=O)CCN78)C5CCC6=O,1.0,120,Homo sapiens,164,P31213,1.0,PRIMARY
+1734208,6,3.0,Steryl-sulfatase ,88.0,FALSE,CHEMBL3235682,NS(=O)(=O)Oc1ccc(Sc2ccc(OS(=O)(=O)N)cc2)cc1,1.0,11267,Homo sapiens,1880,P08842,1.0,PRIMARY
+1440643,12,3.0,Subtilisin/kexin type 6,24.0,FALSE,CHEMBL2179834,CC(C)C[C@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](CC(C)C)NC(=O)C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N,1.0,12186,Homo sapiens,1282,P29122,1.0,PRIMARY
+1561359,8,3.0,Tankyrase-1,3.0,FALSE,CHEMBL2381945,CC1(C)OC(=O)N([C@@H]2CC[C@H](CC2)N3C(=O)Nc4cc(C#N)c(F)cc34)[C@H]1c5ccccc5,1.0,101462,Homo sapiens,4743,O95271,1.0,PRIMARY
+231006,55,3.0,Telomerase reverse transcriptase,45.0,FALSE,CHEMBL336434,CN(C)c1ccc(Nc2c3ccc(NC(=O)CCN4CCCC4)cc3nc5cc(NC(=O)CCN6CCCC6)ccc25)cc1,1.0,12622,Homo sapiens,1246,O14746,1.0,PRIMARY
+428792,11,2.0,Testis-specific androgen-binding protein,5.01,FALSE,CHEMBL261406,C[C@@]12CCC[C@H]1[C@@H]3CCc4cc(O)ccc4[C@H]3CC2,1.0,12643,Homo sapiens,1625,P04278,1.0,PRIMARY
+341460,6,3.0,TGF-beta receptor type I,69.0,FALSE,CHEMBL381532,Cc1cccc(n1)c2nn3CCCc3c2c4ccc5ncn(CCCN6CCOCC6)c5c4,1.0,13004,Homo sapiens,2756,P36897,1.0,PRIMARY
+75302,28,10.0,Thrombin,2.61,FALSE,CHEMBL48361,Cn1c(CNc2ccc(cc2)C(=N)N)nc3cc(ccc13)C(=O)N(CCC(=O)O)c4ccccn4,1.0,11,Homo sapiens,92,P00734,1.0,PRIMARY
+27307,853,19.0,Thymidylate kinase,2.7e-4,FALSE,CHEMBL129,CC1=CN([C@H]2C[C@H](N=[N+]=[N-])[C@@H](CO)O2)C(=O)NC1=O,1.0,12538,Homo sapiens,2704,P23919,1.0,PRIMARY
+373996,16,2.0,Thymidylate synthase,42.0,FALSE,CHEMBL225180,Cc1[nH]c2N=C(N)NC(=O)c2c1Sc3ccc(cc3)C(=O)N[C@@H](CCC(=O)O)C(=O)O,1.0,28,Homo sapiens,276,P04818,1.0,PRIMARY
+206901,6,4.0,Thyroid hormone receptor beta-1,0.28,FALSE,CHEMBL125946,Oc1ccc(Oc2c(Cl)cc(cc2Cl)N3N=CC(=O)NC3=O)cc1S(=O)(=O)N4C5CCC4CC6(CCCO6)C5,1.0,271,Homo sapiens,270,P10828,1.0,PRIMARY
+1821215,6,3.0,Toll-like receptor 9,13.0,FALSE,CHEMBL3357070,OCCN1CCN(CC1)c2ccc(cc2)c3ncc4CCN(CCCN5CCOCC5)c4n3,1.0,101567,Homo sapiens,4217,Q9NR96,1.0,PRIMARY
+1762577,15,4.0,Transient receptor potential cation channel subfamily A member 1,84.0,FALSE,CHEMBL3298242,FC(F)(F)c1ccccc1c2ccc3[nH]ncc3c2,1.0,101412,Homo sapiens,4529,O75762,1.0,PRIMARY
+1589591,5,5.0,Transient receptor potential cation channel subfamily M member 8,8.9,FALSE,CHEMBL2443061,O[C@@H]1CC2(CCN(CC2)C(=O)Nc3ccc(OC(F)(F)F)cc3)Oc4c(Cl)cccc14,1.0,103167,Homo sapiens,1656,Q7Z2W7,1.0,PRIMARY
+1724494,7,4.0,Transient receptor potential cation channel subfamily V member 4,3.8,FALSE,CHEMBL3218118,OC1(COc2ccc(C#N)c(F)c2)CN(C1)S(=O)(=O)c3ccc(Cl)cc3Cl,1.0,11847,Homo sapiens,1445,Q9HBA0,1.0,PRIMARY
+612815,16,6.0,Transitional endoplasmic reticulum ATPase,90.0,FALSE,CHEMBL1081262,Oc1ccc(Nc2nc(cs2)c3cccs3)cc1,1.0,103079,Homo sapiens,4176,P55072,1.0,PRIMARY
+63956,8,2.0,Tryptase gamma,0.07,FALSE,CHEMBL46809,NC(=N)Nc1ccc(CNC(=O)N2CCN(CC2)C(=O)O[C@@H]3CCC[C@@H](CCC3)OC(=O)N4CCN(CC4)C(=O)NCc5ccc(NC(=N)N)cc5)cc1,1.0,12857,Homo sapiens,3268,Q9NRR2,1.0,PRIMARY
+1618224,3,2.0,Type-1 angiotensin II receptor,6.0,FALSE,CHEMBL3115247,CCCCn1c(nc2ccccc12)c3ccc4nn(CCC)c(Cc5ccc(cc5)c6ccccc6c7nn[nH]n7)c4c3,1.0,115,Homo sapiens,132,P30556,1.0,PRIMARY
+1365541,3,2.0,Tyrosine kinase non-receptor protein 2,0.2,FALSE,CHEMBL2087874,CN(C)CCOc1ccc(cc1)c2oc3ncnc(NCC4SCCS4)c3c2c5ccccc5,1.0,30023,Homo sapiens,2916,Q07912,1.0,PRIMARY
+1568320,5,2.0,Tyrosine-protein kinase ABL,5.0,FALSE,CHEMBL2397805,ClC(Cn1ncc2c(NCc3ccccc3Cl)ncnc12)c4ccc(Br)cc4,1.0,8,Homo sapiens,173,P00519,1.0,PRIMARY
+1568320,5,2.0,Tyrosine-protein kinase ABL,5.0,FALSE,CHEMBL2397805,ClC(Cn1ncc2c(NCc3ccccc3Cl)ncnc12)c4ccc(Br)cc4,1.0,104922,Homo sapiens,173,P00519,1.0,PRIMARY
+1568320,5,2.0,Tyrosine-protein kinase ABL,5.0,FALSE,CHEMBL2397805,ClC(Cn1ncc2c(NCc3ccccc3Cl)ncnc12)c4ccc(Br)cc4,1.0,104922,Homo sapiens,2333,P42684,1.0,PRIMARY
+1625919,71,63.0,Tyrosine-protein kinase BRK,3.15,FALSE,CHEMBL3133821,Oc1cccc(Nc2ccnc3[nH]c4ccccc4c23)c1,1.0,30026,Homo sapiens,2918,Q13882,1.0,PRIMARY
+1353674,9,2.0,Tyrosine-protein kinase BTK,0.3,FALSE,CHEMBL2057918,CN1CCN(CC1)c2ccc(NC3=CC(=CN(C)C3=O)c4cccc(N5C=Cc6cc(cc(F)c6C5=O)C7CC7)c4CO)nc2,1.0,100097,Homo sapiens,3549,Q06187,1.0,PRIMARY
+350235,298,34.0,Tyrosine-protein kinase ITK/TSK ,16.0,FALSE,CHEMBL209148,COc1cc(C)c(Sc2cnc(NC(=O)c3ccc(CNC(C)C(C)(C)C)cc3)s2)cc1C(=O)N4CCN(CC4)C(=O)C,1.0,10918,Homo sapiens,1290,Q08881,1.0,PRIMARY
+1356192,5,3.0,Tyrosine-protein kinase JAK2,1.3,FALSE,CHEMBL2062801,CS(=O)(=O)c1ccc(Nc2nc3c(cccn3n2)c4ccc(cc4)S(=O)(=O)C)cc1,1.0,10938,Homo sapiens,1302,O60674,1.0,PRIMARY
+1052975,5,4.0,Tyrosine-protein kinase JAK3,14.0,FALSE,CHEMBL1630788,C[C@@H]1CCN(C[C@@H]1N(C)c2ncnc3[nH]ccc23)S(=O)(=O)CC(F)(F)F,1.0,10849,Homo sapiens,490,P52333,1.0,PRIMARY
+357786,7,4.0,Tyrosine-protein kinase LCK,2.0,FALSE,CHEMBL385055,CNc1ncc2cc(ccc2n1)c3cc(ccc3C)C(=O)Nc4cc(ccc4N5CC(C)(C)C5=O)C(F)(F)F,1.0,10140,Homo sapiens,382,P06239,1.0,PRIMARY
+349543,535,12.0,Tyrosine-protein kinase receptor FLT3,42.0,FALSE,CHEMBL210833,COc1ccc(cc1OC)C(=O)Nc2sc3CCCCc3c2C(=O)N,1.0,12670,Homo sapiens,297,P36888,1.0,PRIMARY
+284154,9,6.0,Tyrosine-protein kinase SRC,5.0,FALSE,CHEMBL170984,COc1cc2c(Nc3c(Cl)ccc4OCOc34)ncnc2cc1OCC5CCN(C)CC5,1.0,10434,Homo sapiens,345,P12931,1.0,PRIMARY
+1179122,18,15.0,Tyrosine-protein kinase SYK,31.62,FALSE,CHEMBL1835071,Cc1ccc(Nc2nc(N[C@@H]3CCOC[C@@H]3N)ncc2C(=O)N)cc1,1.0,10906,Homo sapiens,934,P43405,1.0,PRIMARY
+366622,33,31.0,Tyrosine-protein kinase TIE-2,30.0,FALSE,CHEMBL373882,CNc1ncnc(n1)c2cccnc2Oc3ccc(F)c(c3)C(=O)Nc4cc(ccc4N(C)CCCN(C)C)C(F)(F)F,1.0,12913,Homo sapiens,4960,Q02763,1.0,PRIMARY
+1563995,7,4.0,Tyrosine-protein kinase TYK2 ,1.4,FALSE,CHEMBL2387221,F[C@@H]1C[C@@H]1C(=O)Nc2cc(NC(=O)c3c(Cl)cc(cc3Cl)C#N)ccn2,1.0,12694,Homo sapiens,1874,P29597,1.0,PRIMARY
+473369,9,9.0,Tyrosine-protein kinase ZAP-70 ,88.0,FALSE,CHEMBL480014,CCOC(=O)\C=C\c1ccc(CNc2nc(Nc3cc(OC)cc(OC)c3)c(C(=O)N)c4nccn24)cc1,1.0,12214,Homo sapiens,1133,P43403,1.0,PRIMARY
+389955,153,24.0,Tyrosyl-DNA phosphodiesterase 1,1.8,FALSE,CHEMBL242580,CC1=CC(=O)N(O)C(=C1)C2CCCCC2.NCCO,1.0,103069,Homo sapiens,4128,Q9NUW8,1.0,PRIMARY
+818115,14,6.0,Urea transporter 1,11.0,FALSE,CHEMBL1394231,CCc1ccc(cc1)S(=O)(=O)c2nnn3c4ccsc4c(NCc5cccs5)nc23,1.0,107607,Homo sapiens,8163,Q13336,1.0,PRIMARY
+493574,29,27.0,Urotensin II receptor,3.98,FALSE,CHEMBL497171,CCCCNc1nccc2[nH]c3ccccc3c12,1.0,10927,Homo sapiens,2081,Q9UKP6,1.0,PRIMARY
+198372,14,3.0,Vanilloid receptor,0.15,FALSE,CHEMBL441472,CC(C)(C)c1ccc(NC(=O)N2CCN(CC2)c3ncccc3Cl)cc1,1.0,10260,Homo sapiens,3111,Q8NER1,1.0,PRIMARY
+674436,99,18.0,Vascular endothelial growth factor receptor 2,12.5,FALSE,CHEMBL1200485,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(c3)C(F)(F)F)cc2)ccn1.Cc4ccc(cc4)S(=O)(=O)O,1.0,10980,Homo sapiens,359,P35968,1.0,PRIMARY
+141205,16,6.0,Vasopressin V1a receptor,0.19,FALSE,CHEMBL419667,COc1ccc(cc1OC)S(=O)(=O)N2[C@@H](C(=O)N3CCC[C@H]3C(=O)N)[C@@](O)(c4ccccc4Cl)c5cc(Cl)ccc25,1.0,134,Homo sapiens,203,P37288,1.0,PRIMARY
+1140694,7,7.0,Vasopressin V1b receptor,1.7,FALSE,CHEMBL1765669,CC(C)C[C@@H]1NC(=O)[C@H](Cc2ccccc2)NC(=O)[C@H](Cc3ccc(O)cc3)NC(=O)C(O)CSSC[C@H](NC(=O)[C@H](CC(=O)N)NC1=O)C(=O)N4CCC[C@H]4C(=O)N[C@@H](CCCCN)C(=O)NCC(=O)O,1.0,148,Homo sapiens,237,P47901,1.0,PRIMARY
+1431791,9,6.0,Vasopressin V2 receptor,1.38,FALSE,CHEMBL2172289,CCN1\C(=C\C=C\C=C\C2=[N+](CC)c3ccc(cc3C2(C)C)S(=O)(=O)[O-])\C(C)(CCCC(=O)NCCn4cc(CNC(=O)CCC(=O)NC5CCCN(C(=O)c6ccc(NC(=O)c7ccccc7c8ccccc8)cc6)c9ccccc59)nn4)c%10cc(ccc1%10)S(=O)(=O)O,1.0,112,Homo sapiens,81,P30518,1.0,PRIMARY
+456541,4,3.0,Vesicular acetylcholine transporter,0.25,FALSE,CHEMBL473547,Cl.O[C@@H]1Cc2ccccc2C[C@H]1N3CCC(CC3)C(=O)c4ccc(Br)cc4,1.0,12943,Homo sapiens,3083,Q16572,1.0,PRIMARY
+438390,8,2.0,Vitamin D receptor,0.0396,FALSE,CHEMBL272304,CCC(CC)(c1ccc(OC[C@@H](O)CO)c(C)c1)c2ccc(OC[C@H](O)C(C)(C)C)c(C)c2,1.0,64,Homo sapiens,300,P11473,1.0,PRIMARY
+349910,49,10.0,Voltage-gated potassium channel subunit Kv1.3,2.0,FALSE,CHEMBL378104,COc1cc(O)cc(O)c1C(=O)\C=C\c2ccccc2,1.0,10553,Homo sapiens,2950,P22001,1.0,PRIMARY
+65139,12,5.0,Voltage-gated potassium channel subunit Kv1.5,33.0,FALSE,CHEMBL288131,CCc1ccc(cc1)S(=O)(=O)N[C@H]2[C@H](O)Cc3ccc(NC(=O)c4cccc(OC)c4)cc23,1.0,10198,Homo sapiens,2623,P22460,1.0,PRIMARY
+1618170,4,2.0,Voltage-gated T-type calcium channel alpha-1G subunit,56.0,FALSE,CHEMBL3115194,COC(=O)C(CCC(=O)N(C)CCCc1nc2ccccc2[nH]1)(C(C)C)c3ccc(Br)cc3,1.0,100100,Homo sapiens,2958,O43497,1.0,PRIMARY
+684582,5,2.0,Voltage-gated T-type calcium channel alpha-1H subunit,18.0,FALSE,CHEMBL1210766,Fc1cc(F)cc(NC(=O)N2CCC3(CC2)C(N(C3=O)c4cccc(Cl)c4)c5ccccn5)c1,1.0,4,Homo sapiens,167,O95180,1.0,PRIMARY
+1733473,8,4.0,Adenosine A1 receptor,9.5,FALSE,CHEMBL3234955,Nc1nc(SCc2csc(n2)c3ccc(I)cc3)nc(c4ccc5OCOc5c4)c1C#N,0.746268656716418,114,Homo sapiens,159,P30542,1.0,ORTHOGONAL
+1787271,6,4.0,Androgen Receptor,0.5,FALSE,CHEMBL3326454,CO[C@H]1[C@@H]2[C@@H](O)CCN2N=C1c3ccc(C#N)c(Cl)c3C,0.43243243243243246,56,Homo sapiens,187,P10275,1.0,ORTHOGONAL
+620857,11,4.0,Bombesin receptor subtype-3,18.0,FALSE,CHEMBL1091720,CCC(C)(C)Cc1c[nH]c(CCc2ccc(cc2)c3ccccn3)n1,0.32894736842105265,10679,Homo sapiens,2399,P32247,1.0,ORTHOGONAL
+1515462,5,2.0,Cannabinoid CB1 receptor,0.85,FALSE,CHEMBL2316376,COc1ccc(NC(=O)c2ccc(Cn3ccnn3)c4ccccc24)c(n1)C(=O)NCC5CCCCC5,0.6351351351351351,87,Homo sapiens,172,P21554,1.0,ORTHOGONAL
+495062,10,5.0,Cannabinoid CB2 receptor,4.6,FALSE,CHEMBL498346,CCCCCC(C)(C)c1cc(OC)c2[C@@H]3C=C(C)CC[C@H]3C(C)(C)Oc2c1,0.16666666666666666,259,Homo sapiens,104,P34972,1.0,ORTHOGONAL
+1844175,33,2.0,Delta opioid receptor,3.0,FALSE,CHEMBL3426789,Cc1ccccc1COc2ccc(cc2)C3C4=C(CC(C)(C)CC4=O)OC5=C3C(=O)CC(C)(C)C5,0.3484848484848485,136,Homo sapiens,242,P41143,1.0,ORTHOGONAL
+1425178,10,6.0,Dopamine D3 receptor,1.1,FALSE,CHEMBL2158640,Br.CCCN1C[C@@H](C[C@H]2[C@H]1CCc3cc(O)c(O)cc23)c4ccc(O)cc4,0.5074626865671642,130,Homo sapiens,149,P35462,1.0,ORTHOGONAL
+1250872,24,4.0,Glucocorticoid receptor,1.74,FALSE,CHEMBL1911270,CN(C)C(=O)c1ccc(cc1)c2ccc3[C@H](c4ccccc4Oc3n2)C(C)(C)C(=O)Nc5nncs5,0.6290322580645161,25,Homo sapiens,371,P04150,1.0,ORTHOGONAL
+1565753,11,4.0,G-protein coupled receptor 35,5.18,FALSE,CHEMBL2392174,COc1ccc(cc1)C(=O)Nc2cc(Br)cc3C(=O)C=C(Oc23)C(=O)O,0.46,103700,Homo sapiens,4970,Q9HC97,1.0,ORTHOGONAL
+1441457,10,8.0,Kappa opioid receptor,10.9,FALSE,CHEMBL2180640,CCCCN(CCc1ccccc1)CCc2cccc(O)c2,0.3103448275862069,137,Homo sapiens,177,P41145,1.0,ORTHOGONAL
+358190,14,3.0,Melanocortin receptor 4,11.0,FALSE,CHEMBL213566,CNC(=O)[C@H](Cc1ccc2ccccc2c1)N3CCN([C@@H](CCNC(=N)N)C3=O)C(=O)[C@H](N)Cc4ccc(F)cc4,0.5061728395061729,10142,Homo sapiens,1215,P32245,1.0,ORTHOGONAL
+522397,10,7.0,Metabotropic glutamate receptor 5,14.0,FALSE,CHEMBL505105,CNc1ncc(cn1)C#Cc2ccccc2,0.3333333333333333,11280,Homo sapiens,1549,P41594,1.0,ORTHOGONAL
+1524423,5,3.0,Mu opioid receptor,0.0397,FALSE,CHEMBL2334770,N[C@@H](Cc1ccc(O)cc1)C(=O)N2CC[C@H](C2)C(=O)N[C@@H](Cc3c[nH]c4ccccc34)C(=O)N[C@H](C(=C)C(=O)N)c5ccccc5,0.5866666666666667,129,Homo sapiens,349,P35372,1.0,ORTHOGONAL
+474842,6,2.0,Nociceptin receptor,0.53,FALSE,CHEMBL481707,CC1(CCCCCCC1)N2CCC(CC2)n3c(nc4ccccc34)c5oc6ccccc6c5,0.7258064516129032,138,Homo sapiens,344,P41146,1.0,ORTHOGONAL
+1511766,4,2.0,Peroxisome proliferator-activated receptor alpha,22.0,FALSE,CHEMBL2312717,OC(=O)[C@H](Cc1ccccc1)Oc2ccc(cc2)c3ccccc3C(F)(F)F,0.7419354838709677,163,Homo sapiens,245,Q07869,1.0,ORTHOGONAL
+501657,9,3.0,Peroxisome proliferator-activated receptor delta,4.0,FALSE,CHEMBL524063,Cc1c(C)c(Sc2ccc(COc3ccc(cc3)C(F)(F)F)cc2OCC#C)ccc1OCC(=O)O,0.7307692307692307,12227,Homo sapiens,2298,Q03181,1.0,ORTHOGONAL
+450662,40,27.0,Peroxisome proliferator-activated receptor gamma,11.0,FALSE,CHEMBL461571,C[C@@H](Oc1cccc(Cn2c(C)c(C(=O)c3ccc(Cl)cc3)c4ccc(OC(F)(F)F)cc24)c1)C(=O)O,0.4788732394366197,133,Homo sapiens,241,P37231,1.0,ORTHOGONAL
+708259,10,3.0,Serotonin 1a (5-HT1a) receptor,10.0,FALSE,CHEMBL1259241,Cc1ccc(CNCC2(F)CCN(CC2)C(=O)c3csc4ccccc34)nc1,0.36486486486486486,51,Homo sapiens,266,P08908,1.0,ORTHOGONAL
+16825,7,3.0,Serotonin 2a (5-HT2a) receptor,2.64,FALSE,CHEMBL275628,NCCc1c[nH]c2ccc(F)cc12,0.7297297297297297,107,Homo sapiens,308,P28223,1.0,ORTHOGONAL
+1757083,10,2.0,Serotonin 2c (5-HT2c) receptor,30.0,FALSE,CHEMBL3286565,CNc1nc(nc2CCNCCc12)C(C)c3ccccc3,0.23809523809523808,108,Homo sapiens,309,P28335,1.0,ORTHOGONAL
+497044,10,5.0,Serotonin 6 (5-HT6) receptor,4.5,FALSE,CHEMBL476006,CN(C)CCC1=C(C)Cc2ccc(NS(=O)(=O)c3c(Cl)nc4sccn34)cc12,0.6588235294117647,10627,Homo sapiens,1693,P50406,1.0,ORTHOGONAL
+1613576,6,2.0,Sphingosine 1-phosphate receptor Edg-1 ,1.2,FALSE,CHEMBL3105484,Cc1cc(CCC(=O)c2sc(C)c3[C@H]4[C@@H](Cc23)C4(C)C)cc(C)c1OCC(O)CNC(=O)CO,0.40789473684210525,11631,Homo sapiens,2651,P21453,1.0,ORTHOGONAL
+498931,5,3.0,Vasopressin V2 receptor,25.0,FALSE,CHEMBL478902,Cc1ccn(n1)c2ccc(C(=O)N3CCC(F)(F)\C(=C/C(=O)O)\c4ccccc34)c(Cl)c2,0.7213114754098361,112,Homo sapiens,81,P30518,1.0,ORTHOGONAL
+1423876,14,4.0,11-beta-hydroxysteroid dehydrogenase 1,2.0,FALSE,CHEMBL2153191,CCCSc1nc(ccc1C(=O)NC2CCCCC2)N3CCC[C@@H](CC(=O)O)C3,0.5063291139240507,11489,Homo sapiens,2554,P28845,1.0,ORTHOGONAL
+1077748,5,3.0,11-beta-hydroxysteroid dehydrogenase 2,15.0,FALSE,CHEMBL1689282,CN(O)C(=O)[C@@]1(C)CC[C@]2(C)CC[C@]3(C)C(=CC(=O)[C@@H]4[C@@]5(C)CC[C@H](OC6=NOC(=O)N6)C(C)(C)[C@@H]5CC[C@@]34C)[C@@H]2C1,0.7333333333333333,20127,Homo sapiens,2062,P80365,1.0,ORTHOGONAL
+1611101,7,3.0,15-hydroxyprostaglandin dehydrogenase [NAD+],12.0,FALSE,CHEMBL3103033,Clc1cccc(c1)n2cnc3cc(ccc23)C(=O)N4CCCCC4,0.5740740740740741,103688,Homo sapiens,5150,P15428,1.0,ORTHOGONAL
+1140769,12,5.0,3-phosphoinositide dependent protein kinase-1,3.16,FALSE,CHEMBL1765743,CNc1nc(cc(n1)c2ccc3c(N)n[nH]c3c2)N4C[C@H](OC[C@H]4C)C(=O)NC5CCCCC5,0.7125,10612,Homo sapiens,873,O15530,1.0,ORTHOGONAL
+1840736,9,8.0,5-lipoxygenase activating protein,1.7,FALSE,CHEMBL3417525,CN(C)C(=O)Cn1cc(cn1)c2onc(n2)[C@](C)(C3CC3)c4ccc(cc4)c5cnc(N)nc5,0.4418604651162791,10102,Homo sapiens,2867,P20292,1.0,ORTHOGONAL
+1058672,62,3.0,Acetylcholinesterase,50.0,FALSE,CHEMBL1643944,[Br-].[Br-].C(CCCCC[n+]1ccc2ccccc2c1)CCCC[n+]3ccc4ccccc4c3,0.19672131147540983,93,Homo sapiens,357,P22303,1.0,ORTHOGONAL
+1615287,4,3.0,Acetyl-CoA carboxylase 2,37.0,FALSE,CHEMBL3110081,CCOc1ccc(N2CCN([C@@H](C)C2)c3noc(CC)n3)c(C)c1,0.38666666666666666,10608,Homo sapiens,3146,O00763,1.0,ORTHOGONAL
+1794085,6,2.0,Activin receptor type-1,14.0,FALSE,CHEMBL3341947,COc1cc(OC)cc(c1)c2cc(cnc2N)c3ccc(cc3)N4CCNCC4,0.4605263157894737,101598,Homo sapiens,4377,Q04771,1.0,ORTHOGONAL
+613687,3,3.0,Acyl-CoA desaturase,39.0,FALSE,CHEMBL1087014,Cc1onc(n1)c2cnc(s2)N3CCC(CC3)Oc4ccccc4C(F)(F)F,0.5647058823529412,101234,Homo sapiens,3846,O00767,1.0,ORTHOGONAL
+371698,6,4.0,Acyl coenzyme A:cholesterol acyltransferase,10.0,FALSE,CHEMBL222644,CCCCCCCCCCCCN1C(=O)C(=O)c2ccccc12,0.2037037037037037,11627,Homo sapiens,606,P23141,1.0,ORTHOGONAL
+1523860,3,3.0,Acyl coenzyme A:cholesterol acyltransferase 2,6.0,FALSE,CHEMBL2334213,CC(=O)OC[C@]1(C)[C@H](CC[C@@]2(C)[C@H]1C[C@H](OC(=O)c3ccc(c(F)c3)[N+](=O)[O-])[C@@]4(C)OC5=C([C@H](O)[C@H]24)C(=O)OC(=C5)c6cccnc6)OC(=O)C,0.7012987012987013,11204,Homo sapiens,2781,O75908,1.0,ORTHOGONAL
+1583080,14,8.0,ADAM17,1.9,FALSE,CHEMBL2431028,NC(=O)NCCC[C@@H](NS(=O)(=O)c1ccc(OCc2cc(Br)cc(Br)c2)cc1)C(=O)NO,0.6236559139784946,11473,Homo sapiens,2021,P78536,1.0,ORTHOGONAL
+76666,30,13.0,Adenosine A1 receptor,0.295,FALSE,CHEMBL52333,CCCN1C(=O)N(CCC)c2[nH]c(nc2C1=O)C34CC5CC(CC3C5)C4,0.6704545454545454,114,Homo sapiens,159,P30542,1.0,ORTHOGONAL
+410123,29,7.0,Adenosine A2a receptor,0.316,FALSE,CHEMBL240624,COCCOc1ccc(cc1)N2CCN(CCn3ncc4c3nc(N)n5nc(nc45)c6occc6)CC2,0.5875,252,Homo sapiens,326,P29274,1.0,ORTHOGONAL
+108752,40,20.0,Adenosine A2b receptor,3.8,FALSE,CHEMBL68500,O=C1NC(=O)c2nc3ccccc3nc2N1,0.475,278,Homo sapiens,184,P29275,1.0,ORTHOGONAL
+102981,74,32.0,Adenosine A3 receptor,0.29,FALSE,CHEMBL302765,CCCn1cc2c(nc(NC(=O)Nc3ccc(OC)cc3)n4nc(nc24)c5occc5)n1,0.43243243243243246,280,Homo sapiens,275,P0DMS8,1.0,ORTHOGONAL
+1431576,11,4.0,Aldo-keto-reductase family 1 member C3,24.0,FALSE,CHEMBL2172076,O=C1CCCN1c2ccc(cc2)S(=O)(=O)N3CCc4ccccc4C3,0.2125,100481,Homo sapiens,2999,P42330,1.0,ORTHOGONAL
+1358133,6,3.0,ALK tyrosine kinase receptor,3.1,FALSE,CHEMBL2064722,COc1c2CCC(CCc2ccc1Nc3ncc(Cl)c(N[C@@H]4[C@@H]5C[C@@H](C=C5)[C@@H]4C(=O)N)n3)N6CCN(C)CC6,0.5959595959595959,100417,Homo sapiens,2566,Q9UM73,1.0,ORTHOGONAL
+10018,8,5.0,Alpha-1a adrenergic receptor,0.65,FALSE,CHEMBL12062,CC(C)Oc1ccccc1N2CCN(CCCNC(=O)CN3CCCCC3=O)CC2,0.5625,125,Homo sapiens,146,P35348,1.0,ORTHOGONAL
+1055954,5,2.0,Alpha-2a adrenergic receptor,14.0,FALSE,CHEMBL1641682,Cl.Cc1cccc2[nH]nc(N=C3NCCN3)c12,0.4067796610169492,52,Homo sapiens,180,P08913,1.0,ORTHOGONAL
+360897,7,3.0,Alpha-2c adrenergic receptor,2.8,FALSE,CHEMBL218675,CN1CCN(CC1(C)C)c2ccc(Nc3c(CO)c(C)nc4ccccc34)cc2,0.6842105263157895,218,Homo sapiens,230,P18825,1.0,ORTHOGONAL
+1565699,5,5.0,"Amine oxidase, copper containing",19.0,FALSE,CHEMBL2392121,Cl.CC(=O)Nc1nc(CCc2ccc(Cc3c[nH]c(N)n3)cc2)cs1,0.4492753623188406,20143,Homo sapiens,1759,Q16853,1.0,ORTHOGONAL
+369880,18,8.0,Anandamide amidohydrolase,10.4,FALSE,CHEMBL219942,OC(=O)c1cccc(n1)c2oc(nc2)C(=O)CCCCCCc3ccccc3,0.36764705882352944,11291,Homo sapiens,584,O00519,1.0,ORTHOGONAL
+190629,84,15.0,Androgen Receptor,0.25,FALSE,CHEMBL1170,CCC(=O)O[C@H]1CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3CC[C@]12C,0.1917808219178082,56,Homo sapiens,187,P10275,1.0,ORTHOGONAL
+1732967,3,3.0,Apelin,89.0,FALSE,CHEMBL3234454,CCN(CC)c1ccc(cc1)C(=C2C=CC(=[N+](CC)CC)C=C2)c3ccc(cc3S(=O)(=O)[O-])S(=O)(=O)NCCCC[C@H](NC(=O)CC4=CSC(=N)N4C)C(=O)N[C@@H](Cc5cn(Cc6ccccc6)c[n+]5C)C(=O)NC7CCN(C)CC7.OC(=O)C(F)(F)F.OC(=O)C(F)(F)F.[O-]C(=O)C(F)(F)F,0.5909090909090909,108275,Homo sapiens,8519,Q9ULZ1,1.0,ORTHOGONAL
+1794339,4,2.0,Apoptosis regulator Bcl-X,0.04,FALSE,CHEMBL3342198,CN(C)CC#Cc1ccc(OCCCc2sc(nc2C(=O)O)N3CCc4cccc(C(=O)Nc5nc6ccccc6s5)c4C3)c(Cl)c1,0.5462962962962963,100217,Homo sapiens,2942,Q07817,1.0,ORTHOGONAL
+1839558,9,6.0,Arachidonate 5-lipoxygenase,29.0,FALSE,CHEMBL3416359,CCCCCCCCCCCCC1=C(OC)C(=CC(=O)C1=O)OC,0.3090909090909091,55,Homo sapiens,168,P09917,1.0,ORTHOGONAL
+1332336,16,3.0,ATP-binding cassette sub-family G member 2,31.0,FALSE,CHEMBL2011288,COc1ccc2[nH]cc(CCNC(=O)C3=CC(=O)c4c(OCc5ccc(Br)cc5)cccc4O3)c2c1,0.6052631578947368,100974,Homo sapiens,3688,Q9UNQ0,1.0,ORTHOGONAL
+1420367,4,3.0,ATP-sensitive inward rectifier potassium channel 1,30.0,FALSE,CHEMBL2146873,Fc1cc(CCN2CCN(CCc3ccc4C(=O)OCc4c3)CC2)ccc1C#N,0.640625,103725,Homo sapiens,5071,P48048,1.0,ORTHOGONAL
+1282551,3,2.0,Baculoviral IAP repeat-containing protein 2,2.0,FALSE,CHEMBL1957024,CC[C@H](NC)C(=O)N[C@H]1[C@@H](CCNCc2ccc(cc2)C(F)(F)F)CC[C@H]3CC[C@H](N3C1=O)C(=O)NC(c4ccccc4)c5ccccc5,0.684931506849315,100988,Homo sapiens,3754,Q13490,1.0,ORTHOGONAL
+1704682,3,2.0,Baculoviral IAP repeat-containing protein 3,2.7,FALSE,CHEMBL3215905,Cl.Cl.CN[C@@H](C)C(=O)N[C@@H](C1CCCCC1)C(=O)N2C[C@H]3CCCN3C[C@H]2C(=O)N[C@@H]4CCCc5ccccc45,0.7297297297297297,100952,Homo sapiens,3631,Q13489,1.0,ORTHOGONAL
+37223,14,3.0,Beta-1 adrenergic receptor,0.331,FALSE,CHEMBL280822,Cn1cc(nc1c2ccc(OCC(O)CNCCOc3ccc(O)c(c3)C(=O)N)cc2)C(F)(F)F,0.72,50,Homo sapiens,185,P08588,1.0,ORTHOGONAL
+308174,17,5.0,Beta-2 adrenergic receptor,0.316,FALSE,CHEMBL1363,COc1ccc(C[C@@H](C)NC[C@H](O)c2ccc(O)c(NC=O)c2)cc1,0.5925925925925926,43,Homo sapiens,213,P07550,1.0,ORTHOGONAL
+180891,23,5.0,Beta-3 adrenergic receptor,46.0,FALSE,CHEMBL111201,O[C@@H](CNCCc1ccc(NS(=O)(=O)c2ccc(cc2)c3nc(cs3)c4ccc(cc4)C(F)(F)F)cc1)c5cccnc5,0.6444444444444445,226,Homo sapiens,2091,P13945,1.0,ORTHOGONAL
+423763,16,5.0,Beta-secretase 1,3.0,FALSE,CHEMBL401473,CCNc1cc(cc(c1)C(=O)N[C@@H](Cc2ccccc2)[C@H](O)CNCc3cccc(c3)C(F)(F)F)N4CCCCS4(=O)=O,0.4,12252,Homo sapiens,3139,P56817,1.0,ORTHOGONAL
+682973,25,19.0,Bile acid receptor FXR,12.0,FALSE,CHEMBL1209173,CN(Cc1ccc(cc1)C(=O)O)c2ccc(OCc3c(onc3c4c(Cl)cccc4Cl)C5CC5)nc2C(F)(F)F,0.4342105263157895,11180,Homo sapiens,387,Q96RI1,1.0,ORTHOGONAL
+1428007,5,2.0,Bombesin receptor subtype-3,1.4,FALSE,CHEMBL2164578,CC(C)(C)c1ccc(cc1)S(=O)(=O)N2Cc3ccc(nc3Nc4cccc(C5CCNCC5)c24)C(F)(F)F,0.6923076923076923,10679,Homo sapiens,2399,P32247,1.0,ORTHOGONAL
+382783,27,7.0,Bone morphogenetic protein 1,7.0,FALSE,CHEMBL439012,ONC(=O)C[C@@H](CCCC1CCCCC1)c2onc(n2)C(=O)NS(=O)(=O)c3ccccc3,0.7285714285714285,10144,Homo sapiens,2218,P13497,1.0,ORTHOGONAL
+312179,12,2.0,Bradykinin B1 receptor,0.03,FALSE,CHEMBL189123,Clc1ccc(cc1Cl)S(=O)(=O)N2[C@H](CC(=O)NCCc3ccc(cc3)C4=NCCN4)C(=O)Nc5ccccc25,0.6288659793814433,11156,Homo sapiens,2625,P46663,1.0,ORTHOGONAL
+1567926,9,6.0,Calcitonin gene-related peptide type 1 receptor,0.023,FALSE,CHEMBL2397415,CN1CCC(CC1)N2CCN(CC2)C(=O)[C@@H](Cc3cc(C)c4[nH]ncc4c3)NC(=O)N5CCC(CC5)C6=Cc7ccccc7NC6=O,0.7037037037037037,19904,Homo sapiens,2116,Q16602,1.0,ORTHOGONAL
+498748,21,9.0,Cannabinoid CB1 receptor,12.59,FALSE,CHEMBL476833,Cc1c(nn(c2ccc(Cl)cc2Cl)c1c3ccc(I)cc3)C(=O)NN4CCOCC4,0.3684210526315789,87,Homo sapiens,172,P21554,1.0,ORTHOGONAL
+433284,30,9.0,Cannabinoid CB2 receptor,3.4,FALSE,CHEMBL408430,CN1CCCCC1Cn2cc(C(=O)c3cc(ccc3I)[N+](=O)[O-])c4ccccc24,0.5897435897435898,259,Homo sapiens,104,P34972,1.0,ORTHOGONAL
+374990,26,2.0,Carbonic anhydrase II,80.0,FALSE,CHEMBL224292,NS(=O)(=O)c1ccc(O)cc1,0.3,15,Homo sapiens,94,P00918,1.0,ORTHOGONAL
+1448123,3,2.0,"Carnitine O-palmitoyltransferase 1, liver isoform",65.0,FALSE,CHEMBL2216775,COc1ccc(cc1)c2noc(n2)[C@H]3CCCCN3C(=O)COc4ccccc4,0.7384615384615385,103641,Homo sapiens,4843,P50416,1.0,ORTHOGONAL
+391035,4,3.0,Caspase-1,3.0,FALSE,CHEMBL411759,OC1OC(=O)C[C@@H]1NC(=O)CN2CC(=CC[C@H](NC(=O)c3ccc4ccccc4c3)C2=O)CNS(=O)(=O)c5ccccc5,0.6823529411764706,11624,Homo sapiens,3119,P29466,1.0,ORTHOGONAL
+355844,11,10.0,Cathepsin K,1.3,FALSE,CHEMBL212879,CC(C)C[C@@H](C(=O)NCC#N)c1cccc(c1)c2cccc(c2)c3csc(n3)N4CCN(CC4)C(C)(C)C,0.7213114754098361,10495,Homo sapiens,1387,P43235,1.0,ORTHOGONAL
+360571,9,4.0,Cathepsin S,10.0,FALSE,CHEMBL387191,CCCC[C@@H](C#N)n1cc(nn1)[C@@](C)(NC(=O)c2ccsc2)C3CCCCC3,0.4473684210526316,11534,Homo sapiens,1285,P25774,1.0,ORTHOGONAL
+1441344,9,4.0,C-C chemokine receptor type 1,28.0,FALSE,CHEMBL2180528,CC(C)[C@@H](NC(=O)c1ccccc1)C(=O)N2CCC(CC2)c3ccc(Cl)cc3,0.6142857142857143,10547,Homo sapiens,753,P32246,1.0,ORTHOGONAL
+217384,19,3.0,C-C chemokine receptor type 2,17.0,FALSE,CHEMBL337246,Cc1ccc(CN2CC[C@H](C2)NC(=O)CNC(=O)c3cccc(c3)C(F)(F)F)c(C)c1,0.6056338028169014,11575,Homo sapiens,2334,P41597,1.0,ORTHOGONAL
+1820089,4,2.0,C-C chemokine receptor type 3,16.0,FALSE,CHEMBL3355956,CCc1c(C2CCN(CCCSc3ccc(F)cc3)CC2)c4ccc(F)cc4n1c5ccc(cn5)C(=O)O,0.5362318840579711,10548,Homo sapiens,1794,P51677,1.0,ORTHOGONAL
+127106,36,4.0,C-C chemokine receptor type 5,0.01,FALSE,CHEMBL311795,C[C@H](N1CCN(C[C@@H]1C)C2(C)CCN(CC2)C(=O)c3c(C)ncnc3C)c4ccc(cc4)C(F)(F)F,0.5394736842105263,10580,Homo sapiens,256,P51681,1.0,ORTHOGONAL
+345659,8,6.0,C-C chemokine receptor type 8,9.0,FALSE,CHEMBL380492,CC(C)(N1CCC(CC1)(C(=O)NC2CCN(Cc3cccc(Oc4ccccc4Cl)c3)CC2)c5ccccc5)C(=O)O,0.5384615384615384,100436,Homo sapiens,2913,P51685,1.0,ORTHOGONAL
+1144919,7,4.0,Cholecystokinin A receptor,0.034,FALSE,CHEMBL1773877,Cc1ccc(c(F)c1)c2nc(ncc2c3ccc4OCCOc4c3)C(=O)N5CCN(CC5)c6cc(C(=O)O)c7ccccc7c6,0.4722222222222222,10472,Homo sapiens,216,P32238,1.0,ORTHOGONAL
+18589,86,2.0,Coagulation factor III,0.26,FALSE,CHEMBL274993,O=C1\C(=C\c2ccccc2)\CCC/C/1=C\c3ccccc3,0.24074074074074073,11092,Homo sapiens,2400,P13726,1.0,ORTHOGONAL
+66501,66,2.0,Corticotropin releasing factor receptor 1,0.84,FALSE,CHEMBL296641,CCCCN(CC)c1nc(C)nc2c1c(C)c(C)n2c3c(C)cc(C)cc3C,0.39436619718309857,124,Homo sapiens,91,P34998,1.0,ORTHOGONAL
+1531165,3,3.0,C-X3-C chemokine receptor 1,14.0,FALSE,CHEMBL2349318,CCC[C@H](CO)Nc1nc(S[C@@H](C)c2cccc(c2)C#N)nc3NC(=O)Sc13,0.7272727272727273,100138,Homo sapiens,3159,P49238,1.0,ORTHOGONAL
+701437,11,2.0,C-X-C chemokine receptor type 4,0.34,FALSE,CHEMBL1242210,CN(Cc1nc2cccc(N3CCN(C)CC3)n2c1CO)[C@H]4CCCc5cccnc45,0.5666666666666667,10473,Homo sapiens,449,P61073,1.0,ORTHOGONAL
+5080,14,7.0,Cyclooxygenase-1,13.0,FALSE,CHEMBL469,OC(=O)C1CCn2c1ccc2C(=O)c3ccccc3,0.26666666666666666,96,Homo sapiens,162,P23219,1.0,ORTHOGONAL
+471098,12,3.0,Cyclooxygenase-2,10.0,FALSE,CHEMBL459722,CCCCCCC(Sc1nc(Cl)cc(Nc2ccc3ncccc3c2)n1)C(=O)OCC,0.33783783783783783,126,Homo sapiens,148,P35354,1.0,ORTHOGONAL
+54759,7,2.0,Cysteinyl leukotriene receptor 1,0.29,FALSE,CHEMBL288943,CCCCC\C=C/C\C=C/C=C/C=C/[C@@H](SC[C@H](N)C(=O)NCC(=O)O)[C@@H](O)CCCC(=O)O,0.30434782608695654,179,Homo sapiens,89,Q9Y271,1.0,ORTHOGONAL
+711641,4,2.0,Cystinyl aminopeptidase,9.3,FALSE,CHEMBL1275682,CC[C@H](C)[C@H](NC(=O)[C@@H](N)C(C)C)C(=O)N[C@@H](Cc1cnc[nH]1)C(=O)N2CCC[C@H]2C(=O)N[C@@H](Cc3ccccc3)C(=O)O,0.581081081081081,11239,Homo sapiens,1029,Q9UIQ6,1.0,ORTHOGONAL
+341023,12,4.0,Delta opioid receptor,0.23,FALSE,CHEMBL408832,CCCC[C@H](NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](Cc1ccccc1)NN[C@@H](Cc2ccccc2)C(=O)NCC(=O)N[C@H](C)C(=O)N[C@@H](Cc3ccc(O)cc3)C(=O)O)C(=O)N[C@H](Cc4cn(C(=O)OC56CC7CC(CC(C7)C5)C6)c8ccccc48)C(=O)O,0.4625,136,Homo sapiens,242,P41143,1.0,ORTHOGONAL
+1439753,14,6.0,Diacylglycerol O-acyltransferase 1,10.0,FALSE,CHEMBL2178953,Cc1nc(C)c(nc1C(=O)N)c2ccc(cc2)[C@@H]3CC[C@@H](CC(=O)O)CC3,0.6268656716417911,101414,Homo sapiens,4531,O75907,1.0,ORTHOGONAL
+374359,3,2.0,Dihydrofolate reductase,0.034,FALSE,CHEMBL390990,Nc1nc(N)c2nc(CNc3ccc4C(=O)N(Cc4c3)[C@@H](CCC(=O)O)C(=O)O)cnc2n1,0.7123287671232876,6,Homo sapiens,396,P00374,1.0,ORTHOGONAL
+1746883,6,5.0,Dipeptidyl peptidase I,1.0,FALSE,CHEMBL3261920,CSc1cc(ccc1C#N)c2ccc(C[C@H](NC(=O)[C@@H]3CCCCN3)C#N)cc2,0.5892857142857143,12396,Homo sapiens,593,P53634,1.0,ORTHOGONAL
+123571,29,6.0,Dipeptidyl peptidase IV,1.4,FALSE,CHEMBL77538,O=C(CNCCNc1ccc(cn1)C#N)N2CCC[C@H]2C#N,0.5507246376811594,11140,Homo sapiens,265,P27487,1.0,ORTHOGONAL
+33087,36,6.0,Dopamine D1 receptor,5.1,FALSE,CHEMBL24077,Oc1cc2CCNC[C@H](c3ccccc3)c2cc1O,0.6122448979591837,88,Homo sapiens,397,P21728,1.0,ORTHOGONAL
+1355074,9,5.0,Dopamine D2 receptor,5.5,FALSE,CHEMBL2059304,O=C1Nc2ccccc2N1C3CCN(CCOc4ccccc4)CC3,0.6666666666666666,72,Homo sapiens,129,P14416,1.0,ORTHOGONAL
+95917,51,23.0,Dopamine D3 receptor,1.4,FALSE,CHEMBL300780,Clc1cccc(N2CCN(CCCCNC(=O)c3ccc4c(Cc5ccccc45)c3)CC2)c1Cl,0.4788732394366197,130,Homo sapiens,149,P35462,1.0,ORTHOGONAL
+566839,39,3.0,Dopamine D4 receptor,1.2,FALSE,CHEMBL562620,COc1ccccc1N2CCN(Cc3cc4ccccn4n3)CC2,0.6065573770491803,90,Homo sapiens,174,P21917,1.0,ORTHOGONAL
+382983,6,3.0,Dopamine transporter,6.1,FALSE,CHEMBL227232,CN1[C@H]2CC[C@@H]1[C@H]([C@H](C2)c3ccc(Cl)cc3)c4ncc(s4)c5ccc(cc5)[N+](=O)[O-],0.27941176470588236,155,Homo sapiens,346,Q01959,1.0,ORTHOGONAL
+43524,20,2.0,Dual specificity mitogen-activated protein kinase kinase 1,2.4,FALSE,CHEMBL414139,COc1cc2c(Nc3ccc(Oc4ccccc4)cc3)c(cnc2cc1OCCCN5CCOCC5)C#N,0.45,11409,Homo sapiens,1907,Q02750,1.0,ORTHOGONAL
+698445,16,3.0,Dual specificity protein kinase TTK,7.0,FALSE,CHEMBL1236095,CCc1cccc(CC)c1NC(=O)c2nn(C)c3c2CCc4cnc(Nc5ccc(cc5OC(F)(F)F)C(=O)NC6CCN(C)CC6)nc34,0.6551724137931034,30011,Homo sapiens,2302,P33981,1.0,ORTHOGONAL
+1841401,4,3.0,Dual specificity tyrosine-phosphorylation-regulated kinase 1B,2.0,FALSE,CHEMBL3421962,CN1CCN(CC1)c2ccc(Nc3cc(ncn3)c4c[nH]c5cnccc45)cc2,0.711864406779661,101014,Homo sapiens,3834,Q9Y463,1.0,ORTHOGONAL
+323456,6,3.0,Endothelin-converting enzyme 1,6.9,FALSE,CHEMBL191879,CC(=O)S[C@@H]1C[C@@H](COCc2cc(F)c(F)cc2F)N(C1)C(=O)Oc3cccc4OCCOc34,0.5972222222222222,11192,Homo sapiens,3108,P42892,1.0,ORTHOGONAL
+5185,20,5.0,Endothelin receptor ET-A,0.17,FALSE,CHEMBL8981,COc1ccc(cc1)C2(O)OC(=O)C(=C2Cc3cc(OC)c(OC)c(OC)c3)c4ccc5OCOc5c4,0.27380952380952384,249,Homo sapiens,234,P25101,1.0,ORTHOGONAL
+272568,18,3.0,Epidermal growth factor receptor erbB1,0.65,FALSE,CHEMBL162622,Brc1cccc(Nc2ncnc3cnc(NCCN4CCOCC4)cc23)c1,0.5283018867924528,9,Homo sapiens,147,P00533,1.0,ORTHOGONAL
+784315,23,9.0,Epoxide hydratase,1.7,FALSE,CHEMBL1360431,CC(C)c1ccc(NC(=O)NC2CCCCC2)cc1,0.391304347826087,11727,Homo sapiens,750,P34913,1.0,ORTHOGONAL
+1062570,10,3.0,Estradiol 17-beta-dehydrogenase 1,26.0,FALSE,CHEMBL1650645,Oc1cccc(c1)c2ccc3c(c(O)ccc3c2)c4cccnc4,0.3829787234042553,11512,Homo sapiens,1505,P14061,1.0,ORTHOGONAL
+590516,3,3.0,Estradiol 17-beta-dehydrogenase 3,30.0,FALSE,CHEMBL592043,Oc1ccc2C(=C(Cc3ccccc3)C(=O)Oc2c1)C(F)(F)F,0.6,11488,Homo sapiens,2553,P37058,1.0,ORTHOGONAL
+307088,11,6.0,Estrogen receptor alpha,0.7,FALSE,CHEMBL184202,Oc1ccc(cc1)[C@H]2Sc3cc(O)ccc3O[C@H]2c4ccc(OCCN5CC6CC6C5)cc4,0.3698630136986301,19,Homo sapiens,410,P03372,1.0,ORTHOGONAL
+1626225,5,3.0,Estrogen receptor beta,19.95,FALSE,CHEMBL3134124,C[C@]12CC[C@@H](C[C@H]1C[C@H](O)[C@H]2O)c3ccc(O)cc3,0.4153846153846154,174,Homo sapiens,317,Q92731,1.0,ORTHOGONAL
+1834614,9,4.0,Eukaryotic translation initiation factor 2-alpha kinase 3,6.0,FALSE,CHEMBL3407862,CN1N(C(=O)C(=C1c2ccccc2)C(=O)c3ccc(C)c(c3N)c4ccc5nc(C)ccc5c4)c6ccccc6,0.5,102669,Homo sapiens,4551,Q9NZJ5,1.0,ORTHOGONAL
+1365931,3,3.0,Fibroblast growth factor receptor 1,2.0,FALSE,CHEMBL2088260,COc1cc(CCc2cc(Nc3ccnc(NCc4cc(C)on4)n3)n[nH]2)cc(OC)c1,0.6164383561643836,10266,Homo sapiens,1966,P11362,1.0,ORTHOGONAL
+1142596,12,4.0,Formyl peptide receptor 1,31.62,FALSE,CHEMBL1770297,CCOc1ccc2oc(C(=O)NC(CCSC)c3nc4ccccc4[nH]3)c(C)c2c1,0.5538461538461539,13010,Homo sapiens,1681,P21462,1.0,ORTHOGONAL
+1514606,17,9.0,Free fatty acid receptor 1,19.95,FALSE,CHEMBL2315528,OC(=O)CCc1ccc(cc1)C#Cc2ccccc2CC#N,0.37777777777777777,100431,Homo sapiens,2738,O14842,1.0,ORTHOGONAL
+81559,18,3.0,GABA-B receptor 1,32.0,FALSE,CHEMBL301742,NC[C@H](CC(=O)O)c1ccc(Cl)cc1,0.37209302325581395,10227,Homo sapiens,404,Q9UBS5,1.0,ORTHOGONAL
+451383,6,2.0,GAR transformylase,15.0,FALSE,CHEMBL451818,NC1=NC(=C(CCCC(C(=O)C(F)(F)F)c2ccc(cc2)C(=O)N[C@@H](CCC(=O)O)C(=O)O)C(=O)N1)N,0.7142857142857143,12291,Homo sapiens,2291,P22102,1.0,ORTHOGONAL
+1757742,10,5.0,Ghrelin receptor,12.88,FALSE,CHEMBL3287217,COc1ccc(CC(=O)N2CCC3(CC2)CN(C3)[C@@H]4CCc5cc(ccc45)c6cc(C)ncn6)nc1,0.6619718309859155,11536,Homo sapiens,2933,Q92847,1.0,ORTHOGONAL
+99195,15,3.0,Glucagon receptor,21.0,FALSE,CHEMBL62444,CC(C)(C)[C@@H]1CC[C@H](CC1)N(Cc2ccc(cc2)C(=O)NCCC(=O)O)C(=O)Nc3ccc(OC(F)(F)F)cc3,0.5679012345679012,146,Homo sapiens,311,P47871,1.0,ORTHOGONAL
+628022,40,21.0,Glucocorticoid receptor,34.0,FALSE,CHEMBL1094208,OC(c1ccc2c(cnn2c3ccc(F)cc3)c1)(c4cccc(Cl)c4Cl)C(F)(F)F,0.1875,25,Homo sapiens,371,P04150,1.0,ORTHOGONAL
+1822160,7,5.0,Glucose-dependent insulinotropic receptor,11.0,FALSE,CHEMBL3358006,C[C@@H]1CN(CCN1c2ncc(OCc3ccc(CS(=O)(=O)C)cc3F)cn2)c4onc(n4)C(F)(F)F,0.7159090909090909,101271,Homo sapiens,3962,Q8TDV5,1.0,ORTHOGONAL
+267720,6,2.0,Glutamate [NMDA] receptor subunit epsilon 2,47.0,FALSE,CHEMBL159279,FC(F)(F)Oc1ccc(cc1)C(=N)NCc2ccccc2C(F)(F)F,0.4098360655737705,222,Homo sapiens,59,Q13224,1.0,ORTHOGONAL
+493693,7,6.0,Glycine transporter 1,70.0,FALSE,CHEMBL526648,CC(=O)c1ccc(N2CCN(CC2)C(=O)c3cc(ccc3N4CCOCC4)S(=O)(=O)C)c(F)c1,0.4146341463414634,11682,Homo sapiens,678,P48067,1.0,ORTHOGONAL
+420240,18,2.0,Glycogen synthase kinase-3 beta,5.01,FALSE,CHEMBL253770,O\N=C/1\C(=C/2\C(=O)Nc3ccc(Br)cc23)\Nc4ccccc14,0.4074074074074074,10197,Homo sapiens,3114,P49841,1.0,ORTHOGONAL
+1733388,7,2.0,G-protein coupled bile acid receptor 1,15.0,FALSE,CHEMBL3234871,OC(=O)[C@@H]1CC[C@H](CC1)c2ccc(cc2)c3cc(nc(n3)C(F)(F)F)N4CC[C@H]4C(=O)NCCc5ccc(cc5)C#N,0.68,100857,Homo sapiens,3704,Q8TDU6,1.0,ORTHOGONAL
+1089241,22,10.0,G-protein coupled receptor 35,42.2,FALSE,CHEMBL1708510,COC(=O)c1cnn(c1\C=N\NC(=S)NC(C)(C)C)c2ccc(F)cc2F,0.375,103700,Homo sapiens,4970,Q9HC97,1.0,ORTHOGONAL
+1794501,9,3.0,G-protein coupled receptor 39,0.06,FALSE,CHEMBL3342358,CNc1nc(NCc2ccc(NS(=O)(=O)C)cc2Cl)cc(n1)c3ccccn3,0.03125,107977,Homo sapiens,8263,O43194,1.0,ORTHOGONAL
+557248,23,5.0,G protein-coupled receptor 44,2.2,FALSE,CHEMBL561132,CN([C@@H]1CCc2c(CC(=O)O)c3ccccc3n2C1)S(=O)(=O)c4ccc(F)cc4,0.4069767441860465,20174,Homo sapiens,3380,Q9Y5Y4,1.0,ORTHOGONAL
+1619429,19,10.0,Hepatocyte growth factor receptor,1.15,FALSE,CHEMBL3116440,COc1cc2c(Oc3ccc(N\C=C\4/C(=O)NC(=O)N(C4=O)c5ccc(C)cc5)cc3F)ccnc2cc1OCCCN6CCCC6,0.4772727272727273,11451,Homo sapiens,2033,P08581,1.0,ORTHOGONAL
+111185,23,3.0,Histamine H1 receptor,5.89,FALSE,CHEMBL1000,OC(=O)COCCN1CCN(CC1)C(c2ccccc2)c3ccc(Cl)cc3,0.45714285714285713,127,Homo sapiens,121,P35367,1.0,ORTHOGONAL
+299508,42,38.0,Histamine H3 receptor,0.27,FALSE,CHEMBL555146,C[C@@H]1CCCN1CCc2oc3ccc(cc3c2)C(=O)c4ccc(F)cc4,0.6612903225806451,10280,Homo sapiens,2467,Q9Y5N1,1.0,ORTHOGONAL
+617531,16,7.0,Histamine H4 receptor,37.15,FALSE,CHEMBL1078642,N#C\N=C(\NCCCCc1c[nH]cn1)/NCCSc2ccccc2,0.38461538461538464,11290,Homo sapiens,2075,Q9H3N8,1.0,ORTHOGONAL
+1791440,10,2.0,Histone deacetylase 1,43.0,FALSE,CHEMBL3335307,ONC(=O)CCCCc1ccn(Cc2ccc3ccccc3c2)n1,0.3780487804878049,12697,Homo sapiens,107,Q13547,1.0,ORTHOGONAL
+1604239,6,4.0,Histone deacetylase 2,3.5,FALSE,CHEMBL3086768,ONC(=O)CCCC(=O)NCCc1ccccc1,0.16071428571428573,11206,Homo sapiens,257,Q92769,1.0,ORTHOGONAL
+1747698,32,10.0,Histone deacetylase 6,5.2,FALSE,CHEMBL3262727,ONC(=O)\C=C\c1cccc(c1)S(=O)(=O)n2ccc3cccnc23,0.48717948717948717,11307,Homo sapiens,178,Q9UBN7,1.0,ORTHOGONAL
+178796,18,6.0,HMG-CoA reductase,5.59,FALSE,CHEMBL1144,CC[C@H](C)C(=O)O[C@H]1C[C@H](O)C=C2C=C[C@H](C)[C@H](CC[C@@H](O)C[C@@H](O)CC(=O)O)[C@@H]12,0.28735632183908044,24,Homo sapiens,312,P04035,1.0,ORTHOGONAL
+403315,6,2.0,Hydroxycarboxylic acid receptor 2,1.0,FALSE,CHEMBL236162,OC(=O)c1ccccc1NC(=O)CCc2cnc(s2)c3ccc(O)cc3Cl,0.7230769230769231,100579,Homo sapiens,2103,Q8TDS4,1.0,ORTHOGONAL
+1421580,5,3.0,"Indoleamine 2,3-dioxygenase",71.0,FALSE,CHEMBL2148074,Oc1ccc(Cl)cc1c2c[nH]nn2,0.5454545454545454,100643,Homo sapiens,3003,P14902,1.0,ORTHOGONAL
+520257,18,11.0,Inhibitor of nuclear factor kappa B kinase beta subunit,15.0,FALSE,CHEMBL520308,CN(CCO)S(=O)(=O)c1ccc(cc1)c2ccnc3[nH]c(C)cc23,0.5301204819277109,10752,Homo sapiens,321,O14920,1.0,ORTHOGONAL
+495368,6,3.0,Insulin-like growth factor I receptor,4.0,FALSE,CHEMBL516816,COc1ccc(cc1Nc2nc(Nc3cccc(F)c3C(=O)N)c4cc[nH]c4n2)N5CCN(CC5)C(C)C,0.44155844155844154,234,Homo sapiens,281,P08069,1.0,ORTHOGONAL
+364904,7,4.0,Interleukin-8 receptor B,5.4,FALSE,CHEMBL216602,C[C@@H](NC1=C(Nc2cccc(C(=O)N(C)C)c2O)C(=O)C1=O)c3oc(C)cc3,0.35555555555555557,10773,Homo sapiens,775,P25025,1.0,ORTHOGONAL
+1441456,14,8.0,Kappa opioid receptor,0.49,FALSE,CHEMBL2180639,Oc1cccc(CCN(CCc2ccccc2)CC3CCC3)c1,0.3728813559322034,137,Homo sapiens,177,P41145,1.0,ORTHOGONAL
+385659,48,8.0,Kinesin-like protein 1,2.3,FALSE,CHEMBL228814,CC(C)[C@@H](N(CCCN)C(=O)c1ccc(C)cc1)C2=Nc3cc(Cl)ccc3C(=O)N2Cc4ccccc4,0.2608695652173913,100166,Homo sapiens,2897,P52732,1.0,ORTHOGONAL
+1621445,6,3.0,Leucine-rich repeat serine/threonine-protein kinase 2,2.0,FALSE,CHEMBL3122117,CNc1nc(Nc2cnn([C@H]3CCN(C[C@@H]3F)C4COC4)c2Cl)ncc1C(F)(F)F,0.6756756756756757,103154,Homo sapiens,3994,Q5S007,1.0,ORTHOGONAL
+1171697,3,3.0,Low affinity sodium-glucose cotransporter,11.0,FALSE,CHEMBL1819489,OC[C@H]1C[C@@H](Oc2ccccc2Cc3ccc(cc3)C4CC4)[C@H](O)[C@@H](O)[C@@H]1O,0.6078431372549019,104139,Homo sapiens,5427,Q9NY91,1.0,ORTHOGONAL
+443686,5,2.0,LXR-alpha,30.0,FALSE,CHEMBL486808,C[C@H](CCC=C(C)C)[C@H]1C[C@H](O)[C@@]2(C)C3=CC[C@H]4C(C)(C)[C@@H](O)CC[C@]4(C)C3=CC[C@]12C,0.22784810126582278,11269,Homo sapiens,1138,Q13133,1.0,ORTHOGONAL
+1626478,3,2.0,Lysine-specific histone demethylase 1,20.0,FALSE,CHEMBL3134375,COc1ncccc1CNC2CC2c3ccccc3,0.30952380952380953,102439,Homo sapiens,4701,O60341,1.0,ORTHOGONAL
+1603436,4,2.0,Macrophage colony stimulating factor  receptor ,0.6,FALSE,CHEMBL3085973,COCCNCC(C)(C)c1ccc(NC(=O)c2nc(c[nH]2)C#N)c(c1)C3=CCC(C)(C)CC3,0.4367816091954023,12840,Homo sapiens,145,P07333,1.0,ORTHOGONAL
+1038006,8,3.0,MAP kinase-activated protein kinase 2,10.0,FALSE,CHEMBL1614995,COCCOc1cncc(c1)c2cc3c(ccc4c5C(=O)NCCc5[nH]c34)cn2,0.41333333333333333,11082,Homo sapiens,549,P49137,1.0,ORTHOGONAL
+250364,6,2.0,MAP kinase ERK2,6.0,FALSE,CHEMBL359106,NC1=N\C(=C\2/CCNC(=O)c3[nH]c(Br)cc23)\C(=O)N1,0.4647887323943662,11638,Homo sapiens,40,P28482,1.0,ORTHOGONAL
+717165,48,41.0,MAP kinase p38 alpha,2.0,FALSE,CHEMBL1290746,Cc1ccc(cc1NC(=O)c2cnn(c2N)c3ccccc3F)C(=O)Nc4ccon4,0.4444444444444444,10188,Homo sapiens,2937,Q16539,1.0,ORTHOGONAL
+363212,18,2.0,Melanin-concentrating hormone receptor 1,1.0,FALSE,CHEMBL214585,Fc1ccc2OC(=CC(=O)c2c1)C(=O)NC3CCN(CC3)C4CCc5cc6OCOc6cc45,0.5125,19905,Homo sapiens,3511,Q99705,1.0,ORTHOGONAL
+75231,20,6.0,Melanocortin receptor 4,0.93,FALSE,CHEMBL264190,CC(=O)N[C@@H](Cc1cnc[nH]1)C(=O)N[C@H](Cc2ccccc2)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](Cc3c[nH]c4ccccc34)C(=O)N,0.48,10142,Homo sapiens,1215,P32245,1.0,ORTHOGONAL
+364011,10,4.0,Melanocortin receptor 5,0.1,FALSE,CHEMBL220018,NC(=N)NCCC[C@H](NC(=O)CCc1c[nH]c2ccccc12)C(=O)N3C[C@@H]4CCCN4C[C@@H]3Cc5ccccc5,0.6666666666666666,11006,Homo sapiens,2925,P33032,1.0,ORTHOGONAL
+13784,4,4.0,Melatonin receptor 1A,2.05,FALSE,CHEMBL14514,CC(=O)NCCc1cccc2ccc(OCCOc3ccc4cccc(CCNC(=O)C)c4c3)cc12,0.7192982456140351,11084,Homo sapiens,268,P48039,1.0,ORTHOGONAL
+491185,7,3.0,Melatonin receptor 1B,0.36,FALSE,CHEMBL476131,COc1ccc2cc(cc(CCNC(=O)C)c2c1)c3cccc(CO)c3,0.53125,11085,Homo sapiens,269,P49286,1.0,ORTHOGONAL
+1150547,7,2.0,Metabotropic glutamate receptor 1,6.7,FALSE,CHEMBL1783876,COc1ccc(cc1)N2C=Nc3c(sc4nccc(NCC#C)c34)C2=O,0.4714285714285714,11279,Homo sapiens,2089,Q13255,1.0,ORTHOGONAL
+1427980,26,8.0,Metabotropic glutamate receptor 5,13.4,FALSE,CHEMBL2164552,Fc1cc(cc(c1)c2onc(n2)c3ccc(cn3)C#N)C#N,0.5,11280,Homo sapiens,1549,P41594,1.0,ORTHOGONAL
+1841851,4,3.0,Metastin receptor,0.07,FALSE,CHEMBL3422408,CC(C)C[C@@H](C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)N)n2cc(CNC(=O)[C@H](Cc3ccccc3)NC(=O)[C@H](CO)NC(=O)[C@H](CC(=O)N)NC(=O)[C@H](Cc4c[nH]c5ccccc45)NC(=O)[C@H](CC(=O)N)NC(=O)[C@H](Cc6ccc(O)cc6)NC(=O)C)nn2,0.6309523809523809,100862,Homo sapiens,3707,Q969F8,1.0,ORTHOGONAL
+351477,7,3.0,Methionine aminopeptidase 2,19.0,FALSE,CHEMBL377198,OC(=O)c1c(NS(=O)(=O)c2ccccc2)ccc3ccccc13,0.175,10702,Homo sapiens,2440,P50579,1.0,ORTHOGONAL
+1004665,7,3.0,Microtubule-associated protein tau,25.1,FALSE,CHEMBL1580781,O=C(NC(=S)Nc1ccccc1)c2cncc(c2)C#Cc3ccccc3,0.375,103657,Homo sapiens,5140,P10636,1.0,ORTHOGONAL
+687193,18,12.0,Mineralocorticoid receptor,9.0,FALSE,CHEMBL1215331,OC(=O)c1ccc2C3=NN([C@@H](C4CCCC4)[C@H]3CCc2c1)c5ccc(C#N)c(Cl)c5,0.22857142857142856,48,Homo sapiens,324,P08235,1.0,ORTHOGONAL
+388496,17,7.0,Mitogen-activated protein kinase kinase kinase 8,20.0,FALSE,CHEMBL425834,CN(C)CCCn1cc(CNc2cc(Br)c3ncc(C#N)c(Nc4ccc(F)c(Cl)c4)c3c2)nn1,0.6129032258064516,100414,Homo sapiens,3215,P41279,1.0,ORTHOGONAL
+1063234,13,3.0,Monoamine oxidase A,14.0,FALSE,CHEMBL1651054,COc1cc2CCN=C3c4ccccc4C(=O)c(c1)c23,0.696969696969697,86,Homo sapiens,274,P21397,1.0,ORTHOGONAL
+178208,24,15.0,Monoamine oxidase B,1.58,FALSE,CHEMBL108660,CC1=CC(=O)Oc2cc(OCc3ccccc3)ccc12,0.1702127659574468,104,Homo sapiens,377,P27338,1.0,ORTHOGONAL
+447102,6,3.0,Monoglyceride lipase,6.0,FALSE,CHEMBL485841,CN(C)C(=O)n1nnc(Cc2ccc(cc2)c3ccccc3)n1,0.5303030303030303,100193,Homo sapiens,2510,Q99685,1.0,ORTHOGONAL
+338326,14,5.0,Mu opioid receptor,8.6,FALSE,CHEMBL1400,CN(C)C[C@H]1CCCC[C@]1(O)c2cccc(O)c2,0.5079365079365079,129,Homo sapiens,349,P35372,1.0,ORTHOGONAL
+157718,3,2.0,Muscarinic acetylcholine receptor M1,23.0,FALSE,CHEMBL320221,Cl.Clc1cc(CO\N=C\2/CN3CCC2C3)on1,0.4482758620689655,61,Homo sapiens,170,P11229,1.0,ORTHOGONAL
+358046,11,11.0,Muscarinic acetylcholine receptor M3,1.6,FALSE,CHEMBL215894,O[C@@H]1C[C@H](N(C1)C(=O)CC(c2ccc(Cl)cc2)(c3ccc(Cl)cc3)c4ccc(Cl)cc4)C(=O)N5CCC[C@@H]5C(=O)NC[C@@H]6CCCNC6,0.3972602739726027,219,Homo sapiens,69,P20309,1.0,ORTHOGONAL
+1529007,4,3.0,Myeloperoxidase,18.0,FALSE,CHEMBL2347181,NC(=O)CCCc1c[nH]c2ccc(F)cc12,0.6153846153846154,10567,Homo sapiens,780,P05164,1.0,ORTHOGONAL
+423087,8,4.0,Nerve growth factor receptor Trk-A,0.6,FALSE,CHEMBL254895,Cc1ccc(Sc2cnc(Nc3cccc(Br)n3)s2)cc1C(=O)N4CCN(CC4)C(=O)CN,0.4383561643835616,11902,Homo sapiens,1145,P04629,1.0,ORTHOGONAL
+37245,31,9.0,Neurokinin 1 receptor,0.87,FALSE,CHEMBL27006,FC(F)(F)c1cc(CO[C@H]2CCCN[C@H]2c3ccccc3)cc(c1)C(F)(F)F,0.5636363636363636,250,Homo sapiens,235,P25103,1.0,ORTHOGONAL
+481355,5,2.0,Neurokinin 2 receptor,78.1,FALSE,CHEMBL507824,CC(C)[C@H](NC(=O)[C@@H](Cc1c[nH]c2ccccc12)NC(=O)[C@H](Cc3ccc(O)cc3)NC(=O)[C@@H](N)CC(=O)O)C(=O)N[C@H](Cc4c[nH]c5ccccc45)C(=O)N[C@H](Cc6c[nH]c7ccccc67)C(=O)N[C@@H](CCCCN)C(=O)N,0.38461538461538464,10184,Homo sapiens,668,P21452,1.0,ORTHOGONAL
+6892,10,3.0,Neurokinin 3 receptor,30.7,FALSE,CHEMBL429951,COC(=O)C(NC(=O)c1cc(nc2ccccc12)c3ccccc3)c4ccccc4,0.38235294117647056,10982,Homo sapiens,2745,P29371,1.0,ORTHOGONAL
+388376,50,3.0,Neuronal acetylcholine receptor protein alpha-7 subunit,19.95,FALSE,CHEMBL229998,[Br-].[Br-].[O-][N+](=O)c1ccc(C[N+]23CC[C@H]4[C@@H]2C[C@@H]5[C@H]6[C@@H](OCC=C5C3)N7[C@H]8[C@H]9[C@H]%10C[C@H]%11[C@@]8(CC[N+]%11(Cc%12ccc(cc%12)[N+](=O)[O-])CC%10=CCO[C@H]9N([C@H]46)c%13ccccc%13)c%14ccccc7%14)cc1,0.5052631578947369,10635,Homo sapiens,833,P36544,1.0,ORTHOGONAL
+1162435,3,2.0,Neuropeptide S receptor,43.0,FALSE,CHEMBL1801361,CCN(CC)C(=O)CCC1(c2ccc(Cl)cc2)c3c(OC)cccc3c4nccn14,0.40789473684210525,101097,Homo sapiens,3466,Q6W5P4,1.0,ORTHOGONAL
+453664,9,4.0,Neuropeptide Y receptor type 1,1.0,FALSE,CHEMBL470495,CCC(=O)\N=C(\N)/NCCC[C@@H](NC(=O)C(c1ccccc1)c2ccccc2)C(=O)NCc3ccc(O)cc3,0.5795454545454546,10475,Homo sapiens,3094,P25929,1.0,ORTHOGONAL
+1586686,9,4.0,Neuropeptide Y receptor type 2,7.1,FALSE,CHEMBL2440185,CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](Cc2cnc[nH]2)NC(=O)[C@H](CCCNC(=N)N)NC(=O)C)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](Cc3ccc(O)cc3)C(=O)N,0.5977011494252874,10477,Homo sapiens,2337,P49146,1.0,ORTHOGONAL
+1587424,5,4.0,Neuropeptide Y receptor type 4,27.0,FALSE,CHEMBL2440915,NCCN(CCNC(=O)c1ccc(cc1)C(=O)NCCOCCOCCNC(=O)\N=C(\N)/NCCC[C@H](NC(=O)C(c2ccccc2)c3ccccc3)C(=O)NCc4ccc(O)cc4)CCNC(=O)c5ccc(cc5)C(=O)NCCOCCOCCNC(=O)\N=C(\N)/NCCC[C@H](NC(=O)C(c6ccccc6)c7ccccc7)C(=O)NCc8ccc(O)cc8.OC(=O)C(F)(F)F,0.5822784810126582,10143,Homo sapiens,3193,P50391,1.0,ORTHOGONAL
+844900,9,5.0,Neuropeptide Y receptor type 5,25.12,FALSE,CHEMBL1421016,CC1(C)CC(=O)C(C2C3=C(CC(C)(C)CC3=O)Oc4ccccc24)C(=O)C1,0.1917808219178082,11336,Homo sapiens,2878,Q15761,1.0,ORTHOGONAL
+1281453,5,5.0,"Nitric-oxide synthase, brain",70.0,FALSE,CHEMBL1955937,OCCNCCN1CCc2ccc(NC(=N)c3cccs3)cc12,0.6666666666666666,11037,Homo sapiens,1888,P29475,1.0,ORTHOGONAL
+1139766,6,5.0,"Nitric oxide synthase, inducible",4.0,FALSE,CHEMBL1762473,NCC[C@@H](Oc1cc(Cl)ccc1C#N)c2ccccc2.OC(=O)C(=O)O,0.33783783783783783,12425,Homo sapiens,2798,P35228,1.0,ORTHOGONAL
+557900,12,7.0,Nociceptin receptor,0.253,FALSE,CHEMBL559569,Cc1cccc2[C@@H](O)C[C@@H](CN3CCC(CC3)c4c(Cl)cccc4Cl)CCc12,0.5223880597014925,138,Homo sapiens,344,P41146,1.0,ORTHOGONAL
+489609,18,8.0,Norepinephrine transporter,8.0,FALSE,CHEMBL478834,CCOC(=O)N(Cc1ccccc1c2ccccc2)[C@H]3CCNC3,0.5,100,Homo sapiens,436,P23975,1.0,ORTHOGONAL
+918411,29,13.0,Nuclear receptor ROR-gamma,80.0,FALSE,CHEMBL1494527,CCN1C(=O)c2cccc3c(ccc1c23)S(=O)(=O)N(C(=O)c4ccncc4)c5ccc(OC)cc5,0.5324675324675324,103982,Homo sapiens,5336,P51449,1.0,ORTHOGONAL
+1143883,4,2.0,Orexin receptor 1,64.2,FALSE,CHEMBL1771571,CCCCCCN(C)c1ccc(NC(=O)Nc2ccnc3c(F)cccc23)cc1,0.5857142857142857,10009,Homo sapiens,3418,O43613,1.0,ORTHOGONAL
+1843526,5,2.0,Orexin receptor 2,0.9,FALSE,CHEMBL3426146,C[C@@H]1CC[C@H](CN1C(=O)c2ccccc2n3nccn3)Oc4cc(ccn4)S(=O)(=O)C,0.4875,12968,Homo sapiens,3109,O43614,1.0,ORTHOGONAL
+489035,17,5.0,Oxytocin receptor,6.0,FALSE,CHEMBL467378,COc1ccc(cn1)n2c(C)nnc2c3cnc(cn3)c4ccc(F)cc4C,0.42105263157894735,116,Homo sapiens,389,P30559,1.0,ORTHOGONAL
+1605992,5,2.0,P2X purinoceptor 3,60.0,FALSE,CHEMBL3091630,Cc1nc(Cc2cccc(Oc3ccccc3)c2)c(\C=C\C(=O)O)c(C=O)c1O,0.5098039215686274,11904,Homo sapiens,1328,P56373,1.0,ORTHOGONAL
+411166,7,2.0,P2X purinoceptor 7,77.62,FALSE,CHEMBL245754,Cc1ccccc1Cn2cnnc2c3cccc(Cl)c3Cl,0.36666666666666664,10417,Homo sapiens,3123,Q99572,1.0,ORTHOGONAL
+1734889,9,2.0,p53-binding protein Mdm-2,0.1,FALSE,CHEMBL3236357,CC(C)(C)S(=O)(=O)C[C@H](C1CC1)N2[C@@H]([C@H](C[C@](C)(Cc3ncc(CC(=O)O)s3)C2=O)c4cccc(Cl)c4)c5ccc(Cl)c(F)c5,0.5263157894736842,20131,Homo sapiens,55,Q00987,1.0,ORTHOGONAL
+453935,12,2.0,Peroxisome proliferator-activated receptor alpha,10.96,FALSE,CHEMBL489074,OC(=O)[C@H](Cc1ccccc1)Oc2ccc(Cc3ccccc3)cc2,0.31666666666666665,163,Homo sapiens,245,Q07869,1.0,ORTHOGONAL
+409897,12,3.0,Peroxisome proliferator-activated receptor delta,9.0,FALSE,CHEMBL241078,CCc1ccc(O[C@H](C)CCOc2ccc(CCC(=O)O)c(C)c2)c(c1)c3cccs3,0.5932203389830508,12227,Homo sapiens,2298,Q03181,1.0,ORTHOGONAL
+173099,17,5.0,Peroxisome proliferator-activated receptor gamma,0.708,FALSE,CHEMBL106666,COC(=O)c1ccccc1N[C@@H](Cc2ccc(OCCc3nc(oc3C)c4ccccc4)cc2)C(=O)O,0.7014925373134329,133,Homo sapiens,241,P37231,1.0,ORTHOGONAL
+1057000,18,14.0,Phosphodiesterase 10A,12.0,FALSE,CHEMBL1641615,Cc1nc2c3ccccc3nc(SCc4nc5ccccc5[nH]4)n2n1,0.45614035087719296,100010,Homo sapiens,2725,Q9Y233,1.0,ORTHOGONAL
+1790528,11,9.0,Phosphodiesterase 2A,10.1,FALSE,CHEMBL3331521,CCCCOc1cncc(c1)c2nnc3c(C)nc4ccc(CN5CCOCC5)cc4n23,0.5652173913043478,10594,Homo sapiens,989,O00408,1.0,ORTHOGONAL
+1570122,3,3.0,Phosphodiesterase 4A,1.7,FALSE,CHEMBL2402530,CNc1nc(NC2(CCCCC2)C#N)nc(n1)n3cncn3,0.4266666666666667,276,Homo sapiens,306,P27815,1.0,ORTHOGONAL
+448940,6,3.0,Phosphodiesterase 4B,3.16,FALSE,CHEMBL521203,CCn1ncc2c(NC3CCOCC3)c(cnc12)C(=O)NCc4ccccc4,0.4044943820224719,10599,Homo sapiens,2177,Q07343,1.0,ORTHOGONAL
+1781815,11,3.0,Phosphodiesterase 4D,5.0,FALSE,CHEMBL3315088,CCCNC(=O)COc1c(OC)c(OC)ccc1C(=O)Cc2c(Cl)cncc2Cl,0.5,11359,Homo sapiens,2079,Q08499,1.0,ORTHOGONAL
+308055,7,4.0,Phosphodiesterase 7A,4.0,FALSE,CHEMBL184861,Clc1ccc(OCc2nn[nH]n2)c3c1NC(=O)NC34CCCCC4,0.5056179775280899,11910,Homo sapiens,1340,Q13946,1.0,ORTHOGONAL
+1567700,13,10.0,PI3-kinase p110-alpha subunit,5.0,FALSE,CHEMBL2396661,Cc1nc(NC(=O)N2CCC[C@H]2C(=O)N)sc1c3ccnc(c3)C(C)(C)C(F)(F)F,0.4842105263157895,11362,Homo sapiens,2324,P42336,1.0,ORTHOGONAL
+1357740,6,5.0,PI3-kinase p110-beta subunit,16.0,FALSE,CHEMBL2064333,Cn1c(CC2=NC(=CC(=O)N2)N3CCOCC3)nc4cc(F)ccc14,0.5394736842105263,12576,Homo sapiens,1470,P42338,1.0,ORTHOGONAL
+1833887,5,4.0,PI3-kinase p110-delta subunit,0.1,FALSE,CHEMBL3403664,C[C@H](Nc1ncnc(N)c1C#N)c2nc3ccc(F)cc3c(c2c4ccccc4)S(=O)(=O)C,0.36363636363636365,11177,Homo sapiens,5019,O00329,1.0,ORTHOGONAL
+1429561,14,3.0,PI3-kinase p110-gamma subunit,1.0,FALSE,CHEMBL2170081,COc1ncc(Nc2ncc(cc2c3nc(C)nc(N)n3)[C@@H](C)N4CCN(CC4)S(=O)(=O)C)cc1F,0.34782608695652173,11939,Homo sapiens,1588,P48736,1.0,ORTHOGONAL
+12841,5,4.0,Platelet-derived growth factor receptor beta,1.0,FALSE,CHEMBL268731,Cc1[nH]c(\C=C\2/C(=O)Nc3ccc(F)cc23)c(C)c1C(=O)NCc4ccncc4,0.40625,197,Homo sapiens,227,P09619,1.0,ORTHOGONAL
+1725671,4,2.0,Poly [ADP-ribose] polymerase-1,14.0,FALSE,CHEMBL3219283,Br.CN(C)Cc1cc2c(NC(=O)c3cccc(O)c23)s1,0.3888888888888889,11663,Homo sapiens,1432,P09874,1.0,ORTHOGONAL
+956798,10,5.0,Potassium channel subfamily K member 3,45.0,FALSE,CHEMBL1532914,Fc1cccc(c1)C(=O)Nc2cccc(NC(=O)c3ccccc3)c2,0.55,105602,Homo sapiens,7234,O14649,1.0,ORTHOGONAL
+466025,13,2.0,Pregnane X receptor,80.0,FALSE,CHEMBL458767,CCOP(=O)(OCC)C(=Cc1cc(c(O)c(c1)C(C)(C)C)C(C)(C)C)P(=O)(OCC)OCC,0.46153846153846156,11912,Homo sapiens,1723,O75469,1.0,ORTHOGONAL
+612409,17,6.0,Progesterone receptor,1.1,FALSE,CHEMBL1076438,CC1(C)[C@H](O)CC[C@@]2(C)[C@@]1(O)CC[C@H]3Cc4c([nH]c5ccccc45)[C@]23C,0.3793103448275862,36,Homo sapiens,4847,P06401,1.0,ORTHOGONAL
+303507,27,4.0,Prostaglandin E synthase,3.0,FALSE,CHEMBL180650,Cc1ccccc1c2ccc(cc2F)c3ccc4c(c3)c(C)c(CC(C)(C)C(=O)O)n4Cc5ccc(Cl)cc5,0.36363636363636365,101277,Homo sapiens,3968,O14684,1.0,ORTHOGONAL
+520272,12,9.0,Prostanoid DP receptor,0.32,FALSE,CHEMBL483991,CC(C)c1nccc2c1c(Sc3ccc(Cl)c(Cl)c3)c4[C@@H](CC(=O)O)CCn24,0.6428571428571429,12659,Homo sapiens,2743,Q13258,1.0,ORTHOGONAL
+1589020,12,4.0,Prostanoid EP1 receptor,50.0,FALSE,CHEMBL2442495,Cc1c(nn(c1c2ccccc2)c3nc(cs3)C(=O)O)c4ccccc4,0.31666666666666665,261,Homo sapiens,106,P34995,1.0,ORTHOGONAL
+834634,18,10.0,Prostanoid EP2 receptor,18.0,FALSE,CHEMBL1410750,COc1cc(NS(=O)(=O)c2ccc(NC(=S)NC(=O)\C=C\c3ccc(F)cc3)cc2)ncn1,0.6933333333333334,142,Homo sapiens,197,P43116,1.0,ORTHOGONAL
+367588,11,8.0,Prostanoid EP3 receptor,0.6,FALSE,CHEMBL218071,COc1ccc(Br)cc1S(=O)(=O)NC(=O)\C=C\c2ccccc2Cc3ccc4ccccc4c3,0.7142857142857143,10329,Homo sapiens,2026,P43115,1.0,ORTHOGONAL
+597224,21,17.0,Prostanoid EP4 receptor,0.56,FALSE,CHEMBL597997,Cc1sc(C)c(C(=O)NC2(CC2)c3ccc(cc3)C(=O)O)c1Cc4ccc(cc4)C(F)(F)F,0.6229508196721312,262,Homo sapiens,136,P35408,1.0,ORTHOGONAL
+55145,9,4.0,Prostanoid FP receptor,8.6,FALSE,CHEMBL39784,O[C@H](CC[C@H]1[C@H](O)C[C@H](O)[C@@H]1CCCCCCC(=O)O)CCc2cccc(c2)C(F)(F)F,0.7317073170731707,140,Homo sapiens,316,P43088,1.0,ORTHOGONAL
+708411,13,3.0,Proteasome Macropain subunit MB1,16.0,FALSE,CHEMBL1269181,Cc1ccc(CNC(=O)[C@H](CCc2ccccc2)NC(=O)[C@H](CCc3ccccc3)NC(=O)[C@H](CCc4ccccc4)NC(=O)c5cnc(C)cn5)cc1,0.5285714285714286,100624,Homo sapiens,2980,P28074,1.0,ORTHOGONAL
+1784138,20,3.0,Proteasome subunit beta type-8,2.5,FALSE,CHEMBL3319482,C[C@@H](NC(=O)C1=C(C)c2ccccc2C1)C(=O)N[C@@H](Cc3c[nH]c4ccccc34)C(=O)N[C@@H](Cc5ccccc5)C(=O)[C@@]6(C)CO6,0.6493506493506493,101477,Homo sapiens,3921,P28062,1.0,ORTHOGONAL
+1520183,4,3.0,Protein kinase C theta,1.0,FALSE,CHEMBL2325999,CC(C)[C@@](C)(O)[C@@H]1CN(CCN1)c2nc(c(F)cc2C#N)c3n[nH]c4ncccc34,0.6666666666666666,12665,Homo sapiens,2241,Q04759,1.0,ORTHOGONAL
+1567040,6,2.0,Protein kinase C zeta,1.0,FALSE,CHEMBL2393448,CCOC(=O)c1c(N)scc1c2ccc(cc2)N(C)C,0.7,10216,Homo sapiens,1760,Q05513,1.0,ORTHOGONAL
+1523413,13,6.0,Purinergic receptor P2Y1,6.0,FALSE,CHEMBL2333770,CC(C)(C)c1ccccc1Oc2ncccc2NC(=O)Nc3ccc(OC(F)(F)F)cc3,0.40229885057471265,10544,Homo sapiens,2632,P47900,1.0,ORTHOGONAL
+582714,4,2.0,Purinergic receptor P2Y12,37.0,FALSE,CHEMBL566437,CCc1cc2c(nc(NC(=O)NCCC(=O)O)nc2s1)N3CCN(CC3)C(=O)c4ccc(cn4)c5ccccc5,0.6962025316455697,176,Homo sapiens,332,Q9H244,1.0,ORTHOGONAL
+1726442,5,5.0,Pyrimidinergic receptor P2Y6,39.0,FALSE,CHEMBL3220046,O[C@H]1[C@@H](O)[C@@H](O[C@@H]1COP(=O)(O)OP(=O)(O)O)N2C=C\C(=N\OCc3cccc(Br)c3)\NC2=O,0.6083333333333333,10012,Homo sapiens,3031,Q15077,1.0,ORTHOGONAL
+327620,8,2.0,Receptor protein-tyrosine kinase erbB-2,2.0,FALSE,CHEMBL193544,CN1CCC(CC1)Oc2cccc3ncnc(Nc4ccc(OCc5ccccn5)c(Cl)c4)c23,0.6986301369863014,188,Homo sapiens,120,P04626,1.0,ORTHOGONAL
+572073,4,2.0,Retinoid X receptor alpha,81.0,FALSE,CHEMBL583410,Cc1cc2c(cc1Cc3ccc(C(=O)O)c(c3)[N+](=O)[O-])C(C)(C)CCC2(C)C,0.5,275,Homo sapiens,402,P19793,1.0,ORTHOGONAL
+513870,5,5.0,Rho-associated protein kinase 1 ,5.0,FALSE,CHEMBL520828,COc1ccc(cc1)C2=NC(C(=C(C)N2)C(=O)Nc3ccc4[nH]ncc4c3)c5ccc(Cl)cc5F,0.3291139240506329,10811,Homo sapiens,1553,Q13464,1.0,ORTHOGONAL
+1521724,7,2.0,Rho-associated protein kinase 2,1.0,FALSE,CHEMBL2332098,CCN(Cc1cccc(OC)c1)C(=O)Nc2ccc(cc2)c3cn[nH]c3,0.5806451612903226,11149,Homo sapiens,1304,O75116,1.0,ORTHOGONAL
+1519884,5,3.0,Serine-protein kinase ATR,3.0,FALSE,CHEMBL2325703,CC(C)(c1cc(nc(n1)c2cccc3[nH]ccc23)N4CCOCC4)S(=O)(=O)C,0.7125,20139,Homo sapiens,3335,Q13535,1.0,ORTHOGONAL
+469166,7,4.0,Serine/threonine-protein kinase AKT,6.0,FALSE,CHEMBL493874,CCn1c(nc2c(ncc(OCCCN)c12)C#CC(C)(C)O)c3nonc3N,0.5897435897435898,12666,Homo sapiens,5788,P31749,1.0,ORTHOGONAL
+469166,7,4.0,Serine/threonine-protein kinase AKT,6.0,FALSE,CHEMBL493874,CCn1c(nc2c(ncc(OCCCN)c12)C#CC(C)(C)O)c3nonc3N,0.5897435897435898,105106,Homo sapiens,772,P31751,1.0,ORTHOGONAL
+469166,7,4.0,Serine/threonine-protein kinase AKT,6.0,FALSE,CHEMBL493874,CCn1c(nc2c(ncc(OCCCN)c12)C#CC(C)(C)O)c3nonc3N,0.5897435897435898,105106,Homo sapiens,3133,Q9Y243,1.0,ORTHOGONAL
+469166,7,4.0,Serine/threonine-protein kinase AKT,6.0,FALSE,CHEMBL493874,CCn1c(nc2c(ncc(OCCCN)c12)C#CC(C)(C)O)c3nonc3N,0.5897435897435898,105106,Homo sapiens,5788,P31749,1.0,ORTHOGONAL
+597129,5,2.0,Serine/threonine-protein kinase AKT2,70.0,FALSE,CHEMBL598841,CC(C)(C)c1ccc(CC2(N)CCN(CC2)c3ncnc4NC(=O)Nc34)cc1,0.6764705882352942,10695,Homo sapiens,772,P31751,1.0,ORTHOGONAL
+1840534,13,2.0,Serine/threonine-protein kinase Aurora-A,12.0,FALSE,CHEMBL3417325,CN1CCC(CC1)NC(=O)c2ccc(Nc3ncc(Br)c(NC4CCCC4)n3)cc2,0.5373134328358209,20014,Homo sapiens,3039,O14965,1.0,ORTHOGONAL
+702564,19,16.0,Serine/threonine-protein kinase Aurora-B,15.0,FALSE,CHEMBL1243326,CNc1nccc(n1)c2cccnc2Oc3ccc(Nc4nnc(c5ccc(F)cc5)c6ccccc46)cc3,0.7115384615384616,10781,Homo sapiens,526,Q96GD4,1.0,ORTHOGONAL
+510606,3,2.0,Serine/threonine-protein kinase B-raf,0.04,FALSE,CHEMBL498344,O\N=C\1/CCc2cc(ccc12)c3cn(nc3c4ccncc4)[C@@H]5CCC[C@H](O)C5,0.30985915492957744,100126,Homo sapiens,3449,P15056,1.0,ORTHOGONAL
+1560522,44,42.0,Serine/threonine-protein kinase Chk1 ,1.0,FALSE,CHEMBL2381116,COc1ccc2CN(C(=O)c2c1)c3nc(cs3)C(=O)Nc4cnccc4N5CCNCC5,0.589041095890411,12967,Homo sapiens,2947,O14757,1.0,ORTHOGONAL
+556368,41,28.0,Serine/threonine-protein kinase mTOR,4.3,FALSE,CHEMBL561708,COC(=O)Nc1ccc(cc1)c2nc(N3CCOCC3)c4cnn(C5CCN(CC5)C(=O)OC)c4n2,0.6493506493506493,11400,Homo sapiens,1172,P42345,1.0,ORTHOGONAL
+1285553,3,2.0,Serine/threonine-protein kinase PLK1,3.0,FALSE,CHEMBL1964262,C[C@@H](Oc1cc(sc1C(=O)N)n2cnc3ccc(OC[C@H](O)CN4CCCC4)cc23)c5ccccc5Cl,0.4533333333333333,10907,Homo sapiens,1352,P53350,1.0,ORTHOGONAL
+1572154,9,4.0,Serine/threonine-protein kinase PLK4,0.48,FALSE,CHEMBL2407748,COc1ccc2NC(=O)\C(=C\c3ccc4c(\C=C\c5cccnc5)n[nH]c4c3)\c2c1,0.6818181818181818,30003,Homo sapiens,2106,O00444,1.0,ORTHOGONAL
+32833,15,4.0,Serotonin 1a (5-HT1a) receptor,0.1,FALSE,CHEMBL430332,CCCN1CC[C@@H]2[C@H]1CCc3cccc(O)c23,0.42857142857142855,51,Homo sapiens,266,P08908,1.0,ORTHOGONAL
+228759,15,8.0,Serotonin 1d (5-HT1d) receptor,2.0,FALSE,CHEMBL138872,CN(C)CCn1ccc2ccc(cc12)C3(O)CCSCC3,0.6290322580645161,105,Homo sapiens,307,P28221,1.0,ORTHOGONAL
+1731935,8,8.0,Serotonin 2a (5-HT2a) receptor,0.89,FALSE,CHEMBL3233432,Fc1ccc(cc1)C(=O)CCCN2CC[C@H]3[C@@H](C2)c4cccc5OCCN3c45,0.5254237288135594,107,Homo sapiens,308,P28223,1.0,ORTHOGONAL
+596219,6,3.0,Serotonin 2b (5-HT2b) receptor,83.0,FALSE,CHEMBL595645,C[C@@H]1CNCCN1c2ccc3CC[C@H](OCc4cc(F)ccc4F)c3n2,0.4411764705882353,227,Homo sapiens,133,P41595,1.0,ORTHOGONAL
+146358,18,3.0,Serotonin 2c (5-HT2c) receptor,0.6,FALSE,CHEMBL88402,COc1cc(OC)c(cc1NS(=O)(=O)c2ccc(cc2)C(F)(F)F)C(=O)CCCCN3CCC4(CC3)NC(=O)NC4=O,0.5520833333333334,108,Homo sapiens,309,P28335,1.0,ORTHOGONAL
+1058591,6,3.0,Serotonin 3a (5-HT3a) receptor,4.4,FALSE,CHEMBL1643881,O=C1N(Cc2n[nH]c3cccc1c23)[C@H]4CN5CCC4CC5,0.14285714285714285,144,Homo sapiens,214,P46098,1.0,ORTHOGONAL
+707462,47,44.0,Serotonin 4 (5-HT4) receptor,2.4,FALSE,CHEMBL1258452,CCCCN1CCC(COC(=O)c2ccc(N)c(OC)c2)CC1,0.4578313253012048,168,Homo sapiens,191,Q13639,1.0,ORTHOGONAL
+1278902,26,13.0,Serotonin 6 (5-HT6) receptor,4.0,FALSE,CHEMBL1949930,Cl.COc1cc(OC(C)C)cc(c1)S(=O)(=O)c2ccc3[C@@H]4CCNC[C@@H]4Oc3c2,0.6966292134831461,10627,Homo sapiens,1693,P50406,1.0,ORTHOGONAL
+155183,19,3.0,Serotonin 7 (5-HT7) receptor,2.0,FALSE,CHEMBL95104,Clc1ccc(OC2CCN(CC[C@H]3CCCN3S(=O)(=O)c4ccc5cc[nH]c5c4)CC2)cc1,0.6282051282051282,10209,Homo sapiens,1480,P34969,1.0,ORTHOGONAL
+491828,28,3.0,Serotonin transporter,5.0,FALSE,CHEMBL522625,CSc1ccc(Oc2ccc(cc2CN(C)C)S(=O)(=O)N)cc1C,0.30864197530864196,121,Homo sapiens,226,P31645,1.0,ORTHOGONAL
+1564716,23,16.0,Sigma opioid receptor,43.0,FALSE,CHEMBL2391147,C[C@H]1[C@H](CC(=O)N1CC(=O)N)c2ccccc2,0.36363636363636365,11272,Homo sapiens,186,Q99720,1.0,ORTHOGONAL
+632893,8,4.0,Smoothened homolog,13.0,FALSE,CHEMBL1083103,O=C(N1CCN(CC1)c2nnc(c3ccccc3)c4ccccc24)c5occc5,0.33783783783783783,101400,Homo sapiens,4478,Q99835,1.0,ORTHOGONAL
+1359566,10,5.0,Sodium channel protein type IX alpha subunit,66.0,FALSE,CHEMBL2069427,COc1cnc(cn1)c2cccc3OC[C@H](Cc23)NC(=O)c4ccc(COCC(F)(F)F)nc4,0.6029411764705882,18061,Homo sapiens,2613,Q15858,1.0,ORTHOGONAL
+713491,4,4.0,Sodium channel protein type X alpha subunit,3.0,FALSE,CHEMBL1277514,Cc1cc(C)cc(NC(=O)c2cncc(n2)c3ccc(Cl)cc3)c1,0.5416666666666666,18080,Homo sapiens,3744,Q9Y5Y9,1.0,ORTHOGONAL
+1425637,4,4.0,Sodium/glucose cotransporter 1,37.0,FALSE,CHEMBL2159094,OC[C@H]1O[C@@H](Oc2n[nH]c(c2Cc3ccccc3OCc4ccccc4)C(F)(F)F)[C@H](O)[C@@H](O)[C@@H]1O,0.6829268292682927,18036,Homo sapiens,3292,P13866,1.0,ORTHOGONAL
+576795,8,4.0,Sodium/glucose cotransporter 2,14.0,FALSE,CHEMBL569434,CCOc1ccc(Cc2cc(ccc2Cl)[C@@H]3OC(OC)[C@@H](O)[C@H](O)[C@H]3O)cc1,0.32051282051282054,20092,Homo sapiens,2205,P31639,1.0,ORTHOGONAL
+108401,5,5.0,Somatostatin receptor 1,1.6,FALSE,CHEMBL71723,NC[C@@H]1CCC[C@H](CNC(=O)[C@H](Cc2c[nH]c3ccccc23)NC(=O)N4CCC5(CC4)C=Cc6ccccc56)C1,0.5185185185185185,12786,Homo sapiens,231,P30872,1.0,ORTHOGONAL
+108066,5,5.0,Somatostatin receptor 2,4.0,FALSE,CHEMBL305279,NCC1CCCC(CNC(=O)[C@H](Cc2c[nH]c3ccccc23)NC(=O)N4CCC5(CC4)C=Cc6ccccc56)C1,0.5232558139534884,117,Homo sapiens,98,P30874,1.0,ORTHOGONAL
+1758142,15,8.0,Somatostatin receptor 3,2.88,FALSE,CHEMBL3287613,Fc1ccc(cc1)C(=O)N[C@@H]2CCCC[C@@H]2NCc3c[nH]c4ccccc34,0.4852941176470588,11261,Homo sapiens,363,P32745,1.0,ORTHOGONAL
+1841279,6,5.0,Somatostatin receptor 4,0.4,FALSE,CHEMBL3421842,Cc1cc2ccccc2c(n1)C(C)(C)NC(=O)[C@H]3[C@@H]4CNC[C@H]34,0.39705882352941174,10183,Homo sapiens,160,P31391,1.0,ORTHOGONAL
+616837,7,7.0,Somatostatin receptor 5,3.0,FALSE,CHEMBL1080585,CCOc1cc(CN2CCC(CC2)Nc3oc4ccc(cc4n3)C(=O)O)cc(OCC)c1Cl,0.6847826086956522,11265,Homo sapiens,83,P35346,1.0,ORTHOGONAL
+374115,11,7.0,Sphingosine 1-phosphate receptor Edg-1 ,37.0,FALSE,CHEMBL224720,FC(F)(F)c1cccc(c1)c2noc(n2)c3cc(c4ccccc4)c(s3)C(F)(F)F,0.2727272727272727,11631,Homo sapiens,2651,P21453,1.0,ORTHOGONAL
+1831582,5,4.0,Sphingosine 1-phosphate receptor Edg-5,4.1,FALSE,CHEMBL3401382,CCC(CC)CC1(O)CCN(CC1)C(=O)Nc2cc(Oc3ccc(F)cc3)cc(Oc4ccc(cc4)S(=O)(=O)N)c2,0.7411764705882353,11562,Homo sapiens,1286,O95136,1.0,ORTHOGONAL
+1797446,5,2.0,Sphingosine kinase 1,4.3,FALSE,CHEMBL3348835,Cc1cc(CS(=O)(=O)c2ccccc2)cc(OCc3ccc(CN4CCC[C@H]4CO)cc3)c1,0.3626373626373626,11882,Homo sapiens,2710,Q9NYA1,1.0,ORTHOGONAL
+195914,4,2.0,Steroid 5-alpha-reductase 1,96.8,FALSE,CHEMBL118416,CC1=C2CCc3cc(ccc3N2CCC1=O)C(=O)OCc4ccccc4,0.7407407407407407,79,Homo sapiens,78,P18405,1.0,ORTHOGONAL
+13530,5,2.0,Steroid 5-alpha-reductase 2,2.7,FALSE,CHEMBL269632,C[C@]12CC[C@H]3[C@@H](CCC4=CC(=O)CCN34)[C@@H]1CC[C@@H]2O,0.7454545454545455,120,Homo sapiens,164,P31213,1.0,ORTHOGONAL
+1746051,5,3.0,TGF-beta receptor type I,18.0,FALSE,CHEMBL3261096,Cc1cccc(n1)c2nn(CC(=S)Nc3cccc(c3)C#N)cc2c4ccc5ncnn5c4,0.576271186440678,13004,Homo sapiens,2756,P36897,1.0,ORTHOGONAL
+686945,5,3.0,Thrombin,0.102,FALSE,CHEMBL1215085,NC(=N)c1ccc(CNC(=O)[C@@H]2CCCN2C(=O)[C@@H](CC3CCCCC3)NS(=O)(=O)Cc4ccccc4)cc1.OC(=O)C(F)(F)F,0.5632183908045977,11,Homo sapiens,92,P00734,1.0,ORTHOGONAL
+280832,13,3.0,Thymidylate synthase,0.09,FALSE,CHEMBL169896,CC1=Nc2ccc3ccc(CNc4ccc5C(=O)N(Cc5c4)[C@@H](CCC(=O)O)C(=O)O)cc3c2C(=O)N1,0.7162162162162162,28,Homo sapiens,276,P04818,1.0,ORTHOGONAL
+1511314,5,3.0,Thyroid hormone receptor beta-1,6.0,FALSE,CHEMBL2312269,Cc1cc(NC(=O)CC(=O)O)c2CCCc2c1Oc3ccc(O)c(CCc4ccc(F)c(F)c4)c3,0.4375,271,Homo sapiens,270,P10828,1.0,ORTHOGONAL
+1763362,11,4.0,Transient receptor potential cation channel subfamily A member 1,26.0,FALSE,CHEMBL3299019,COc1cc2[nH]ncc2cc1c3ccccc3C(F)(F)F,0.7435897435897436,101412,Homo sapiens,4529,O75762,1.0,ORTHOGONAL
+1817707,4,3.0,Transient receptor potential cation channel subfamily M member 8,8.3,FALSE,CHEMBL3353597,OC(=O)c1ccc(cc1)S(=O)(=O)N(Cc2ccc(OC(F)(F)F)cc2)c3ncc(cc3Cl)C(F)(F)F,0.47126436781609193,103167,Homo sapiens,1656,Q7Z2W7,1.0,ORTHOGONAL
+1264353,3,2.0,Tyrosine-protein kinase BTK,1.82,FALSE,CHEMBL1916892,CN(C)C\C=C\C(=O)N(C)c1cc2c(cc1F)nc(Nc3ccccc3Cl)c4cncn24,0.5921052631578947,100097,Homo sapiens,3549,Q06187,1.0,ORTHOGONAL
+1762711,8,5.0,Tyrosine-protein kinase ITK/TSK ,6.2,FALSE,CHEMBL3298374,CC1(C)CCc2c(C1)[nH]nc2C(=O)Nc3cnn(c3)[C@@H](CCS(=O)(=O)C)c4ccccc4,0.5263157894736842,10918,Homo sapiens,1290,Q08881,1.0,ORTHOGONAL
+1356205,5,3.0,Tyrosine-protein kinase JAK2,3.0,FALSE,CHEMBL2062813,CN1CCN(CC1)c2cccc(Nc3nc4c(cccn4n3)c5ccc(cc5)P(=O)(C)C)c2,0.5555555555555556,10938,Homo sapiens,1302,O60674,1.0,ORTHOGONAL
+1052977,5,4.0,Tyrosine-protein kinase JAK3,42.0,FALSE,CHEMBL1630790,C[C@@H]1CCN(Cc2cccc(F)c2F)C[C@@H]1N(C)c3ncnc4[nH]ccc34,0.6621621621621622,10849,Homo sapiens,490,P52333,1.0,ORTHOGONAL
+354862,4,3.0,Tyrosine-protein kinase LCK,3.0,FALSE,CHEMBL213745,Clc1cccc(Cl)c1C2=Cc3cnc(Nc4ccc(cc4)N5CCOCC5)nc3N6CCC(=O)N26,0.5432098765432098,10140,Homo sapiens,382,P06239,1.0,ORTHOGONAL
+1350299,47,19.0,Tyrosine-protein kinase receptor FLT3,10.0,FALSE,CHEMBL2046883,Cc1ccc(NC(=O)Nc2nnc(Sc3ncnc4cc(OCCCN5CCOCC5)ccc34)s2)cc1,0.5125,12670,Homo sapiens,297,P36888,1.0,ORTHOGONAL
+290463,8,4.0,Tyrosine-protein kinase SRC,31.62,FALSE,CHEMBL173453,Nc1ncnc2c1c(cn2c3ccc(CNCCO)cc3)c4ccccc4,0.56,10434,Homo sapiens,345,P12931,1.0,ORTHOGONAL
+1438525,8,4.0,Tyrosine-protein kinase SYK,7.0,FALSE,CHEMBL2177737,COc1ccc(Nc2nc(nc3scnc23)c4cccc(c4)C(=O)Nc5ccc(cc5)C(=O)O)cc1OC,0.44,10906,Homo sapiens,934,P43405,1.0,ORTHOGONAL
+411002,5,2.0,Tyrosine-protein kinase TIE-2,17.0,FALSE,CHEMBL246355,CNc1ncnc(n1)c2cccnc2Oc3cc(NC(=O)c4cccc(c4)n5cccc5)ccc3C,0.6617647058823529,12913,Homo sapiens,4960,Q02763,1.0,ORTHOGONAL
+540030,56,23.0,Tyrosyl-DNA phosphodiesterase 1,25.1,FALSE,CHEMBL548615,Brc1ccc(s1)C(=O)Nc2nc(cs2)c3ccccn3,0.20253164556962025,103069,Homo sapiens,4128,Q9NUW8,1.0,ORTHOGONAL
+426287,6,2.0,Urotensin II receptor,16.0,FALSE,CHEMBL254356,CN(CC(=O)N1CCCC(C1CN2CCCC2)c3ccccc3)c4ccc(Cl)c(Cl)c4,0.3968253968253968,10927,Homo sapiens,2081,Q9UKP6,1.0,ORTHOGONAL
+1787407,12,11.0,Vanilloid receptor,9.0,FALSE,CHEMBL3326588,Cc1cc2c(NC(=O)N[C@@H]3CC(CF)(CF)Oc4cc(Cl)ccc34)cccc2cn1,0.5294117647058824,10260,Homo sapiens,3111,Q8NER1,1.0,ORTHOGONAL
+440604,13,6.0,Vascular endothelial growth factor receptor 2,5.0,FALSE,CHEMBL408211,COc1cc2nccc(Oc3ccc4c(cccc4c3)C(=O)NC(C)C)c2cc1OC,0.4473684210526316,10980,Homo sapiens,359,P35968,1.0,ORTHOGONAL
+1840065,6,5.0,Vasopressin V1a receptor,4.0,FALSE,CHEMBL3416861,Clc1ccc2c(c[nH]c2c1)C(=O)N3CCC4(CC3)OCc5ccccc45,0.4673913043478261,134,Homo sapiens,203,P37288,1.0,ORTHOGONAL
+1074866,5,4.0,Vasopressin V1b receptor,3.0,FALSE,CHEMBL1684573,COc1cccc(c1)C2=Nc3ccc(OCCCN4CCCCC4)cc3C(=O)N2CC(=O)NC(C)C,0.6071428571428571,148,Homo sapiens,237,P47901,1.0,ORTHOGONAL
+398624,3,3.0,Vasopressin V2 receptor,11.0,FALSE,CHEMBL392363,Cc1ccc(F)cc1C(=O)Nc2ccc(C(=O)N3C=C4CCC(=O)N4Cc5ccccc35)c(Cl)c2,0.47058823529411764,112,Homo sapiens,81,P30518,1.0,ORTHOGONAL
+1350656,4,3.0,Vesicular acetylcholine transporter,10.2,FALSE,CHEMBL2047236,COc1ccc(cc1)C(=O)C2CCN(CC2)[C@@H]3CN(CC[C@H]3O)C(=O)c4sccc4C.OC(=O)C(=O)O,0.589041095890411,12943,Homo sapiens,3083,Q16572,1.0,ORTHOGONAL
+580543,6,4.0,Voltage-gated potassium channel subunit Kv1.5,30.0,FALSE,CHEMBL567671,COCC1=C(C(c2ccc(Cl)c(Cl)c2)n3nccc3N1)c4nc5cc(F)ccc5n4C,0.29473684210526313,10198,Homo sapiens,2623,P22460,1.0,ORTHOGONAL
+1558165,6,6.0,"Alpha-1,3-mannosyl-glycoprotein 2-beta-N-acetylglucosaminyltransferase",31.62,NA,CHEMBL2376329,CCC1(C)NC(=O)c2cc(ccc2NC1=O)S(=O)(=O)Nc3ccc(OC)cc3,NA,107587,Homo sapiens,8143,P26572,2.0,PRIMARY
+1558165,6,6.0,"Alpha-1,6-mannosyl-glycoprotein 2-beta-N-acetylglucosaminyltransferase",3.98,NA,CHEMBL2376329,CCC1(C)NC(=O)c2cc(ccc2NC1=O)S(=O)(=O)Nc3ccc(OC)cc3,NA,105619,Homo sapiens,7251,Q10469,2.0,PRIMARY
+44905,12,6.0,Alpha-1d adrenergic receptor,0.015,NA,CHEMBL778,C[C@H](c1c[nH]cn1)c2cccc(C)c2C,NA,103,Homo sapiens,233,P25100,2.0,PRIMARY
+44905,12,6.0,Alpha-2a adrenergic receptor,1.5,NA,CHEMBL778,C[C@H](c1c[nH]cn1)c2cccc(C)c2C,NA,52,Homo sapiens,180,P08913,2.0,PRIMARY
+1077560,10,4.0,Apoptosis regulator Bcl-2,8.7,NA,CHEMBL1689139,CN(C)CC[C@H](CSc1ccccc1)Nc2ccc(cc2[N+](=O)[O-])S(=O)(=O)Nc3ncnc4cc(ccc34)N5CCN(Cc6ccccc6c7ccc(Cl)cc7)CC5,NA,100304,Homo sapiens,3176,P10415,2.0,PRIMARY
+1077560,10,4.0,Apoptosis regulator Bcl-X,3.0,NA,CHEMBL1689139,CN(C)CC[C@H](CSc1ccccc1)Nc2ccc(cc2[N+](=O)[O-])S(=O)(=O)Nc3ncnc4cc(ccc34)N5CCN(Cc6ccccc6c7ccc(Cl)cc7)CC5,NA,100217,Homo sapiens,2942,Q07817,2.0,PRIMARY
+1276062,6,4.0,Beta-2 adrenergic receptor,2.0,NA,CHEMBL1944694,COc1ccccc1CCNCc2ccc(CCNC[C@H](O)c3ccc(O)c4NC(=O)Sc34)cc2,NA,43,Homo sapiens,213,P07550,2.0,PRIMARY
+19088,5,5.0,Carbonic anhydrase IX,6.6,NA,CHEMBL277836,CN(C)c1ccc(cc1)N=Nc2ccc(cc2)S(=O)(=O)N,NA,12952,Homo sapiens,1913,Q16790,2.0,PRIMARY
+19088,5,5.0,Carbonic anhydrase XII,7.9,NA,CHEMBL277836,CN(C)c1ccc(cc1)N=Nc2ccc(cc2)S(=O)(=O)N,NA,12209,Homo sapiens,1563,O43570,2.0,PRIMARY
+512488,12,5.0,Caspase-3,0.5,NA,CHEMBL456799,FCCn1cc(CN2C(=O)C(=O)c3cc(ccc23)S(=O)(=O)N4CCC[C@H]4COc5ccc(F)cc5F)nn1,NA,10131,Homo sapiens,675,P42574,2.0,PRIMARY
+512488,12,5.0,Caspase-7,2.2,NA,CHEMBL456799,FCCn1cc(CN2C(=O)C(=O)c3cc(ccc23)S(=O)(=O)N4CCC[C@H]4COc5ccc(F)cc5F)nn1,NA,12067,Homo sapiens,1789,P55210,2.0,PRIMARY
+326884,16,4.0,Cathepsin B ,17.0,NA,CHEMBL426819,CN1CCN(CC1)c2nc(cs2)c3ccc(cc3)C(=O)NC4(CCCCC4)C(=O)NCC#N,NA,10378,Homo sapiens,2391,P07858,2.0,PRIMARY
+326884,16,4.0,Cathepsin K,0.25,NA,CHEMBL426819,CN1CCN(CC1)c2nc(cs2)c3ccc(cc3)C(=O)NC4(CCCCC4)C(=O)NCC#N,NA,10495,Homo sapiens,1387,P43235,2.0,PRIMARY
+388818,5,5.0,Dopamine D1 receptor,13.9,NA,CHEMBL389356,CN1CCCc2cc(O)ccc2Cc3ccccc3CC1,NA,88,Homo sapiens,397,P21728,2.0,PRIMARY
+388818,5,5.0,Dopamine D5 receptor,17.0,NA,CHEMBL389356,CN1CCCc2cc(O)ccc2Cc3ccccc3CC1,NA,220,Homo sapiens,156,P21918,2.0,PRIMARY
+429350,479,148.0,Glycogen synthase kinase-3 alpha,10.0,NA,CHEMBL412142,Cc1c[nH]c(n1)c2cnc(NCCNc3ccc(cn3)C#N)nc2c4ccc(Cl)cc4Cl,NA,11017,Homo sapiens,1180,P49840,2.0,PRIMARY
+429350,479,148.0,Glycogen synthase kinase-3 beta,7.0,NA,CHEMBL412142,Cc1c[nH]c(n1)c2cnc(NCCNc3ccc(cn3)C#N)nc2c4ccc(Cl)cc4Cl,NA,10197,Homo sapiens,3114,P49841,2.0,PRIMARY
+25906,167,6.0,Heat shock protein HSP 90-alpha,20.0,NA,CHEMBL278315,CO[C@H]1C[C@H](C)CC2=C(OC)C(=O)C=C(NC(=O)\C(=C\C=C/[C@H](OC)[C@@H](OC(=O)N)\C(=C\[C@H](C)[C@H]1O)\C)\C)C2=O,NA,11213,Homo sapiens,2201,P07900,2.0,PRIMARY
+25906,167,6.0,Heat shock protein HSP 90-beta,10.0,NA,CHEMBL278315,CO[C@H]1C[C@H](C)CC2=C(OC)C(=O)C=C(NC(=O)\C(=C\C=C/[C@H](OC)[C@@H](OC(=O)N)\C(=C\[C@H](C)[C@H]1O)\C)\C)C2=O,NA,11748,Homo sapiens,2620,P08238,2.0,PRIMARY
+1732211,29,8.0,Histone deacetylase 1,6.0,NA,CHEMBL3233705,COc1ccc(cc1)C(=O)N[C@H](COc2ccc(\C=C\C(=O)NO)cc2)Cc3c[nH]c4ccccc34,NA,12697,Homo sapiens,107,Q13547,2.0,PRIMARY
+1572653,53,6.0,Histone deacetylase 2,0.06,NA,CHEMBL2408242,OC1=CC=CC(=CC1=O)c2ccccc2,NA,11206,Homo sapiens,257,Q92769,2.0,PRIMARY
+1732211,29,8.0,Histone deacetylase 3,3.2,NA,CHEMBL3233705,COc1ccc(cc1)C(=O)N[C@H](COc2ccc(\C=C\C(=O)NO)cc2)Cc3c[nH]c4ccccc34,NA,11208,Homo sapiens,126,O15379,2.0,PRIMARY
+1572653,53,6.0,Histone deacetylase 8,1.47,NA,CHEMBL2408242,OC1=CC=CC(=CC1=O)c2ccccc2,NA,10869,Homo sapiens,1516,Q9BY41,2.0,PRIMARY
+1175998,19,6.0,"Histone-lysine N-methyltransferase, H3 lysine-9 specific 3",6.0,NA,CHEMBL1829304,COc1cc2c(NC3CCN(CC3)C4CCCCC4)nc(nc2cc1OCCCN5CCCCC5)N6CCCN(CC6)C(C)C,NA,102672,Homo sapiens,4553,Q96KQ7,2.0,PRIMARY
+1175998,19,6.0,"Histone-lysine N-methyltransferase, H3 lysine-9 specific 5",15.0,NA,CHEMBL1829304,COc1cc2c(NC3CCN(CC3)C4CCCCC4)nc(nc2cc1OCCCN5CCCCC5)N6CCCN(CC6)C(C)C,NA,102671,Homo sapiens,4552,Q9H9B1,2.0,PRIMARY
+623658,450,5.0,Insulin-like growth factor I receptor,2.0,NA,CHEMBL1091644,C[C@@]1(O)C[C@@H](C1)c2nc(c3ccc4ccc(nc4c3)c5ccccc5)c6c(N)nccn26,NA,234,Homo sapiens,281,P08069,2.0,PRIMARY
+623658,450,5.0,Insulin receptor,18.0,NA,CHEMBL1091644,C[C@@]1(O)C[C@@H](C1)c2nc(c3ccc4ccc(nc4c3)c5ccccc5)c6c(N)nccn26,NA,35,Homo sapiens,304,P06213,2.0,PRIMARY
+469057,48,34.0,MAP kinase p38 alpha,0.4,NA,CHEMBL523374,CNc1noc2c(c(C)ccc12)c3ccc4c(nncc4c3)N5CCOC[C@@H]5C,NA,10188,Homo sapiens,2937,Q16539,2.0,PRIMARY
+469057,48,34.0,MAP kinase p38 beta,1.8,NA,CHEMBL523374,CNc1noc2c(c(C)ccc12)c3ccc4c(nncc4c3)N5CCOC[C@@H]5C,NA,10120,Homo sapiens,2280,Q15759,2.0,PRIMARY
+557094,10,8.0,MAP kinase p38 delta,4.0,NA,CHEMBL561932,CN1C(=O)C=C(Nc2cc(ccc2Cl)C(=O)NC3CC3)c4cnn(c5ccc(F)cc5)c14,NA,11081,Homo sapiens,1269,O15264,2.0,PRIMARY
+4480,58,11.0,Metabotropic glutamate receptor 2,5.6,NA,CHEMBL8759,N[C@]1(CC[C@H]2[C@@H]([C@@H]12)C(=O)O)C(=O)O,NA,12895,Homo sapiens,3441,Q14416,2.0,PRIMARY
+4480,58,11.0,Metabotropic glutamate receptor 3,21.0,NA,CHEMBL8759,N[C@]1(CC[C@H]2[C@@H]([C@@H]12)C(=O)O)C(=O)O,NA,10167,Homo sapiens,1218,Q14832,2.0,PRIMARY
+331568,71,4.0,NAD-dependent deacetylase sirtuin 1,38.0,NA,CHEMBL420311,NC(=O)C1CCCc2c1[nH]c3ccc(Cl)cc23,NA,100448,Homo sapiens,2823,Q96EB6,2.0,PRIMARY
+331568,71,4.0,NAD-dependent deacetylase sirtuin 2,98.0,NA,CHEMBL420311,NC(=O)C1CCCc2c1[nH]c3ccc(Cl)cc23,NA,100447,Homo sapiens,2778,Q8IXJ6,2.0,PRIMARY
+1825012,7,5.0,Neuropeptide FF receptor 1,58.0,NA,CHEMBL3360829,CC(=N)NCCC[C@H](NC(=O)C12CC3CC(CC(C3)C1)C2)C(=O)N[C@@H](Cc4ccccc4)C(=O)N,NA,102733,Homo sapiens,4446,Q9GZQ6,2.0,PRIMARY
+1825012,7,5.0,Neuropeptide FF receptor 2,75.0,NA,CHEMBL3360829,CC(=N)NCCC[C@H](NC(=O)C12CC3CC(CC(C3)C1)C2)C(=O)N[C@@H](Cc4ccccc4)C(=O)N,NA,102734,Homo sapiens,4447,Q9Y5X5,2.0,PRIMARY
+624225,42,8.0,Poly [ADP-ribose] polymerase-1,2.0,NA,CHEMBL1094636,NC(=O)c1cccc2cn(nc12)c3ccc(cc3)[C@@H]4CCCNC4,NA,11663,Homo sapiens,1432,P09874,2.0,PRIMARY
+624225,42,8.0,Poly [ADP-ribose] polymerase 2,2.1,NA,CHEMBL1094636,NC(=O)c1cccc2cn(nc12)c3ccc(cc3)[C@@H]4CCCNC4,NA,100933,Homo sapiens,3662,Q9UGN5,2.0,PRIMARY
+367314,19,12.0,Prostanoid DP receptor,0.03,NA,CHEMBL426559,CS(=O)(=O)c1cc(F)cc2c3CC[C@H](CC(=O)O)c3n(Cc4ccc(Cl)cc4)c12,NA,12659,Homo sapiens,2743,Q13258,2.0,PRIMARY
+481036,11,9.0,Prostanoid EP1 receptor,12.59,NA,CHEMBL467114,[Na+].[O-]C(=O)c1cccc(Cc2cc(Cl)ccc2OCc3ccc(Cl)cc3F)n1,NA,261,Homo sapiens,106,P34995,2.0,PRIMARY
+785382,37,22.0,Prostanoid EP2 receptor,16.7,NA,CHEMBL1361498,CCc1nnc(NS(=O)(=O)c2ccc(NC(=S)NC(=O)\C=C\c3ccccc3)cc2)s1,NA,142,Homo sapiens,197,P43116,2.0,PRIMARY
+785382,37,22.0,Prostanoid IP receptor,57.0,NA,CHEMBL1361498,CCc1nnc(NS(=O)(=O)c2ccc(NC(=S)NC(=O)\C=C\c3ccccc3)cc2)s1,NA,143,Homo sapiens,325,P43119,2.0,PRIMARY
+510783,450,376.0,Serine/threonine-protein kinase B-raf,0.13,NA,CHEMBL525191,OCCn1cc(c2ccc3\C(=N\O)\CCc3c2)c(n1)c4ccncc4,NA,100126,Homo sapiens,3449,P15056,2.0,PRIMARY
+1263084,9,4.0,Serine/threonine-protein kinase PIM1 ,2.0,NA,CHEMBL1915636,Fc1cccc(F)c1Nc2nc3c(cccc3c4cnccc24)c5nnc[nH]5,NA,10839,Homo sapiens,489,P11309,2.0,PRIMARY
+1263084,9,4.0,Serine/threonine-protein kinase PIM2,1.0,NA,CHEMBL1915636,Fc1cccc(F)c1Nc2nc3c(cccc3c4cnccc24)c5nnc[nH]5,NA,30043,Homo sapiens,2840,Q9P1W9,2.0,PRIMARY
+1281137,5,4.0,Serine/threonine-protein kinase PIM3,2.5,NA,CHEMBL1952143,COc1cc(NCC2CCNCC2)nc3c1nnn3c4cccc(c4)N(C)C,NA,100855,Homo sapiens,3702,Q86V86,2.0,PRIMARY
+510783,450,376.0,Serine/threonine-protein kinase RAF,0.54,NA,CHEMBL525191,OCCn1cc(c2ccc3\C(=N\O)\CCc3c2)c(n1)c4ccncc4,NA,10904,Homo sapiens,219,P04049,2.0,PRIMARY
+1511584,15,4.0,Serotonin 1a (5-HT1a) receptor,0.589,NA,CHEMBL2312537,C(COc1ccccc1)NCC2COCC(O2)(c3ccccc3)c4ccccc4,NA,51,Homo sapiens,266,P08908,2.0,PRIMARY
+54547,65,6.0,Serotonin 3a (5-HT3a) receptor,1.45,NA,CHEMBL289469,CN1C2CCCC1CC(C2)NC(=O)c3nn(C)c4ccccc34,NA,144,Homo sapiens,214,P46098,2.0,PRIMARY
+54547,65,6.0,Serotonin 3b (5-HT3b) receptor,1.58,NA,CHEMBL289469,CN1C2CCCC1CC(C2)NC(=O)c3nn(C)c4ccccc34,NA,11305,Homo sapiens,2215,O95264,2.0,PRIMARY
+264919,20,9.0,Sn1-specific diacylglycerol lipase alpha,60.0,NA,CHEMBL158897,O=C(NCCCCCCNC(=O)ON=C1CCCCC1)ON=C2CCCCC2,NA,101016,Homo sapiens,3836,Q9Y4D2,2.0,PRIMARY
+264919,20,9.0,Sn1-specific diacylglycerol lipase beta,60.0,NA,CHEMBL158897,O=C(NCCCCCCNC(=O)ON=C1CCCCC1)ON=C2CCCCC2,NA,101223,Homo sapiens,3813,Q8NCG7,2.0,PRIMARY
+410250,15,5.0,Sphingosine 1-phosphate receptor Edg-1 ,0.31,NA,CHEMBL391581,CC(C)Oc1ccc(cc1C#N)c2onc(n2)c3ccc(cc3C)[C@@H]4C[C@H]4C(=O)O,NA,11631,Homo sapiens,2651,P21453,2.0,PRIMARY
+622600,8,6.0,Sphingosine 1-phosphate receptor Edg-6,13.1,NA,CHEMBL1090796,C[C@](N)(COP(=O)(O)O)C(=O)Nc1ccc(cc1)C(=O)CCc2ccc(cc2)c3ccccc3,NA,10809,Homo sapiens,1552,O95977,2.0,PRIMARY
+410250,15,5.0,Sphingosine 1-phosphate receptor Edg-8,5.2,NA,CHEMBL391581,CC(C)Oc1ccc(cc1C#N)c2onc(n2)c3ccc(cc3C)[C@@H]4C[C@H]4C(=O)O,NA,12023,Homo sapiens,615,Q9H228,2.0,PRIMARY
+1610497,22,18.0,Tankyrase-1,2.0,NA,CHEMBL3099716,CC1(C)OC(=O)N([C@@H]2CC[C@H](CC2)c3cnc(N)c(c3)c4ncccn4)[C@H]1c5ccccc5,NA,101462,Homo sapiens,4743,O95271,2.0,PRIMARY
+1610497,22,18.0,Tankyrase-2,2.0,NA,CHEMBL3099716,CC1(C)OC(=O)N([C@@H]2CC[C@H](CC2)c3cnc(N)c(c3)c4ncccn4)[C@H]1c5ccccc5,NA,102783,Homo sapiens,4719,Q9H2K2,2.0,PRIMARY
+367314,19,12.0,Thromboxane A2 receptor,2.95,NA,CHEMBL426559,CS(=O)(=O)c1cc(F)cc2c3CC[C@H](CC(=O)O)c3n(Cc4ccc(Cl)cc4)c12,NA,246,Homo sapiens,409,P21731,2.0,PRIMARY
+430311,57,5.0,Vascular endothelial growth factor receptor 1,1.0,NA,CHEMBL406381,CCCNC(=O)Nc1ccc(Oc2ncnc3cc(OC)c(OC)cc23)cc1Cl,NA,10979,Homo sapiens,181,P17948,2.0,PRIMARY
+430311,57,5.0,Vascular endothelial growth factor receptor 2,1.0,NA,CHEMBL406381,CCCNC(=O)Nc1ccc(Oc2ncnc3cc(OC)c(OC)cc23)cc1Cl,NA,10980,Homo sapiens,359,P35968,2.0,PRIMARY
+1271794,14,11.0,Vascular endothelial growth factor receptor 3,9.6,NA,CHEMBL1934327,CN1CCC(COc2ccc3c(Nc4ccc(NC(=O)Nc5cccc(F)c5)cc4)ncnc3c2)CC1,NA,11752,Homo sapiens,279,P35916,2.0,PRIMARY
+63252,199,10.0,Vitamin D-binding protein,24.0,NA,CHEMBL846,C[C@H](CCCC(C)(C)O)[C@H]1CC[C@H]2\C(=C\C=C/3\C[C@@H](O)C[C@H](O)C3=C)\CCC[C@]12C,NA,11572,Homo sapiens,600,P02774,2.0,PRIMARY
+63252,199,10.0,Vitamin D receptor,0.0106,NA,CHEMBL846,C[C@H](CCCC(C)(C)O)[C@H]1CC[C@H]2\C(=C\C=C/3\C[C@@H](O)C[C@H](O)C3=C)\CCC[C@]12C,NA,64,Homo sapiens,300,P11473,2.0,PRIMARY
