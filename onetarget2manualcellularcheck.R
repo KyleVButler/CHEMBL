@@ -161,25 +161,16 @@ View(agonists)
 detach("package:rcdk", unload=TRUE)
 detach("package:fingerprint", unload=TRUE)
 
-high_select_probes <- compound_summary %>% group_by(is_aognist, pref_name, orthogonal) %>% 
+compound_summary$orthogonal <- "PRIMARY"
+table(compound_summary$orthogonal)
+compound_summary$orthogonal[compound_summary$tanimoto < 1] <- "ORTHOGONAL"
+table(compound_summary$orthogonal)
+
+
+#make main list
+top_probes_onetarget <- compound_summary %>% group_by(is_agonist, pref_name, orthogonal) %>% 
   arrange(desc(n_select), desc(n_total), min_value) %>% slice(1)
-
-
-#select probes with highest total number of observations and highest selectivity observations, and tiebreak on potency
-high_select_probes <- compound_summary %>% group_by(pref_name) %>% arrange(pref_name, desc(n_select), desc(n_total), min_value) %>% slice(1)
-hist(compound_summary$tanimoto)
-#it is clear from distribution is bimodal and intersects at 0.75
-high_total_probes_agonist <- compound_summary %>% filter(is_agonist == 1) %>% group_by(pref_name) %>% arrange(pref_name, desc(n_total), desc(n_select), min_value) %>% 
-  slice(1)
-high_total_probes_agonist_orthogonal <- compound_summary %>% filter(is_agonist == 1 & tanimoto < 0.75) %>% group_by(pref_name) %>% 
-  arrange(pref_name, desc(n_total), desc(n_select), min_value) %>% slice(1)
-high_total_probes_no_agonist <- compound_summary %>% filter(is_agonist != 1) %>% group_by(pref_name) %>% 
-  arrange(pref_name, desc(n_total), desc(n_select), min_value) %>% slice(1)
-high_total_probes_no_agonist_orthogonal <- compound_summary %>% filter(is_agonist != 1 & tanimoto < 0.75) %>% group_by(pref_name) %>% 
-  arrange(pref_name, desc(n_total), desc(n_select), min_value) %>% slice(1)
-top_probes_onetarget <- unique(rbind(high_total_probes_agonist, high_total_probes_no_agonist, high_total_probes_agonist_orthogonal, 
-                                     high_total_probes_no_agonist_orthogonal))
-View(top_probes_onetarget)
+View(top_probes_onetarget %>% arrange(pref_name))
 length(unique(top_probes_onetarget$pref_name))
 
 #add accession to potential_probes

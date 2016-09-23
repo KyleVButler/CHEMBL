@@ -125,9 +125,9 @@ length(unique(compound_summary$pref_name))
 #remove targets from the one target list
 cmpdstokeep <- compound_summary %>% filter(!(pref_name %in% top_probes_onetarget$pref_name))
 compound_summary <- compound_summary %>% filter(molregno %in% cmpdstokeep$molregno)
-cmpdstokeep <- compound_summary %>% group_by(pref_name) %>% arrange(pref_name, desc(n_total), desc(n_select), min_value) %>% slice(1)
-top_probes_twotarget <- compound_summary %>% group_by(pref_name) %>% arrange(molregno) %>% 
-  filter(molregno %in% cmpdstokeep$molregno) %>% slice(1)
+cmpdstokeep <- compound_summary %>% group_by(pref_name) %>% arrange(desc(n_total), desc(n_select), min_value) %>% slice(1)
+
+top_probes_twotarget <- compound_summary %>% filter(molregno %in% cmpdstokeep$molregno) 
 length(unique(top_probes_twotarget$pref_name))
 
 # add chembl ids and smiles
