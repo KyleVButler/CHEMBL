@@ -119,11 +119,12 @@ length(unique(compound_summary$pref_name))
 agonist_check <- compound_summary %>% select(pref_name, molregno) %>% rename(target_check = pref_name)
 agonist_check <- left_join(activities_collected2, agonist_check)
 agonist_check <- agonist_check %>% mutate(targets_identical = (target_check == pref_name)) %>% 
-  filter(targets_identical == 1 & standard_units == "%" & standard_type %in% c("Emax", "max activation") & standard_value > 25) %>% mutate(is_agonist = 1) %>% 
-  select(molregno, is_agonist)
+  filter(targets_identical == 1 & standard_units == "%" & standard_type %in% c("Emax", "max activation", "efficacy", "Efficacy") &
+           standard_value > 25 & confidence_score %in% c(8,9)) 
 
-compound_summary <- full_join(compound_summary, agonist_check)
-compound_summary$is_agonist[is.na(compound_summary$is_agonist)] <- 0
+compound_summary$is_agonist <- "NO"
+table(compound_summary$is_agonist)
+compound_summary$is_agonist[compound_summary$molregno %in% agonist_check$molregno] <- "YES"
 table(compound_summary$is_agonist)
 
 # add chembl ids and smiles
@@ -159,6 +160,9 @@ compound_summary <- compound_summary %>% group_by(is_agonist, pref_name) %>%
 View(agonists)
 detach("package:rcdk", unload=TRUE)
 detach("package:fingerprint", unload=TRUE)
+
+high_select_probes <- compound_summary %>% group_by(is_aognist, pref_name, orthogonal) %>% 
+  arrange(desc(n_select), desc(n_total), min_value) %>% slice(1)
 
 
 #select probes with highest total number of observations and highest selectivity observations, and tiebreak on potency
