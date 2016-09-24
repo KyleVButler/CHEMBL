@@ -119,7 +119,7 @@ length(unique(compound_summary$pref_name))
 agonist_check <- compound_summary %>% select(pref_name, molregno) %>% rename(target_check = pref_name)
 agonist_check <- left_join(activities_collected2, agonist_check)
 agonist_check <- agonist_check %>% mutate(targets_identical = (target_check == pref_name)) %>% 
-  filter(targets_identical == 1 & standard_units == "%" & standard_type %in% c("Emax", "max activation", "efficacy", "Efficacy") &
+  filter(targets_identical == TRUE & standard_units == "%" & standard_type %in% c("Emax", "max activation", "efficacy", "Efficacy") &
            standard_value > 25 & confidence_score %in% c(8,9)) 
 
 compound_summary$is_agonist <- "NO"
