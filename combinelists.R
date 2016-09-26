@@ -53,5 +53,5 @@ probe_list$source[probe_list$group == 0] <- "chemicalprobes.org"
 probe_list <- probe_list[!duplicated(probe_list), ]
 
 # write file
-write_excel_csv(probe_list, "PROBELIST.csv", na = "NA")
+write_csv(probe_list, "PROBELIST.csv", na = "NA")
 #write_excel_csv(probe_list, "PROBELIST_autocellcheck.csv", na = "NA")
