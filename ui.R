@@ -7,40 +7,45 @@
 
 library(shiny)
 source("helpers.R")
-shinyUI(fluidPage(
-
-  # Application title
-  titlePanel("Chemical Probes", p("")),
-
-  # Sidebar with a slider input for number of bins
-  sidebarLayout(position = "left",
-    sidebarPanel(strong("Visualization and search functions\n\n"), h1(""),
-      textInput("search_in",
-                "\nSearch for probes by UNIPROT (e.g. P42345), Gene ontology 
-                (e.g. GO:0031931)
-                , or target name (e.g. mTOR)", 
-                value = "Search Input"),
-      actionButton("goButton", "Search"),
-      p(""), 
-      strong("Visualize Reactome pathway"),
-      p("Enter a reactome pathway name, e.g. 'Regulation of TP53 Activity 
-                through Methylation', or 'AKT phosphorylates targets in the cytosol' Targets with available probes appear in red. 
-                Search term must be punctuated exactly as it appears at:"),
-      a("www.reactome.org/PathwayBrowser/", href = "http://www.reactome.org/PathwayBrowser/"),
-      textInput("reactome_in", label = "Reactome pathway:", value = ""),
-      actionButton("goButton_reactome", "Display"),
-      p(""), 
-      strong("Visualize KEGG pathway"),
-      p("Enter a KEGG pathway id, e.g. 'hsa04014' or 'hsa04068'"),
-      textInput("kegg_in", label = "KEGG pathway:", value = ""),
-      actionButton("goButton_kegg", "Display")
-    ),
-
-    # Show a plot of the generated distribution
-    mainPanel(
-      tableOutput("probePlot"),
-      plotOutput("reactomePlot"),
-      imageOutput("keggPlot")
+shinyUI(navbarPage("Chemical Probes App",
+  tabPanel("Chemical Probe Search",
+    sidebarLayout(position = "left",
+      sidebarPanel(strong("Search"), p(""),
+        p("Search for probes by UNIPROT (e.g. P42345), Gene ontology 
+          (e.g. GO:0042393), or target name (e.g. mTOR)"),
+        textInput("search_in", label = NULL, value = "Search Input"),
+        actionButton("goButton", "Search")
+      ),
+      mainPanel(
+        tableOutput("probePlot")
     )
   )
+  ),
+  tabPanel("Network Visualization",
+           sidebarLayout(
+             sidebarPanel(position = "below",
+             strong("Visualize Reactome pathway"),
+             p("Enter a formal reactome pathway name, e.g. 'Regulation of TP53 Activity 
+                through Methylation', or 'AKT phosphorylates targets in the cytosol'. Targets with 
+                available probes appear in red. 
+                Search terms must be punctuated exactly as they appear at:"),
+             a("www.reactome.org/PathwayBrowser/", href = "http://www.reactome.org/PathwayBrowser/"),
+             textInput("reactome_in", label = NULL, value = "Reactome pathway"),
+             actionButton("goButton_reactome", "Display"),
+             p(""), 
+             strong("Visualize KEGG pathway"),
+             p("Enter a KEGG pathway id, e.g. hsa04014 or hsa05218. Targets with available probes 
+                appear in red. See:"),
+             a("www.genome.jp/kegg/pathway.html", href = "http://www.genome.jp/kegg/pathway.html"),
+             textInput("kegg_in", label = NULL, value = "KEGG pathway id"),
+             actionButton("goButton_kegg", "Display (may take up to one minute)")
+           ),
+           mainPanel(
+             plotOutput("reactomePlot"),
+             imageOutput("keggPlot")
+           )
+           )),
+  tabPanel("Info",
+           verbatimTextOutput("Information here")
+           )
 ))
