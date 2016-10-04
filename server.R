@@ -1,20 +1,15 @@
-
-# This is the server logic for a Shiny web application.
-# You can find out more about building applications with Shiny here:
-#
-# http://shiny.rstudio.com
-#
-
 library(shiny)
-library(knitr)
-source("helpers.R")
-rand_num <- round(runif(1, 0, 9), 0)
-if(rand_num == 7){
-  list_of_files <- list.files(path = ".", pattern = ".png", full.names = TRUE)
-  do.call(file.remove, list(list_of_files))
-  list_of_files <- list.files(path = ".", pattern = ".xml", full.names = TRUE)
-  do.call(file.remove, list(list_of_files))
-}
+library(readr)
+library(dplyr)
+library(ReactomePA)
+library(png)
+probe_list <- read_csv("PROBELIST.csv")
+kegg_list <- read_csv("kegglist.csv")
+network_table <- read_csv("network_table.csv")
+gene_names <- unique(probe_list$ENTREZ_GENE)
+gene_names <- as.character(na.omit(gene_names))
+mygeneList <- rep(100, length(gene_names))
+names(mygeneList) <- gene_names
 shinyServer(function(input, output) {
   Data <- reactive({
     input$goButton
@@ -22,44 +17,72 @@ shinyServer(function(input, output) {
       search_term <- trimws(input$search_in)
       search_out <- probe_list[apply(probe_list, 1, FUN = 
                                        function(x, y = search_term) {any(grepl(y, x, ignore.case = TRUE))}), ]
-      search_out <- search_out %>% dplyr::select(CHEMICAL_ID, target_name, UNIPROTKB)
+      search_out <- search_out %>% dplyr::select(CHEMICAL_ID, TARGET_NAME, UNIPROTKB, DATA_SOURCE)
       if(search_term == "Search Input"){return()}
       return(search_out)
     })
   })
+  
+  Data_interact <- reactive({
+    input$goButton_interact
+    isolate({ 
+      search_term_interact <- trimws(input$search_in_interact)
+      search_out_interact <- network_table[apply(network_table[, 1:2], 1, FUN = 
+                                       function(x, y = search_term_interact) {any(grepl(y, x, ignore.case = TRUE))}), ]
+      if(search_term_interact == "Target UNIPROT ID"){return()}
+      return(search_out_interact)
+    })
+  })
+  
+  Data_interact_probes <- reactive({
+    input$goButton_interact
+    isolate({ 
+      search_term_interact <- trimws(input$search_in_interact)
+      search_out_interact <- network_table[apply(network_table[, 1:2], 1, FUN = 
+                                                   function(x, y = search_term_interact) {any(grepl(y, x, ignore.case = TRUE))}), ]
+      interacting_proteins <- c(search_out_interact$A, search_out_interact$B)
+      interacting_proteins_out <- probe_list %>% dplyr::filter(UNIPROTKB %in% interacting_proteins) %>% 
+        dplyr::select(CHEMICAL_ID, TARGET_NAME, UNIPROTKB, DATA_SOURCE)
+      if(search_term_interact == "Target UNIPROT ID"){return()}
+      return(interacting_proteins_out)
+    })
+  })
+  
+  
   KEGG <- reactive({
     input$goButton_kegg
     isolate({ 
-      if(!(input$kegg_in %in% c("","KEGG pathway id"))){
-      kegg_pathway <- trimws(input$kegg_in)
-      pathview(gene.data = gene_names, pathway.id = kegg_pathway, 
-               species = "hsa", col.key = FALSE)
-      return(list(src = paste(kegg_pathway, ".pathview.png", sep = ""),
-         contentType = 'image/png',
-         width = 1200,
-         height = 750,
-         alt = "KEGG Pathway Visualization"))
-      }
-    ####need a way to delete files afterwards, perhaps by putting a random number suffix on 
-      ### file output then remove.files
-      list_of_files <- list.files(path = ".", pattern = ".png", full.names = TRUE)
-      do.call(file.remove, list(list_of_files))
+      filename <- normalizePath(file.path('./KeggPlots', kegg_list[kegg_list$EntryName == input$kegg_in, ]$filename))
+      return(list(src = filename,
+                  alt = paste("Image number", input$n)))
+      
     })
   })
-
+  
   
   output$probePlot <- renderTable({
     Data()
-  })
+  }, caption = "Probes found from basic search:",
+  caption.placement = getOption("xtable.caption.placement", "top"))
+  
+  output$probePlot_interact <- renderTable({
+     Data_interact()
+   }, caption = "Relevant protein-protein interactions:",
+  caption.placement = getOption("xtable.caption.placement", "top"))
+   
+  output$probePlot_interact_probes <- renderTable({
+    Data_interact_probes()
+  }, caption = "Probes that may indirectly modulate the target:",
+  caption.placement = getOption("xtable.caption.placement", "top"))
   
   output$reactomePlot <- renderPlot({
     observeEvent(input$goButton_reactome,
-    isolate(viewPathway(trimws(input$reactome_in), organism = "human", fixed = FALSE, readable = TRUE,
-                foldChange=mygeneList, vertex.label.cex = 0.75)))
+                 isolate(viewPathway(trimws(input$reactome_in), organism = "human", fixed = FALSE, readable = TRUE,
+                                     foldChange=mygeneList, vertex.label.cex = 0.75)))
   })
   
   output$keggPlot <- renderImage({
     KEGG()
-  }, deleteFile = TRUE)
+  }, deleteFile = FALSE)
   
 })
