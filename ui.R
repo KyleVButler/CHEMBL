@@ -50,6 +50,7 @@ shinyUI(navbarPage(
           "Search for probes by protein interaction network, using Uniprot IDs. Finds proteins that interact with the target, along with probes 
           for those proteins."
         ),
+        a("http://www.uniprot.org/", href = "http://www.uniprot.org/"),
         textInput("search_in_interact", label = NULL, value = "Target UNIPROT ID"),
         actionButton("goButton_interact", "Search")
         ),
@@ -69,7 +70,7 @@ shinyUI(navbarPage(
           Search terms must be punctuated exactly as they appear at:"
         ),
         a("www.reactome.org/PathwayBrowser/", href = "http://www.reactome.org/PathwayBrowser/"),
-        textInput("reactome_in", label = NULL, value = "Reactome pathway"),
+        textInput("reactome_in", label = NULL, value = "Regulation of TP53 Activity through Methylation"),
         actionButton("goButton_reactome", "Display"),
         p(""),
         strong("Visualize KEGG pathway"),
@@ -81,8 +82,9 @@ shinyUI(navbarPage(
         selectInput("kegg_in", label = NULL, choices = kegg_list$EntryName),
         actionButton("goButton_kegg", "Display")
         ),
-      mainPanel(plotOutput("reactomePlot"),
-                imageOutput("keggPlot"))
+      mainPanel(plotOutput("reactomePlot"), 
+                imageOutput("keggPlot")
+                )
       )
     )
   ))

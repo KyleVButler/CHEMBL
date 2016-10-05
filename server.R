@@ -2,14 +2,22 @@ library(shiny)
 library(readr)
 library(dplyr)
 library(ReactomePA)
+library(DOSE)
+library(reactome.db)
+library(igraph)
+library(graphite)
+library(GOSemSim)
+library(AnnotationDbi)
 library(png)
+library(grDevices)
 probe_list <- read_csv("PROBELIST.csv")
 kegg_list <- read_csv("kegglist.csv")
 network_table <- read_csv("network_table.csv")
 gene_names <- unique(probe_list$ENTREZ_GENE)
-gene_names <- as.character(na.omit(gene_names))
+gene_names <- as.character(gene_names)
 mygeneList <- rep(100, length(gene_names))
 names(mygeneList) <- gene_names
+
 shinyServer(function(input, output) {
   Data <- reactive({
     input$goButton
@@ -59,6 +67,19 @@ shinyServer(function(input, output) {
     })
   })
   
+  reactome <- reactive({
+    input$goButton_reactome
+    isolate({ 
+      
+      return(tryCatch({
+        
+        viewPathway(trimws(input$reactome_in), organism = "human", readable=TRUE, fixed = TRUE,
+                    foldChange=mygeneList, vertex.label.cex = 0.75, col.bin = 1)
+
+      }, error=function(e){}))
+      
+    })
+  })
   
   output$probePlot <- renderTable({
     Data()
@@ -67,7 +88,7 @@ shinyServer(function(input, output) {
   
   output$probePlot_interact <- renderTable({
      Data_interact()
-   }, caption = "Relevant protein-protein interactions:",
+   }, caption = "Protein interaction Search. Relevant protein-protein interactions:",
   caption.placement = getOption("xtable.caption.placement", "top"))
    
   output$probePlot_interact_probes <- renderTable({
@@ -76,9 +97,7 @@ shinyServer(function(input, output) {
   caption.placement = getOption("xtable.caption.placement", "top"))
   
   output$reactomePlot <- renderPlot({
-    observeEvent(input$goButton_reactome,
-                 isolate(viewPathway(trimws(input$reactome_in), organism = "human", fixed = FALSE, readable = TRUE,
-                                     foldChange=mygeneList, vertex.label.cex = 0.75)))
+    reactome()
   })
   
   output$keggPlot <- renderImage({
