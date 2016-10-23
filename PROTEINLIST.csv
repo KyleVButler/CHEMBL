@@ -1,0 +1,123 @@
+accession,ENTRY_NAME,PROTEIN_NAMES,GENE_NAMES
+P00533,EGFR_HUMAN,Epidermal growth factor receptor (EC 2.7.10.1) (Proto-oncogene c-ErbB-1) (Receptor tyrosine-protein kinase erbB-1),EGFR ERBB ERBB1 HER1
+Q5S007,LRRK2_HUMAN,Leucine-rich repeat serine/threonine-protein kinase 2 (EC 2.7.11.1) (Dardarin),LRRK2 PARK8
+P21802,FGFR2_HUMAN,Fibroblast growth factor receptor 2 (FGFR-2) (EC 2.7.10.1) (K-sam) (KGFR) (Keratinocyte growth factor receptor) (CD antigen CD332),FGFR2 BEK KGFR KSAM
+P11362,FGFR1_HUMAN,Fibroblast growth factor receptor 1 (FGFR-1) (EC 2.7.10.1) (Basic fibroblast growth factor receptor 1) (BFGFR) (bFGF-R-1) (Fms-like tyrosine kinase 2) (FLT-2) (N-sam) (Proto-oncogene c-Fgr) (CD antigen CD331),FGFR1 BFGFR CEK FGFBR FLG FLT2 HBGFR
+Q09472,EP300_HUMAN,Histone acetyltransferase p300 (p300 HAT) (EC 2.3.1.48) (E1A-associated protein p300),EP300 P300
+P12931,SRC_HUMAN,Proto-oncogene tyrosine-protein kinase Src (EC 2.7.10.2) (Proto-oncogene c-Src) (pp60c-src) (p60-Src),SRC SRC1
+Q13315,ATM_HUMAN,Serine-protein kinase ATM (EC 2.7.11.1) (Ataxia telangiectasia mutated) (A-T mutated),ATM
+P04626,ERBB2_HUMAN,Receptor tyrosine-protein kinase erbB-2 (EC 2.7.10.1) (Metastatic lymph node gene 19 protein) (MLN 19) (Proto-oncogene Neu) (Proto-oncogene c-ErbB-2) (Tyrosine kinase-type cell surface receptor HER2) (p185erbB2) (CD antigen CD340),ERBB2 HER2 MLN19 NEU NGL
+P10721,KIT_HUMAN,Mast/stem cell growth factor receptor Kit (SCFR) (EC 2.7.10.1) (Piebald trait protein) (PBT) (Proto-oncogene c-Kit) (Tyrosine-protein kinase Kit) (p145 c-kit) (v-kit Hardy-Zuckerman 4 feline sarcoma viral oncogene homolog) (CD antigen CD117),KIT SCFR
+P09619,PGFRB_HUMAN,Platelet-derived growth factor receptor beta (PDGF-R-beta) (PDGFR-beta) (EC 2.7.10.1) (Beta platelet-derived growth factor receptor) (Beta-type platelet-derived growth factor receptor) (CD140 antigen-like family member B) (Platelet-derived growth factor receptor 1) (PDGFR-1) (CD antigen CD140b),PDGFRB PDGFR PDGFR1
+P49841,GSK3B_HUMAN,Glycogen synthase kinase-3 beta (GSK-3 beta) (EC 2.7.11.26) (Serine/threonine-protein kinase GSK3B) (EC 2.7.11.1),GSK3B
+Q06187,BTK_HUMAN,Tyrosine-protein kinase BTK (EC 2.7.10.2) (Agammaglobulinemia tyrosine kinase) (ATK) (B-cell progenitor kinase) (BPK) (Bruton tyrosine kinase),BTK AGMX1 ATK BPK
+P53350,PLK1_HUMAN,Serine/threonine-protein kinase PLK1 (EC 2.7.11.21) (Polo-like kinase 1) (PLK-1) (Serine/threonine-protein kinase 13) (STPK13),PLK1 PLK
+P42345,MTOR_HUMAN,Serine/threonine-protein kinase mTOR (EC 2.7.11.1) (FK506-binding protein 12-rapamycin complex-associated protein 1) (FKBP12-rapamycin complex-associated protein) (Mammalian target of rapamycin) (mTOR) (Mechanistic target of rapamycin) (Rapamycin and FKBP12 target 1) (Rapamycin target protein 1),MTOR FRAP FRAP1 FRAP2 RAFT1 RAPT1
+P07948,LYN_HUMAN,Tyrosine-protein kinase Lyn (EC 2.7.10.2) (Lck/Yes-related novel protein tyrosine kinase) (V-yes-1 Yamaguchi sarcoma viral related oncogene homolog) (p53Lyn) (p56Lyn),LYN JTK8
+P08581,MET_HUMAN,Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met),MET
+Q03164,KMT2A_HUMAN,Histone-lysine N-methyltransferase 2A (Lysine N-methyltransferase 2A) (EC 2.1.1.43) (ALL-1) (CXXC-type zinc finger protein 7) (Myeloid/lymphoid or mixed-lineage leukemia) (Myeloid/lymphoid or mixed-lineage leukemia protein 1) (Trithorax-like protein) (Zinc finger protein HRX) [Cleaved into: MLL cleavage product N320 (N-terminal cleavage product of 320 kDa) (p320); MLL cleavage product C180 (C-terminal cleavage product of 180 kDa) (p180)],KMT2A ALL1 CXXC7 HRX HTRX MLL MLL1 TRX1
+P22607,FGFR3_HUMAN,Fibroblast growth factor receptor 3 (FGFR-3) (EC 2.7.10.1) (CD antigen CD333),FGFR3 JTK4
+P28482,MK01_HUMAN,Mitogen-activated protein kinase 1 (MAP kinase 1) (MAPK 1) (EC 2.7.11.24) (ERT1) (Extracellular signal-regulated kinase 2) (ERK-2) (MAP kinase isoform p42) (p42-MAPK) (Mitogen-activated protein kinase 2) (MAP kinase 2) (MAPK 2),MAPK1 ERK2 PRKM1 PRKM2
+O96017,CHK2_HUMAN,Serine/threonine-protein kinase Chk2 (EC 2.7.11.1) (CHK2 checkpoint homolog) (Cds1 homolog) (Hucds1) (hCds1) (Checkpoint kinase 2),CHEK2 CDS1 CHK2 RAD53
+P15056,BRAF_HUMAN,Serine/threonine-protein kinase B-raf (EC 2.7.11.1) (Proto-oncogene B-Raf) (p94) (v-Raf murine sarcoma viral oncogene homolog B1),BRAF BRAF1 RAFB1
+Q16539,MK14_HUMAN,Mitogen-activated protein kinase 14 (MAP kinase 14) (MAPK 14) (EC 2.7.11.24) (Cytokine suppressive anti-inflammatory drug-binding protein) (CSAID-binding protein) (CSBP) (MAP kinase MXI2) (MAX-interacting protein 2) (Mitogen-activated protein kinase p38 alpha) (MAP kinase p38 alpha) (Stress-activated protein kinase 2a) (SAPK2a),MAPK14 CSBP CSBP1 CSBP2 CSPB1 MXI2 SAPK2A
+Q92793,CBP_HUMAN,CREB-binding protein (EC 2.3.1.48),CREBBP CBP
+O60674,JAK2_HUMAN,Tyrosine-protein kinase JAK2 (EC 2.7.10.2) (Janus kinase 2) (JAK-2),JAK2
+P27361,MK03_HUMAN,Mitogen-activated protein kinase 3 (MAP kinase 3) (MAPK 3) (EC 2.7.11.24) (ERT2) (Extracellular signal-regulated kinase 1) (ERK-1) (Insulin-stimulated MAP2 kinase) (MAP kinase isoform p44) (p44-MAPK) (Microtubule-associated protein 2 kinase) (p44-ERK1),MAPK3 ERK1 PRKM3
+P06239,LCK_HUMAN,Tyrosine-protein kinase Lck (EC 2.7.10.2) (Leukocyte C-terminal Src kinase) (LSK) (Lymphocyte cell-specific protein-tyrosine kinase) (Protein YT16) (Proto-oncogene Lck) (T cell-specific protein-tyrosine kinase) (p56-LCK),LCK
+P20848,A1ATR_HUMAN,Putative alpha-1-antitrypsin-related protein (Protease inhibitor 1-like) (Serpin A2),SERPINA2 ARGS ATR PIL SERPINA2P
+Q9UM73,ALK_HUMAN,ALK tyrosine kinase receptor (EC 2.7.10.1) (Anaplastic lymphoma kinase) (CD antigen CD246),ALK
+Q9NVM4,ANM7_HUMAN,Protein arginine N-methyltransferase 7 (EC 2.1.1.321) (Histone-arginine N-methyltransferase PRMT7) ([Myelin basic protein]-arginine N-methyltransferase PRMT7),PRMT7 KIAA1933
+Q99873,ANM1_HUMAN,Protein arginine N-methyltransferase 1 (EC 2.1.1.319) (Histone-arginine N-methyltransferase PRMT1) (Interferon receptor 1-bound protein 4),PRMT1 HMT2 HRMT1L2 IR1B4
+O60678,ANM3_HUMAN,Protein arginine N-methyltransferase 3 (EC 2.1.1.-) (Heterogeneous nuclear ribonucleoprotein methyltransferase-like protein 3),PRMT3 HRMT1L3
+O14744,ANM5_HUMAN,"Protein arginine N-methyltransferase 5 (EC 2.1.1.320) (72 kDa ICln-binding protein) (Histone-arginine N-methyltransferase PRMT5) (Jak-binding protein 1) (Shk1 kinase-binding protein 1 homolog) (SKB1 homolog) (SKB1Hs) [Cleaved into: Protein arginine N-methyltransferase 5, N-terminally processed]",PRMT5 HRMT1L5 IBP72 JBP1 SKB1
+Q96LA8,ANM6_HUMAN,Protein arginine N-methyltransferase 6 (EC 2.1.1.319) (Heterogeneous nuclear ribonucleoprotein methyltransferase-like protein 6) (Histone-arginine N-methyltransferase PRMT6),PRMT6 HRMT1L6
+Q9H6X2,ANTR1_HUMAN,Anthrax toxin receptor 1 (Tumor endothelial marker 8),ANTXR1 ATR TEM8
+Q13535,ATR_HUMAN,Serine/threonine-protein kinase ATR (EC 2.7.11.1) (Ataxia telangiectasia and Rad3-related protein) (FRAP-related protein 1),ATR FRP1
+O14965,AURKA_HUMAN,Aurora kinase A (EC 2.7.11.1) (Aurora 2) (Aurora/IPL1-related kinase 1) (ARK-1) (Aurora-related kinase 1) (hARK1) (Breast tumor-amplified kinase) (Serine/threonine-protein kinase 15) (Serine/threonine-protein kinase 6) (Serine/threonine-protein kinase aurora-A),AURKA AIK AIRK1 ARK1 AURA AYK1 BTAK IAK1 STK15 STK6
+Q9UIF9,BAZ2A_HUMAN,Bromodomain adjacent to zinc finger domain protein 2A (Transcription termination factor I-interacting protein 5) (TTF-I-interacting protein 5) (Tip5) (hWALp3),BAZ2A KIAA0314 TIP5
+Q9UQB9,AURKC_HUMAN,Aurora kinase C (EC 2.7.11.1) (Aurora 3) (Aurora/IPL1-related kinase 3) (ARK-3) (Aurora-related kinase 3) (Aurora/IPL1/Eg2 protein 2) (Serine/threonine-protein kinase 13) (Serine/threonine-protein kinase aurora-C),AURKC AIE2 AIK3 AIRK3 ARK3 STK13
+P51813,BMX_HUMAN,Cytoplasmic tyrosine-protein kinase BMX (EC 2.7.10.2) (Bone marrow tyrosine kinase gene in chromosome X protein) (Epithelial and endothelial tyrosine kinase) (ETK) (NTK38),BMX
+Q58F21,BRDT_HUMAN,Bromodomain testis-specific protein (Cancer/testis antigen 9) (CT9) (RING3-like protein),BRDT
+Q96GD4,AURKB_HUMAN,Aurora kinase B (EC 2.7.11.1) (Aurora 1) (Aurora- and IPL1-like midbody-associated protein 1) (AIM-1) (Aurora/IPL1-related kinase 2) (ARK-2) (Aurora-related kinase 2) (STK-1) (Serine/threonine-protein kinase 12) (Serine/threonine-protein kinase 5) (Serine/threonine-protein kinase aurora-B),AURKB AIK2 AIM1 AIRK2 ARK2 STK1 STK12 STK5
+Q9UIF8,BAZ2B_HUMAN,Bromodomain adjacent to zinc finger domain protein 2B (hWALp4),BAZ2B KIAA1476
+Q9H8M2,BRD9_HUMAN,Bromodomain-containing protein 9 (Rhabdomyosarcoma antigen MU-RMS-40.8),BRD9 UNQ3040/PRO9856
+Q9NPI1,BRD7_HUMAN,Bromodomain-containing protein 7 (75 kDa bromodomain protein) (Protein CELTIX-1),BRD7 BP75 CELTIX1
+P25440,BRD2_HUMAN,Bromodomain-containing protein 2 (O27.1.1) (Really interesting new gene 3 protein),BRD2 KIAA9001 RING3
+O60885,BRD4_HUMAN,Bromodomain-containing protein 4 (Protein HUNK1),BRD4 HUNK1
+Q15059,BRD3_HUMAN,Bromodomain-containing protein 3 (RING3-like protein),BRD3 KIAA0043 RING3L
+Q86X55,CARM1_HUMAN,Histone-arginine methyltransferase CARM1 (EC 2.1.1.319) (Coactivator-associated arginine methyltransferase 1) (Protein arginine N-methyltransferase 4),CARM1 PRMT4
+P50613,CDK7_HUMAN,Cyclin-dependent kinase 7 (EC 2.7.11.22) (EC 2.7.11.23) (39 kDa protein kinase) (p39 Mo15) (CDK-activating kinase 1) (Cell division protein kinase 7) (Serine/threonine-protein kinase 1) (TFIIH basal transcription factor complex kinase subunit),CDK7 CAK CAK1 CDKN7 MO15 STK1
+P11802,CDK4_HUMAN,Cyclin-dependent kinase 4 (EC 2.7.11.22) (Cell division protein kinase 4) (PSK-J3),CDK4
+Q00534,CDK6_HUMAN,Cyclin-dependent kinase 6 (EC 2.7.11.22) (Cell division protein kinase 6) (Serine/threonine-protein kinase PLSTIRE),CDK6 CDKN6
+O14757,CHK1_HUMAN,Serine/threonine-protein kinase Chk1 (EC 2.7.11.1) (CHK1 checkpoint homolog) (Cell cycle checkpoint kinase) (Checkpoint kinase-1),CHEK1 CHK1
+P24941,CDK2_HUMAN,Cyclin-dependent kinase 2 (EC 2.7.11.22) (Cell division protein kinase 2) (p33 protein kinase),CDK2 CDKN2
+P68400,CSK21_HUMAN,Casein kinase II subunit alpha (CK II alpha) (EC 2.7.11.1),CSNK2A1 CK2A1
+Q08345,DDR1_HUMAN,Epithelial discoidin domain-containing receptor 1 (Epithelial discoidin domain receptor 1) (EC 2.7.10.1) (CD167 antigen-like family member A) (Cell adhesion kinase) (Discoidin receptor tyrosine kinase) (HGK2) (Mammary carcinoma kinase 10) (MCK-10) (Protein-tyrosine kinase 3A) (Protein-tyrosine kinase RTK-6) (TRK E) (Tyrosine kinase DDR) (Tyrosine-protein kinase CAK) (CD antigen CD167a),DDR1 CAK EDDR1 NEP NTRK4 PTK3A RTK6 TRKE
+Q8TEK3,DOT1L_HUMAN,"Histone-lysine N-methyltransferase, H3 lysine-79 specific (EC 2.1.1.43) (DOT1-like protein) (Histone H3-K79 methyltransferase) (H3-K79-HMTase) (Lysine N-methyltransferase 4)",DOT1L KIAA1814 KMT4
+Q9Y463,DYR1B_HUMAN,Dual specificity tyrosine-phosphorylation-regulated kinase 1B (EC 2.7.12.1) (Minibrain-related kinase) (Mirk protein kinase),DYRK1B MIRK
+Q9H9B1,EHMT1_HUMAN,Histone-lysine N-methyltransferase EHMT1 (EC 2.1.1.-) (EC 2.1.1.43) (Euchromatic histone-lysine N-methyltransferase 1) (Eu-HMTase1) (G9a-like protein 1) (GLP) (GLP1) (Histone H3-K9 methyltransferase 5) (H3-K9-HMTase 5) (Lysine N-methyltransferase 1D),EHMT1 EUHMTASE1 GLP KIAA1876 KMT1D
+Q96KQ7,EHMT2_HUMAN,Histone-lysine N-methyltransferase EHMT2 (EC 2.1.1.-) (EC 2.1.1.43) (Euchromatic histone-lysine N-methyltransferase 2) (HLA-B-associated transcript 8) (Histone H3-K9 methyltransferase 3) (H3-K9-HMTase 3) (Lysine N-methyltransferase 1C) (Protein G9a),EHMT2 BAT8 C6orf30 G9A KMT1C NG36
+P21860,ERBB3_HUMAN,Receptor tyrosine-protein kinase erbB-3 (EC 2.7.10.1) (Proto-oncogene-like protein c-ErbB-3) (Tyrosine kinase-type cell surface receptor HER3),ERBB3 HER3
+Q92800,EZH1_HUMAN,Histone-lysine N-methyltransferase EZH1 (EC 2.1.1.43) (ENX-2) (Enhancer of zeste homolog 1),EZH1 KIAA0388
+Q15910,EZH2_HUMAN,Histone-lysine N-methyltransferase EZH2 (EC 2.1.1.43) (ENX-1) (Enhancer of zeste homolog 2) (Lysine N-methyltransferase 6),EZH2 KMT6
+P22455,FGFR4_HUMAN,Fibroblast growth factor receptor 4 (FGFR-4) (EC 2.7.10.1) (CD antigen CD334),FGFR4 JTK2 TKF
+P36888,FLT3_HUMAN,Receptor-type tyrosine-protein kinase FLT3 (EC 2.7.10.1) (FL cytokine receptor) (Fetal liver kinase-2) (FLK-2) (Fms-like tyrosine kinase 3) (FLT-3) (Stem cell tyrosine kinase 1) (STK-1) (CD antigen CD135),FLT3 CD135 FLK2 STK1
+P49840,GSK3A_HUMAN,Glycogen synthase kinase-3 alpha (GSK-3 alpha) (EC 2.7.11.26) (Serine/threonine-protein kinase GSK3A) (EC 2.7.11.1),GSK3A
+O75874,IDHC_HUMAN,Isocitrate dehydrogenase [NADP] cytoplasmic (IDH) (EC 1.1.1.42) (Cytosolic NADP-isocitrate dehydrogenase) (IDP) (NADP(+)-specific ICDH) (Oxalosuccinate decarboxylase),IDH1 PICD
+P08069,IGF1R_HUMAN,Insulin-like growth factor 1 receptor (EC 2.7.10.1) (Insulin-like growth factor I receptor) (IGF-I receptor) (CD antigen CD221) [Cleaved into: Insulin-like growth factor 1 receptor alpha chain; Insulin-like growth factor 1 receptor beta chain],IGF1R
+P23458,JAK1_HUMAN,Tyrosine-protein kinase JAK1 (EC 2.7.10.2) (Janus kinase 1) (JAK-1),JAK1 JAK1A JAK1B
+O15054,KDM6B_HUMAN,Lysine-specific demethylase 6B (EC 1.14.11.-) (JmjC domain-containing protein 3) (Jumonji domain-containing protein 3) (Lysine demethylase 6B),KDM6B JMJD3 KIAA0346
+P52333,JAK3_HUMAN,Tyrosine-protein kinase JAK3 (EC 2.7.10.2) (Janus kinase 3) (JAK-3) (Leukocyte janus kinase) (L-JAK),JAK3
+P49674,KC1E_HUMAN,Casein kinase I isoform epsilon (CKI-epsilon) (CKIe) (EC 2.7.11.1),CSNK1E
+Q96RR4,KKCC2_HUMAN,Calcium/calmodulin-dependent protein kinase kinase 2 (CaM-KK 2) (CaM-kinase kinase 2) (CaMKK 2) (EC 2.7.11.17) (Calcium/calmodulin-dependent protein kinase kinase beta) (CaM-KK beta) (CaM-kinase kinase beta) (CaMKK beta),CAMKK2 CAMKKB KIAA0787
+Q8N5S9,KKCC1_HUMAN,Calcium/calmodulin-dependent protein kinase kinase 1 (CaM-KK 1) (CaM-kinase kinase 1) (CaMKK 1) (EC 2.7.11.17) (CaM-kinase IV kinase) (Calcium/calmodulin-dependent protein kinase kinase alpha) (CaM-KK alpha) (CaM-kinase kinase alpha) (CaMKK alpha),CAMKK1 CAMKKA
+Q15418,KS6A1_HUMAN,Ribosomal protein S6 kinase alpha-1 (S6K-alpha-1) (EC 2.7.11.1) (90 kDa ribosomal protein S6 kinase 1) (p90-RSK 1) (p90RSK1) (p90S6K) (MAP kinase-activated protein kinase 1a) (MAPK-activated protein kinase 1a) (MAPKAP kinase 1a) (MAPKAPK-1a) (Ribosomal S6 kinase 1) (RSK-1),RPS6KA1 MAPKAPK1A RSK1
+O15550,KDM6A_HUMAN,Lysine-specific demethylase 6A (EC 1.14.11.-) (Histone demethylase UTX) (Ubiquitously-transcribed TPR protein on the X chromosome) (Ubiquitously-transcribed X chromosome tetratricopeptide repeat protein),KDM6A UTX
+Q9UK32,KS6A6_HUMAN,Ribosomal protein S6 kinase alpha-6 (S6K-alpha-6) (EC 2.7.11.1) (90 kDa ribosomal protein S6 kinase 6) (p90-RSK 6) (p90RSK6) (Ribosomal S6 kinase 4) (RSK-4) (pp90RSK4),RPS6KA6 RSK4
+Q15349,KS6A2_HUMAN,Ribosomal protein S6 kinase alpha-2 (S6K-alpha-2) (EC 2.7.11.1) (90 kDa ribosomal protein S6 kinase 2) (p90-RSK 2) (p90RSK2) (MAP kinase-activated protein kinase 1c) (MAPK-activated protein kinase 1c) (MAPKAP kinase 1c) (MAPKAPK-1c) (Ribosomal S6 kinase 3) (RSK-3) (pp90RSK3),RPS6KA2 MAPKAPK1C RSK3
+P51812,KS6A3_HUMAN,Ribosomal protein S6 kinase alpha-3 (S6K-alpha-3) (EC 2.7.11.1) (90 kDa ribosomal protein S6 kinase 3) (p90-RSK 3) (p90RSK3) (Insulin-stimulated protein kinase 1) (ISPK-1) (MAP kinase-activated protein kinase 1b) (MAPK-activated protein kinase 1b) (MAPKAP kinase 1b) (MAPKAPK-1b) (Ribosomal S6 kinase 2) (RSK-2) (pp90RSK2),RPS6KA3 ISPK1 MAPKAPK1B RSK2
+P43405,KSYK_HUMAN,Tyrosine-protein kinase SYK (EC 2.7.10.2) (Spleen tyrosine kinase) (p72-Syk),SYK
+Q96JM7,LMBL3_HUMAN,Lethal(3)malignant brain tumor-like protein 3 (H-l(3)mbt-like protein 3) (L(3)mbt-like protein 3) (MBT-1),L3MBTL3 KIAA1798 MBT1
+Q02779,M3K10_HUMAN,Mitogen-activated protein kinase kinase kinase 10 (EC 2.7.11.25) (Mixed lineage kinase 2) (Protein kinase MST),MAP3K10 MLK2 MST
+P49137,MAPK2_HUMAN,MAP kinase-activated protein kinase 2 (MAPK-activated protein kinase 2) (MAPKAP kinase 2) (MAPKAP-K2) (MAPKAPK-2) (MK-2) (MK2) (EC 2.7.11.1),MAPKAPK2
+Q16584,M3K11_HUMAN,Mitogen-activated protein kinase kinase kinase 11 (EC 2.7.11.25) (Mixed lineage kinase 3) (Src-homology 3 domain-containing proline-rich kinase),MAP3K11 MLK3 PTK1 SPRK
+P80192,M3K9_HUMAN,Mitogen-activated protein kinase kinase kinase 9 (EC 2.7.11.25) (Mixed lineage kinase 1),MAP3K9 MLK1 PRKE1
+P45984,MK09_HUMAN,Mitogen-activated protein kinase 9 (MAP kinase 9) (MAPK 9) (EC 2.7.11.24) (JNK-55) (Stress-activated protein kinase 1a) (SAPK1a) (Stress-activated protein kinase JNK2) (c-Jun N-terminal kinase 2),MAPK9 JNK2 PRKM9 SAPK1A
+Q13164,MK07_HUMAN,Mitogen-activated protein kinase 7 (MAP kinase 7) (MAPK 7) (EC 2.7.11.24) (Big MAP kinase 1) (BMK-1) (Extracellular signal-regulated kinase 5) (ERK-5),MAPK7 BMK1 ERK5 PRKM7
+P45983,MK08_HUMAN,Mitogen-activated protein kinase 8 (MAP kinase 8) (MAPK 8) (EC 2.7.11.24) (JNK-46) (Stress-activated protein kinase 1c) (SAPK1c) (Stress-activated protein kinase JNK1) (c-Jun N-terminal kinase 1),MAPK8 JNK1 PRKM8 SAPK1 SAPK1C
+P53779,MK10_HUMAN,Mitogen-activated protein kinase 10 (MAP kinase 10) (MAPK 10) (EC 2.7.11.24) (MAP kinase p49 3F12) (Stress-activated protein kinase 1b) (SAPK1b) (Stress-activated protein kinase JNK3) (c-Jun N-terminal kinase 3),MAPK10 JNK3 JNK3A PRKM10 SAPK1B
+Q02750,MP2K1_HUMAN,Dual specificity mitogen-activated protein kinase kinase 1 (MAP kinase kinase 1) (MAPKK 1) (MKK1) (EC 2.7.12.2) (ERK activator kinase 1) (MAPK/ERK kinase 1) (MEK 1),MAP2K1 MEK1 PRKMK1
+Q13163,MP2K5_HUMAN,Dual specificity mitogen-activated protein kinase kinase 5 (MAP kinase kinase 5) (MAPKK 5) (EC 2.7.12.2) (MAPK/ERK kinase 5) (MEK 5),MAP2K5 MEK5 MKK5 PRKMK5
+O60285,NUAK1_HUMAN,NUAK family SNF1-like kinase 1 (EC 2.7.11.1) (AMPK-related protein kinase 5) (ARK5) (Omphalocele kinase 1),NUAK1 ARK5 KIAA0537 OMPHK1
+Q9H093,NUAK2_HUMAN,NUAK family SNF1-like kinase 2 (EC 2.7.11.1) (Omphalocele kinase 2) (SNF1/AMP kinase-related kinase) (SNARK),NUAK2 OMPHK2 SNARK
+P41145,OPRK_HUMAN,Kappa-type opioid receptor (K-OR-1) (KOR-1),OPRK1 OPRK
+Q9UM07,PADI4_HUMAN,Protein-arginine deiminase type-4 (EC 3.5.3.15) (HL-60 PAD) (Peptidylarginine deiminase IV) (Protein-arginine deiminase type IV),PADI4 PAD4 PADI5 PDI5
+Q9UGN5,PARP2_HUMAN,Poly [ADP-ribose] polymerase 2 (PARP-2) (hPARP-2) (EC 2.4.2.30) (ADP-ribosyltransferase diphtheria toxin-like 2) (ARTD2) (NAD(+) ADP-ribosyltransferase 2) (ADPRT-2) (Poly[ADP-ribose] synthase 2) (pADPRT-2),PARP2 ADPRT2 ADPRTL2
+Q9NQU5,PAK6_HUMAN,Serine/threonine-protein kinase PAK 6 (EC 2.7.11.1) (PAK-5) (p21-activated kinase 6) (PAK-6),PAK6 PAK5
+Q2NL67,PARP6_HUMAN,Poly [ADP-ribose] polymerase 6 (PARP-6) (EC 2.4.2.30) (ADP-ribosyltransferase diphtheria toxin-like 17) (ARTD17),PARP6
+Q15118,PDK1_HUMAN,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 1, mitochondrial (EC 2.7.11.2) (Pyruvate dehydrogenase kinase isoform 1) (PDH kinase 1)",PDK1 PDHK1
+Q13153,PAK1_HUMAN,Serine/threonine-protein kinase PAK 1 (EC 2.7.11.1) (Alpha-PAK) (p21-activated kinase 1) (PAK-1) (p65-PAK),PAK1
+O96013,PAK4_HUMAN,Serine/threonine-protein kinase PAK 4 (EC 2.7.11.1) (p21-activated kinase 4) (PAK-4),PAK4 KIAA1142
+P09874,PARP1_HUMAN,Poly [ADP-ribose] polymerase 1 (PARP-1) (EC 2.4.2.30) (ADP-ribosyltransferase diphtheria toxin-like 1) (ARTD1) (NAD(+) ADP-ribosyltransferase 1) (ADPRT 1) (Poly[ADP-ribose] synthase 1),PARP1 ADPRT PPOL
+Q9P286,PAK7_HUMAN,Serine/threonine-protein kinase PAK 7 (EC 2.7.11.1) (p21-activated kinase 5) (PAK-5) (p21-activated kinase 7) (PAK-7),PAK7 KIAA1264 PAK5
+O15530,PDPK1_HUMAN,3-phosphoinositide-dependent protein kinase 1 (hPDK1) (EC 2.7.11.1),PDPK1 PDK1
+O00329,PK3CD_HUMAN,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform (PI3-kinase subunit delta) (PI3K-delta) (PI3Kdelta) (PtdIns-3-kinase subunit delta) (EC 2.7.1.153) (Phosphatidylinositol 4,5-bisphosphate 3-kinase 110 kDa catalytic subunit delta) (PtdIns-3-kinase subunit p110-delta) (p110delta)",PIK3CD
+Q9NYY3,PLK2_HUMAN,Serine/threonine-protein kinase PLK2 (EC 2.7.11.21) (Polo-like kinase 2) (PLK-2) (hPlk2) (Serine/threonine-protein kinase SNK) (hSNK) (Serum-inducible kinase),PLK2 SNK
+Q9H4B4,PLK3_HUMAN,Serine/threonine-protein kinase PLK3 (EC 2.7.11.21) (Cytokine-inducible serine/threonine-protein kinase) (FGF-inducible kinase) (Polo-like kinase 3) (PLK-3) (Proliferation-related kinase),PLK3 CNK FNK PRK
+P42336,PK3CA_HUMAN,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform (PI3-kinase subunit alpha) (PI3K-alpha) (PI3Kalpha) (PtdIns-3-kinase subunit alpha) (EC 2.7.1.153) (Phosphatidylinositol 4,5-bisphosphate 3-kinase 110 kDa catalytic subunit alpha) (PtdIns-3-kinase subunit p110-alpha) (p110alpha) (Phosphoinositide-3-kinase catalytic alpha polypeptide) (Serine/threonine protein kinase PIK3CA) (EC 2.7.11.1)",PIK3CA
+Q16512,PKN1_HUMAN,Serine/threonine-protein kinase N1 (EC 2.7.11.13) (Protease-activated kinase 1) (PAK-1) (Protein kinase C-like 1) (Protein kinase C-like PKN) (Protein kinase PKN-alpha) (Protein-kinase C-related kinase 1) (Serine-threonine protein kinase N),PKN1 PKN PRK1 PRKCL1
+O00444,PLK4_HUMAN,Serine/threonine-protein kinase PLK4 (EC 2.7.11.21) (Polo-like kinase 4) (PLK-4) (Serine/threonine-protein kinase 18) (Serine/threonine-protein kinase Sak),PLK4 SAK STK18
+P42677,RS27_HUMAN,40S ribosomal protein S27 (Metallopan-stimulin 1) (MPS-1),RPS27 MPS1
+Q8WTS6,SETD7_HUMAN,Histone-lysine N-methyltransferase SETD7 (EC 2.1.1.43) (Histone H3-K4 methyltransferase SETD7) (H3-K4-HMTase SETD7) (Lysine N-methyltransferase 7) (SET domain-containing protein 7) (SET7/9),SETD7 KIAA1717 KMT7 SET7 SET9
+P57059,SIK1_HUMAN,Serine/threonine-protein kinase SIK1 (EC 2.7.11.1) (Salt-inducible kinase 1) (SIK-1) (Serine/threonine-protein kinase SNF1-like kinase 1) (Serine/threonine-protein kinase SNF1LK),SIK1 SIK SNF1LK
+Q9H0K1,SIK2_HUMAN,Serine/threonine-protein kinase SIK2 (EC 2.7.11.1) (Qin-induced kinase) (Salt-inducible kinase 2) (SIK-2) (Serine/threonine-protein kinase SNF1-like kinase 2),SIK2 KIAA0781 QIK SNF1LK2
+Q9Y2K2,SIK3_HUMAN,Serine/threonine-protein kinase SIK3 (EC 2.7.11.1) (Salt-inducible kinase 3) (SIK-3) (Serine/threonine-protein kinase QSK),SIK3 KIAA0999 QSK L19
+Q9NWH9,SLTM_HUMAN,SAFB-like transcription modulator (Modulator of estrogen-induced transcription),SLTM MET
+Q9NRG4,SMYD2_HUMAN,N-lysine methyltransferase SMYD2 (EC 2.1.1.-) (HSKM-B) (Histone methyltransferase SMYD2) (EC 2.1.1.43) (Lysine N-methyltransferase 3C) (SET and MYND domain-containing protein 2),SMYD2 KMT3C
+Q9H2K2,TNKS2_HUMAN,Tankyrase-2 (TANK2) (EC 2.4.2.30) (ADP-ribosyltransferase diphtheria toxin-like 6) (ARTD6) (Poly [ADP-ribose] polymerase 5B) (TNKS-2) (TRF1-interacting ankyrin-related ADP-ribose polymerase 2) (Tankyrase II) (Tankyrase-like protein) (Tankyrase-related protein),TNKS2 PARP5B TANK2 TNKL
+O95271,TNKS1_HUMAN,Tankyrase-1 (TANK1) (EC 2.4.2.30) (ADP-ribosyltransferase diphtheria toxin-like 5) (ARTD5) (Poly [ADP-ribose] polymerase 5A) (TNKS-1) (TRF1-interacting ankyrin-related ADP-ribose polymerase) (Tankyrase I),TNKS PARP5A PARPL TIN1 TINF1 TNKS1
+P33981,TTK_HUMAN,Dual specificity protein kinase TTK (EC 2.7.12.1) (Phosphotyrosine picked threonine-protein kinase) (PYT),TTK MPS1 MPS1L1
+P22314,UBA1_HUMAN,Ubiquitin-like modifier-activating enzyme 1 (EC 6.2.1.45) (Protein A1S9) (Ubiquitin-activating enzyme E1),UBA1 A1S9T UBE1
+Q8TBC4,UBA3_HUMAN,NEDD8-activating enzyme E1 catalytic subunit (EC 6.3.2.-) (NEDD8-activating enzyme E1C) (Ubiquitin-activating enzyme E1C) (Ubiquitin-like modifier-activating enzyme 3) (Ubiquitin-activating enzyme 3),UBA3 UBE1C
+P61964,WDR5_HUMAN,WD repeat-containing protein 5 (BMP2-induced 3-kb gene protein),WDR5 BIG3

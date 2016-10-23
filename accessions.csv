@@ -1,0 +1,182 @@
+CHEMICAL_ID,PROTEIN_NAME,accession,pref_name
+Olaparib,PARP1,P09874,Poly [ADP-ribose] polymerase-1
+Olaparib,PARP2,Q9UGN5,Poly [ADP-ribose] polymerase 2
+CGI1746,BTK,Q06187,Tyrosine-protein kinase BTK
+EPZ-6438,EZH2,Q15910,Histone-lysine N-methyltransferase EZH2
+VX-745,MAPK14,Q16539,MAP kinase p38 alpha
+Ruxolitinib,JAK1,P23458,Tyrosine-protein kinase JAK1 
+Ruxolitinib,JAK2,O60674,Tyrosine-protein kinase JAK2
+BAY-598,SMYD2,Q9NRG4,N-lysine methyltransferase SMYD2
+SGC707,PRMT3,O60678,Protein arginine N-methyltransferase 3
+CH5424802,ALK,Q9UM73,ALK tyrosine kinase receptor
+CPI-169,EZH2,Q15910,Histone-lysine N-methyltransferase EZH2
+EPZ011989,EZH1,Q92800,Histone-lysine N-methyltransferase EZH1
+EPZ011989,EZH2,Q15910,Histone-lysine N-methyltransferase EZH2
+MK-4827,PARP1,P09874,Poly [ADP-ribose] polymerase-1
+MK-4827,PARP2,Q9UGN5,Poly [ADP-ribose] polymerase 2
+PF-3758309,PAK1,Q13153,Serine/threonine-protein kinase PAK 1
+PF-3758309,PAK4,O96013,Serine/threonine-protein kinase PAK 4
+PF-3758309,PAK5,Q9P286,Serine/threonine-protein kinase PAK7
+PF-3758309,PAK6,Q9NQU5,Serine/threonine-protein kinase PAK6
+OICR-9429,WDR5,P61964,WD repeat-containing protein 5
+MS023,PRMT1,Q99873,Protein-arginine N-methyltransferase 1
+MS023,PRMT3,O60678,Protein arginine N-methyltransferase 3
+MS023,PRMT4,Q86X55,Histone-arginine methyltransferase CARM1
+MS023,PRMT5,O14744,Protein arginine N-methyltransferase 5
+MS023,PRMT6,Q96LA8,Protein arginine N-methyltransferase 6
+Veliparib,PARP1,P09874,Poly [ADP-ribose] polymerase-1
+Veliparib,PARP2,Q9UGN5,Poly [ADP-ribose] polymerase 2
+SCH772984,MAPK1,P28482,MAP kinase ERK2
+SCH772984,MAPK3,P27361,MAP kinase ERK1
+EPZ015666,PRMT5,O14744,Protein arginine N-methyltransferase 5
+JQ1,BRD2,P25440,Bromodomain-containing protein 2
+JQ1,BRD3,Q15059,Bromodomain-containing protein 3
+JQ1,BRD4,O60885,Bromodomain-containing protein 4
+JQ1,BRDT,Q58F21,Bromodomain testis-specific protein
+GSK2334470,PDK1,Q15118,Pyruvate dehydrogenase kinase isoform 1
+GNE7915,LRRK2,Q5S007,Leucine-rich repeat serine/threonine-protein kinase 2
+CP-724714,ERBB2,P04626,Receptor protein-tyrosine kinase erbB-2
+MK-5108,AURKA,O14965,Serine/threonine-protein kinase Aurora-A
+PFI-1,BRD2,P25440,Bromodomain-containing protein 2
+PFI-1,BRD3,Q15059,Bromodomain-containing protein 3
+PFI-1,BRD4,O60885,Bromodomain-containing protein 4
+PFI-1,BRDT,Q58F21,Bromodomain testis-specific protein
+UNC1215,L3MBTL3,Q96JM7,Lethal(3)malignant brain tumor-like protein 3
+GDC-0879,BRAF,P15056,Serine/threonine-protein kinase B-raf
+EPZ-5676,DOT1L,Q8TEK3,"Histone-lysine N-methyltransferase, H3 lysine-79 specific"
+BYL-719,PIK3CA,P42336,PI3-kinase p110-alpha subunit
+PD0332991,CDK4,P11802,Cyclin-dependent kinase 4
+PD0332991,CDK6,Q00534,Cyclin-dependent kinase 6
+AMG900,AURKA,O14965,Serine/threonine-protein kinase Aurora-A
+AMG900,AURKB,Q96GD4,Serine/threonine-protein kinase Aurora-B
+AMG900,AURKC,Q9UQB9,Serine/threonine-protein kinase Aurora-C
+CHIR-99021,GSK3A,P49840,Glycogen synthase kinase-3 alpha
+CHIR-99021,GSK3B,P49841,Glycogen synthase kinase-3 beta
+GSK343,EZH2,Q15910,Histone-lysine N-methyltransferase EZH2
+A-366,EHMT2,Q96KQ7,"Histone-lysine N-methyltransferase, H3 lysine-9 specific 3"
+A-366,EHMT1,Q9H9B1,"Histone-lysine N-methyltransferase, H3 lysine-9 specific 5"
+GSK484,PADI4,Q9UM07,Protein-arginine deiminase type-4
+AZD2014,MTOR,P42345,Serine/threonine-protein kinase mTOR
+(R)-PFI-2,SETD7,Q8WTS6,Histone-lysine N-methyltransferase SETD7
+SGC0946,DOT1L,Q8TEK3,"Histone-lysine N-methyltransferase, H3 lysine-79 specific"
+AZD1152-HQPA,AURKB,Q96GD4,Serine/threonine-protein kinase Aurora-B
+BGJ-398,FGFR1,P11362,Fibroblast growth factor receptor 1
+BGJ-398,FGFR2,P21802,Fibroblast growth factor receptor 2
+BGJ-398,FGFR3,P22607,Fibroblast growth factor receptor 3
+BGJ-398,FGFR4,P22455,Fibroblast growth factor receptor 4
+Tofacitinib,JAK1,P23458,Tyrosine-protein kinase JAK1 
+Tofacitinib,JAK2,O60674,Tyrosine-protein kinase JAK2
+Tofacitinib,JAK3,P52333,Tyrosine-protein kinase JAK3
+NVP-AEW541,IGF1R,P08069,Insulin-like growth factor I receptor
+SGX-523,MET,P08581,Hepatocyte growth factor receptor
+THZ1,CDK7,P50613,Cyclin-dependent kinase 7
+PF-477736,CHEK1,O14757,Serine/threonine-protein kinase Chk1 
+UNC1999,EZH1,Q92800,Histone-lysine N-methyltransferase EZH1
+UNC1999,EZH2,Q15910,Histone-lysine N-methyltransferase EZH2
+CCT241533,CHEK2,O96017,Serine/threonine-protein kinase Chk2
+Rapamycin,MTOR,P42345,Serine/threonine-protein kinase mTOR
+PF3644022,MAPKAPK2,P49137,MAP kinase-activated protein kinase 2
+GNF-5,BCR-ABL,P00519,Tyrosine-protein kinase ABL
+CX-4945,CSNK2A1,P68400,Casein kinase II alpha
+GSK591,PRMT5,O14744,Protein arginine N-methyltransferase 5
+Selumetinib,MAP2K1,Q02750,Dual specificity mitogen-activated protein kinase kinase 1
+SGC-CBP30,CREBBP,Q92793,CREB-binding protein
+SGC-CBP30,EP300,Q09472,Histone acetyltransferase p300
+AC220,FLT3,P36888,Tyrosine-protein kinase receptor FLT3
+P505-15,SYK,P43405,Tyrosine-protein kinase SYK
+BAZ2-ICR,BAZ2A,Q9UIF9,Bromodomain adjacent to zinc finger domain protein 2A
+BAZ2-ICR,BAZ2B,Q9UIF8,Bromodomain adjacent to zinc finger domain protein 2B
+BMS-911543,JAK2,O60674,Tyrosine-protein kinase JAK2
+AZ191,DYRK1B,Q9Y463,Dual specificity tyrosine-phosphorylation-regulated kinase 1B
+BMX-IN-1,BMX,P51813,Tyrosine-protein kinase BMX
+Salvinorin A,OPRK1,P41145,Kappa opioid receptor
+AZ6102,TNKS,O95271,Tankyrase-1
+AZ6102,TNKS2,Q9H2K2,Tankyrase-2
+JNK-IN-8,MAPK8,P45983,c-Jun N-terminal kinase 1
+JNK-IN-8,MAPK9,P45984,c-Jun N-terminal kinase 2
+JNK-IN-8,MAPK10,P53779,c-Jun N-terminal kinase 3
+AZ0108,PARP1,P09874,Poly [ADP-ribose] polymerase-1
+AZ0108,PARP2,Q9UGN5,Poly [ADP-ribose] polymerase 2
+AZ0108,PARP6,Q2NL67,Poly [ADP-ribose] polymerase 6
+GSK-J4,KDM6A,O15550,Lysine-specific demethylase 6A
+GSK-J4,KDM6B,O15054,Lysine-specific demethylase 6B
+WZ4003,NUAK1,O60285,NUAK family SNF1-like kinase 1
+WZ4003,NUAK2,Q9H093,NUAK family SNF1-like kinase 2
+EPZ020411,PRMT6,Q96LA8,Protein arginine N-methyltransferase 6
+GDC-0941,PIK3CA,P42336,PI3-kinase p110-alpha subunit
+GDC-0941,PIK3CD,O00329,PI3-kinase p110-delta subunit
+Bafetinib,BCR-ABL,P00519,Tyrosine-protein kinase ABL
+Bafetinib,LYN,P07948,Tyrosine-protein kinase Lyn 
+STO609,CAMKK1,Q8N5S9,CaM-kinase kinase alpha
+STO609,CAMKK2,Q96RR4,CaM-kinase kinase beta
+VE-821,ATR,Q13535,Serine-protein kinase ATR
+Afatinib,EGFR,P00533,Epidermal growth factor receptor erbB1
+Afatinib,ERBB2,P04626,Receptor protein-tyrosine kinase erbB-2
+MPS1-IN-1,MPS1,P33981,Dual specificity protein kinase TTK
+AVL-292,BTK,Q06187,Tyrosine-protein kinase BTK
+XMD8-92,MAPK7,Q13164,Mitogen-activated protein kinase 7
+DDR1-IN-1,DDR1,Q08345,Epithelial discoidin domain-containing receptor 1
+I-BRD9,BRD9,Q9H8M2,Bromodomain-containing protein 9
+BI2536,PLK1,P53350,Serine/threonine-protein kinase PLK1
+BI2536,PLK2,Q9NYY3,Serine/threonine-protein kinase PLK2
+BI2536,PLK3,Q9H4B4,Serine/threonine-protein kinase PLK3
+BI-9564,BRD9,Q9H8M2,Bromodomain-containing protein 9
+BI-9564,BRD7,Q9NPI1,Bromodomain-containing protein 7
+I-BET151,BRD2,P25440,Bromodomain-containing protein 2
+I-BET151,BRD3,Q15059,Bromodomain-containing protein 3
+I-BET151,BRD4,O60885,Bromodomain-containing protein 4
+LP99,BRD7,Q9NPI1,Bromodomain-containing protein 7
+LP99,BRD9,Q9H8M2,Bromodomain-containing protein 9
+CP-673451,PDGFRbeta,P09619,Platelet-derived growth factor receptor beta
+GSK864,IDH1,O75874,Isocitrate dehydrogenase [NADP] cytoplasmic
+JQEZ5,EZH2,Q15910,Histone-lysine N-methyltransferase EZH2
+AGI-5198,IDH1,O75874,Isocitrate dehydrogenase [NADP] cytoplasmic
+GSK2801,BAZ2A,Q9UIF9,Bromodomain adjacent to zinc finger domain protein 2A
+GSK2801,BAZ2B,Q9UIF8,Bromodomain adjacent to zinc finger domain protein 2B
+KU-60019,ATM,Q13315,Serine-protein kinase ATM
+PF-4800567,CSNK1E,P49674,Casein kinase I epsilon
+BIX-02188,MAP2K5,Q13163,Dual specificity mitogen-activated protein kinase kinase 5
+WH-4-023,LCK,P06239,Tyrosine-protein kinase LCK
+WH-4-023,SRC,P12931,Tyrosine-protein kinase SRC
+TX1-85-1,ERBB3,P21860,Receptor tyrosine-protein kinase erbB-3
+CFI-400945,PLK4,O00444,Serine/threonine-protein kinase PLK4
+BMS-265246,CDK,P06493,Cyclin-dependent kinase 1
+BMS-265246,CDK2,P24941,Cyclin-dependent kinase 2
+URMC-099,MLK1,P80192,Mitogen-activated protein kinase kinase kinase 9
+URMC-099,MLK2,Q02779,Mitogen-activated protein kinase kinase kinase 10
+URMC-099,MLK3,Q16584,Mitogen-activated protein kinase kinase kinase 11
+BI-D1870,RPS6KA1,Q15418,Ribosomal protein S6 kinase alpha 1
+BI-D1870,RPS6KA2,Q15349,Ribosomal protein S6 kinase alpha 2
+BI-D1870,RPS6KA3,P51812,Ribosomal protein S6 kinase alpha 3
+BI-D1870,RPS6KA6,Q9UK32,Ribosomal protein S6 kinase alpha 6
+DS-437,PRMT5,O14744,Protein arginine N-methyltransferase 5
+Imatinib,BCR-ABL,P00519,Tyrosine-protein kinase ABL
+Imatinib,PDGFR,P09619,Platelet-derived growth factor receptor beta
+Imatinib,KIT,P10721,Stem cell growth factor receptor
+UNC0638,EHMT2,Q96KQ7,"Histone-lysine N-methyltransferase, H3 lysine-9 specific 3"
+UNC0638,EHMT1,Q9H9B1,"Histone-lysine N-methyltransferase, H3 lysine-9 specific 5"
+JW55,TNKS,O95271,Tankyrase-1
+JW55,TNKS2,Q9H2K2,Tankyrase-2
+LLY-507,SMYD2,Q9NRG4,N-lysine methyltransferase SMYD2
+E7449,PARP1,P09874,Poly [ADP-ribose] polymerase-1
+E7449,PARP2,Q9UGN5,Poly [ADP-ribose] polymerase 2
+E7449,TNKS,O95271,Tankyrase-1
+E7449,TNKS2,Q9H2K2,Tankyrase-2
+MIV-6R,KMT2A,Q03164,Histone-lysine N-methyltransferase MLL
+EI1,EZH2,Q15910,Histone-lysine N-methyltransferase EZH2
+BIX-01294,EHMT2,Q96KQ7,"Histone-lysine N-methyltransferase, H3 lysine-9 specific 3"
+EPZ004777,DOT1L,Q8TEK3,"Histone-lysine N-methyltransferase, H3 lysine-79 specific"
+Talazoparib,PARP1,P09874,Poly [ADP-ribose] polymerase-1
+Talazoparib,PARP2,Q9UGN5,Poly [ADP-ribose] polymerase 2
+CPI-360,EZH2,Q15910,Histone-lysine N-methyltransferase EZH2
+I-CBP112,CREBBP,Q92793,CREB-binding protein
+I-CBP112,EP300,Q09472,Histone acetyltransferase p300
+UNC0642,EZH2,Q15910,Histone-lysine N-methyltransferase EZH2
+UNC0642,EHMT1,Q9H9B1,"Histone-lysine N-methyltransferase, H3 lysine-9 specific 5"
+ABPA3,UBA1,P22314,Ubiquitin-like modifier-activating enzyme 1
+ABPA3,UBA3,Q8TBC4,NEDD8-activating enzyme E1 catalytic subunit
+XAV939,TNKS,O95271,Tankyrase-1
+XAV939,TNKS2,Q9H2K2,Tankyrase-2
+HG-9-91-01,SIK1,P57059,Serine/threonine-protein kinase SIK1
+HG-9-91-01,SIK2,Q9H0K1,Serine/threonine-protein kinase SIK2
+HG-9-91-01,SIK3,Q9Y2K2,Serine/threonine-protein kinase SIK3
