@@ -1,7 +1,9 @@
-#big loss of specificity is in checking the functional assay, could not include any results that have " E coli, baculovirus " or " Sf9 "  (include spaces)
-#in the description   -others?  insect, bacteria, E Coli, should we exclude CHO? maybe not, some results have good data for that
-#check some common probes and see how the funcitonal assays can be related to the target
+selectivity_types <- c("Selectivity ratio", "Ratio IC50", "Ratio", "Ratio Ki", "Ratio EC50", "Fold selectivity", 
+                              "Selectivity Index", "Ratio pIC50", "Ratio pKi", "Selectivity")
 
+binding_types <- c("Activity", "EC50", "IC50", "Kb", "KB", "Kd", "Ki", "Kinact", "Potency", "Log Ki", 
+                          "Log EC50", "pKb", "deltaTm", "Thermal melting change")
+efficacy_types <- c("Emax", "max activation", "efficacy", "Efficacy")
 
 library(dplyr)
 library(tibble)
@@ -22,18 +24,19 @@ names(table(activities_collected$standard_type))[as.vector(table(activities_coll
 
 compound_summary <- activities_collected %>% count(molregno) %>% dplyr::rename(n_total = n)
 selectivity_measurements <- activities_collected %>% group_by(molregno) %>% 
-  filter(standard_type %in% c("Selectivity ratio", "Ratio IC50", "Ratio", "Ratio Ki", "Ratio EC50", "Fold selectivity", "Selectivity Index", "Selectivity index",
-                              "Relative potency", "Ratio pIC50", "Ratio pKi", "Selectivity") & assay_type == "B" & bao_format != "BAO_0000219") %>% 
+  filter(standard_type %in% selectivity_types & assay_type == "B" & bao_format != "BAO_0000219") %>% 
   count(molregno) %>% dplyr::rename(n_selectivity = n)
 #What about Log Ki, Log EC50, pKb - need to change to nM for standard_units == NA
 potency_measurements <- activities_collected %>% group_by(molregno) %>% 
-  filter(target_type == "SINGLE PROTEIN" & organism == "Homo sapiens" & confidence_score %in% c(8, 9) & standard_units %in% c("nM", "%") & 
-           standard_type %in% c("Activity", "EC50", "IC50", "Kb", "KB", "Kd", "Ki", "Kinact", "Potency", "Log Ki", "Log EC50", "pKb", "Activity", "Inhibition")) %>% 
+  filter(target_type == "SINGLE PROTEIN" & organism == "Homo sapiens" & assay_type == "B" & confidence_score %in% c(8, 9) & 
+           standard_units %in% c("nM", "%", "degrees C") & 
+           standard_type %in% c(binding_types, "Inhibition", "Activity")) %>% 
   distinct(pref_name) %>% count(molregno) %>% dplyr::rename(n_potency = n)
-compound_summary <- full_join(compound_summary, selectivity_measurements)
+
+compound_summary <- left_join(compound_summary, selectivity_measurements)
 
 
-compound_summary <- full_join(compound_summary, potency_measurements)
+compound_summary <- left_join(compound_summary, potency_measurements)
 compound_summary[is.na(compound_summary)] <- 0
 
 #keep only compounds with n_total >= 3 and n_select > 1
@@ -46,12 +49,12 @@ activities_collected2 <- activities_collected %>% filter(molregno %in% compound_
 
 #match each compound with its most potent target and keep only those that have one target under 100 nM
 min_target <- activities_collected2 %>% 
-  filter(target_type == "SINGLE PROTEIN" & organism == "Homo sapiens" & assay_type == "B" & confidence_score %in% c(8, 9) & standard_units == "nM" & 
-           standard_type %in% c("Activity", "EC50", "IC50", "Kb", "KB", "Kd", "Ki", "Kinact", "Potency", "Log Ki", "Log EC50", "pKb") & standard_value < 100) %>%
-  group_by(molregno, pref_name) %>% summarize(min_value = min(standard_value)) %>% group_by(molregno) %>% filter(n() == 1) 
+  filter(target_type == "SINGLE PROTEIN" & organism == "Homo sapiens" & assay_type == "B" & confidence_score %in% 
+           c(8, 9) & standard_units == "nM" & standard_type %in% binding_types & standard_value < 100) %>%
+  group_by(molregno, pref_name) %>% summarize(min_value = min(standard_value)) %>% group_by(molregno) %>% 
+  filter(n() == 1) 
 
 compound_summary <- right_join(compound_summary, min_target)
-compound_summary
 
 #check that a cell assay exists for the main target
 #activities_collected_subset <- right_join(activities_collected2, (compound_summary %>% select(molregno, pref_name) %>% rename(target = pref_name)))
@@ -63,22 +66,32 @@ compound_summary
 
 #check that no selectivity measurements are under 30
 cmpdstokeep <- activities_collected2 %>% group_by(molregno) %>% 
-  filter(standard_type %in% c("Selectivity ratio", "Ratio IC50", "Ratio", "Ratio Ki", "Ratio EC50", "Fold selectivity", "Selectivity Index", "Selectivity index",
-                              "Relative potency", "Ratio pIC50", "Ratio pKi", "Selectivity") & assay_type == "B" & bao_format != "BAO_0000219" & standard_value < 30) 
+  filter(standard_type %in% c("Selectivity ratio", "Ratio IC50", "Ratio", "Ratio Ki", "Ratio EC50", "Fold selectivity", 
+                              "Selectivity Index", "Ratio pIC50", "Ratio pKi", "Selectivity")) %>% 
+  filter(assay_type == "B" & bao_format != "BAO_0000219" & 
+           standard_value < 30) 
 compound_summary <- compound_summary %>% filter(!(molregno %in% unique(cmpdstokeep$molregno)))
-compound_summary 
 
 #check that ic50 type measurements have at least 30 fold selectivity
 min_target <- activities_collected2 %>% filter(molregno %in% compound_summary$molregno) %>%
   filter(target_type == "SINGLE PROTEIN" & organism == "Homo sapiens" & confidence_score %in% c(8, 9) & standard_units == "nM" & 
-           standard_type %in% c("Activity", "EC50", "IC50", "Kb", "KB", "Kd", "Ki", "Kinact", "Potency", "Log Ki", "Log EC50", "pKb")) %>%
+           standard_type %in% binding_types) %>%
   group_by(molregno, pref_name) %>% summarize(min_value = min(standard_value)) %>% group_by(molregno) %>% filter(n() > 1) %>% arrange(molregno, min_value)
 min_target_check <- min_target %>% slice(1) %>% select(molregno, min_value) 
 min_target_check2 <- min_target %>% slice(2) %>% select(molregno, min_value) %>% rename(second_value = min_value)
-min_target_check <- full_join(min_target_check, min_target_check2)
+min_target_check <- left_join(min_target_check, min_target_check2)
 min_target_check <- min_target_check %>% mutate(selectivity_ratio = second_value/min_value) %>% filter(selectivity_ratio < 30)
 compound_summary <- compound_summary %>% filter(!(molregno %in% unique(min_target_check$molregno)))
-compound_summary 
+activities_collected2 <- activities_collected %>% filter(molregno %in% compound_summary$molregno)
+
+#check no thermal shift are over 4 for any other proteins
+
+min_target <- activities_collected2 %>% filter(molregno %in% compound_summary$molregno) %>%
+  filter(target_type == "SINGLE PROTEIN" & organism == "Homo sapiens" & confidence_score %in% c(8, 9) & standard_units == "degrees C" & 
+           standard_type %in% binding_types)
+min_target <- left_join(min_target, compound_summary %>% rename(target_name = pref_name) %>% select(molregno, target_name))
+min_target <- min_target %>% filter(target_name != pref_name & standard_value > 4)
+compound_summary <- compound_summary %>% filter(!(molregno %in% unique(min_target$molregno)))
 activities_collected2 <- activities_collected %>% filter(molregno %in% compound_summary$molregno)
 
 #check that no % activity type measurements are above 50 for targets without known ic50 values
@@ -86,7 +99,7 @@ x <- rep(TRUE, nrow(compound_summary))
 activities_collected_subset <- filter(activities_collected2, standard_type == "Activity" & standard_units == "%" & assay_type == "B" & target_type == "SINGLE PROTEIN")
 activities_collected_subset2 <- filter(activities_collected2, target_type == "SINGLE PROTEIN" & organism == "Homo sapiens" & confidence_score %in% c(8, 9) & 
                                          standard_units == "nM" & 
-                                         standard_type %in% c("Activity", "EC50", "IC50", "Kb", "KB", "Kd", "Ki", "Kinact", "Potency", "Log Ki", "Log EC50", "pKb"))
+                                         standard_type %in% binding_types)
 for(i in 1:nrow(compound_summary)){
   kilist <- filter(activities_collected_subset2, molregno == compound_summary$molregno[i])
   if(nrow(activities_collected_subset %>% filter(molregno == compound_summary$molregno[i] & standard_value < 50 & 
@@ -102,7 +115,7 @@ x <- rep(TRUE, nrow(compound_summary))
 activities_collected_subset <- filter(activities_collected2, standard_type == "Inhibition" & standard_units == "%" & assay_type == "B" & target_type == "SINGLE PROTEIN")
 activities_collected_subset2 <- filter(activities_collected2, target_type == "SINGLE PROTEIN" & organism == "Homo sapiens" & confidence_score %in% c(8, 9) & 
                                          standard_units == "nM" & 
-                                         standard_type %in% c("Activity", "EC50", "IC50", "Kb", "KB", "Kd", "Ki", "Kinact", "Potency", "Log Ki", "Log EC50", "pKb"))
+                                         standard_type %in% binding_types)
 for(i in 1:nrow(compound_summary)){
   kilist <- filter(activities_collected_subset2, molregno == compound_summary$molregno[i])
   if(nrow(activities_collected_subset %>% filter(molregno == compound_summary$molregno[i] & standard_value > 50 & 
@@ -112,14 +125,13 @@ for(i in 1:nrow(compound_summary)){
 }
 table(x)
 compound_summary <- compound_summary[x, ]
-compound_summary
 length(unique(compound_summary$pref_name))
 
 #find if probes are agonist or not
 agonist_check <- compound_summary %>% select(pref_name, molregno) %>% rename(target_check = pref_name)
 agonist_check <- left_join(activities_collected2, agonist_check)
 agonist_check <- agonist_check %>% mutate(targets_identical = (target_check == pref_name)) %>% 
-  filter(targets_identical == TRUE & standard_units == "%" & standard_type %in% c("Emax", "max activation", "efficacy", "Efficacy") &
+  filter(targets_identical == TRUE & standard_units == "%" & standard_type %in% efficacy_types &
            standard_value > 25 & confidence_score %in% c(8,9)) 
 
 compound_summary$is_agonist <- "NO"
