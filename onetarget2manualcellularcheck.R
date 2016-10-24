@@ -1,17 +1,3 @@
-selectivity_types <- c("Selectivity ratio", "Ratio IC50", "Ratio", "Ratio Ki", "Ratio EC50", "Fold selectivity", 
-                              "Selectivity Index", "Ratio pIC50", "Ratio pKi", "Selectivity")
-
-binding_types <- c("Activity", "EC50", "IC50", "Kb", "KB", "Kd", "Ki", "Kinact", "Potency", "Log Ki", 
-                          "Log EC50", "pKb", "deltaTm", "Thermal melting change")
-efficacy_types <- c("Emax", "max activation", "efficacy", "Efficacy")
-
-library(dplyr)
-library(tibble)
-library(stringr)
-library(readr)
-#chembl_db <- src_sqlite("/Users/kylebutler/Desktop/chembl_21_sqlite/chembl_21.db", create = TRUE)
-chembl_db <- src_sqlite("chembl_21.db", create = TRUE)
-
 #only want to focus on common observations
 names(table(activities_collected$standard_type))[as.vector(table(activities_collected$standard_type) > 100)]
 
@@ -57,12 +43,13 @@ min_target <- activities_collected2 %>%
 compound_summary <- right_join(compound_summary, min_target)
 
 #check that a cell assay exists for the main target
-#activities_collected_subset <- right_join(activities_collected2, (compound_summary %>% select(molregno, pref_name) %>% rename(target = pref_name)))
-#activities_collected_subset <- activities_collected_subset %>% filter(!grepl('insect|sf9|E Coli|escherichia|bacteria', description, ignore.case = TRUE)) %>% 
-#  filter(bao_format == "BAO_0000219" & standard_units == "nM" & standard_value < 1000)
-#activities_collected_subset <- activities_collected_subset[activities_collected_subset$pref_name == activities_collected_subset$target, ]
-#compound_summary <- compound_summary %>% filter(molregno %in% unique(activities_collected_subset$molregno))
-#compound_summary 
+activities_collected_subset <- right_join(activities_collected2, (compound_summary %>% select(molregno, pref_name) %>% rename(target = pref_name)))
+activities_collected_subset <- activities_collected_subset %>% filter(!grepl('insect|sf9|E Coli|escherichia|bacteria|baculovirus', description, 
+                                                                             ignore.case = TRUE)) %>% 
+  filter(bao_format == "BAO_0000219" & standard_units == "nM" & standard_value < 1000 & confidence_score
+         %in% c(4,5,6,7,8,9) & organism == "Homo sapiens") %>% filter(target == pref_name)
+compound_summary <- compound_summary %>% filter(molregno %in% unique(activities_collected_subset$molregno))
+compound_summary 
 
 #check that no selectivity measurements are under 30
 cmpdstokeep <- activities_collected2 %>% group_by(molregno) %>% 
@@ -125,7 +112,6 @@ for(i in 1:nrow(compound_summary)){
 }
 table(x)
 compound_summary <- compound_summary[x, ]
-length(unique(compound_summary$pref_name))
 
 #find if probes are agonist or not
 agonist_check <- compound_summary %>% select(pref_name, molregno) %>% rename(target_check = pref_name)
@@ -135,9 +121,7 @@ agonist_check <- agonist_check %>% mutate(targets_identical = (target_check == p
            standard_value > 25 & confidence_score %in% c(8,9)) 
 
 compound_summary$is_agonist <- "NO"
-table(compound_summary$is_agonist)
 compound_summary$is_agonist[compound_summary$molregno %in% agonist_check$molregno] <- "YES"
-table(compound_summary$is_agonist)
 
 # add chembl ids and smiles
 molecule_dictionary <- tbl(chembl_db, "molecule_dictionary")
@@ -174,16 +158,11 @@ detach("package:rcdk", unload=TRUE)
 detach("package:fingerprint", unload=TRUE)
 
 compound_summary$orthogonal <- "PRIMARY"
-table(compound_summary$orthogonal)
 compound_summary$orthogonal[compound_summary$tanimoto < 1] <- "ORTHOGONAL"
-table(compound_summary$orthogonal)
-
 
 #make main list
 top_probes_onetarget <- compound_summary %>% group_by(is_agonist, pref_name, orthogonal) %>% 
   arrange(desc(n_select), desc(n_total), min_value) %>% slice(1)
-View(top_probes_onetarget %>% arrange(pref_name))
-length(unique(top_probes_onetarget$pref_name))
 
 #add accession to potential_probes
 #join protein information

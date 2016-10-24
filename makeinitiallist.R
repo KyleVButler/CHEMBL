@@ -3,17 +3,17 @@ library(tibble)
 library(stringr)
 library(readr)
 
-selectivity_measurements <- c("Selectivity ratio", "Ratio IC50", "Ratio", "Ratio Ki", "Ratio EC50", "Fold selectivity", 
+selectivity_types <- c("Selectivity ratio", "Ratio IC50", "Ratio", "Ratio Ki", "Ratio EC50", "Fold selectivity", 
                               "Selectivity Index", "Selectivity index",
                               "Relative potency", "Ratio pIC50", "Ratio pKi", "Selectivity")
 
-binding_measurements <- c("Activity", "EC50", "IC50", "Kb", "KB", "Kd", "Ki", "Kinact", "Potency", "Log Ki", 
+binding_types <- c("Activity", "EC50", "IC50", "Kb", "KB", "Kd", "Ki", "Kinact", "Potency", "Log Ki", 
                           "Log EC50", "pKb")
-efficacy_measurements <- c("Emax", "max activation", "efficacy", "Efficacy")
+efficacy_types <- c("Emax", "max activation", "efficacy", "Efficacy")
 
 
 
-chembl_db <- src_sqlite("chembl_21.db", create = TRUE)
+chembl_db <- src_sqlite("chembl_22.db", create = TRUE)
 #type .tables in sqlite3 to see tables
 activities <- tbl(chembl_db, "activities")
 
@@ -84,9 +84,10 @@ join_vector <- component_sequences %>% select(accession, component_id) %>% filte
 join_vector <- collect(join_vector, n = Inf)
 activities_collected <- left_join(activities_collected, join_vector, by = "component_id")
 
-#remove some known pains structures
-xx <- c(319012, 1732967, 1839558, 60417, 1334262, 808386, 364904, 1145390, 203388, 
-        476314, 832142, 378065, 514511, 59721, 1425178, 40961, 1520447, 1520448)
+#remove some known pains structures and compounds i have found to be wrongly classified like 218012
+xx <- c(319012, 1732967, 1839558, 60417, 1334262, 808386, 64904, 1145390, 203388, 
+        476314, 832142, 378065, 514511, 59721, 1425178, 40961, 1520447, 1520448, 318799, 1839556, 1520731, 493127, 	
+        36624, 357202, 351035, 320166, 218012)
 
 activities_collected <- activities_collected %>% filter(substr(pref_name, 1, 7) != "Cytochr") %>% filter(substr(pref_name, 1, 4) != "HERG") %>% 
   filter(!(molregno %in% xx))

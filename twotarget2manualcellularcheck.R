@@ -1,15 +1,3 @@
-#library(dplyr)
-#library(tibble)
-#library(stringr)
-#library(readr)
-#chembl_db <- src_sqlite("/Users/kylebutler/Desktop/chembl_21_sqlite/chembl_21.db", create = TRUE)
-#chembl_db <- src_sqlite("chembl_21.db", create = TRUE)
-
-
-#What about Log Ki, Log EC50, pKb - need to change to nM for standard_units == NA -- chembl should have done this, use code below if not
-#activities_collected[activities_collected$standard_type == "Log Ki" & is.na(activities_collected$standard_units), ]$standard_value <-
-#  10^(-(activities_collected[activities_collected$standard_type == "Log Ki" & is.na(activities_collected$standard_units), ]$standard_value)) * 10^9
-#activities_collected[activities_collected$standard_type == "Log Ki" & is.na(activities_collected$standard_units), ]$standard_units <- "nM"
 
 #want to annotate compounds with main target, number of targets assayed against, and total number of observations
 
@@ -48,12 +36,13 @@ compound_summary <- right_join(compound_summary, min_target)
 compound_summary
 
 #check that a cell assay exists for one of the main targets
-#activities_collected_subset <- right_join(activities_collected2, (compound_summary %>% select(molregno, pref_name) %>% rename(target = pref_name)))
-#activities_collected_subset <- activities_collected_subset %>% filter(!grepl('insect|sf9|E Coli|escherichia|bacteria', description, ignore.case = TRUE)) %>% 
-#  filter(bao_format == "BAO_0000219" & standard_units == "nM" & standard_value < 1000)
-#activities_collected_subset <- activities_collected_subset[activities_collected_subset$pref_name == activities_collected_subset$target, ]
-#compound_summary <- compound_summary %>% filter(molregno %in% unique(activities_collected_subset$molregno))
-#compound_summary 
+activities_collected_subset <- right_join(activities_collected2, (compound_summary %>% select(molregno, pref_name) %>% rename(target = pref_name)))
+activities_collected_subset <- activities_collected_subset %>% filter(!grepl('insect|sf9|E Coli|escherichia|bacteria|baculovirus', description, 
+                                                                             ignore.case = TRUE)) %>% 
+  filter(bao_format == "BAO_0000219" & standard_units == "nM" & standard_value < 1000 & confidence_score
+         %in% c(4,5,6,7,8,9) & organism == "Homo sapiens") %>% filter(target == pref_name)
+compound_summary <- compound_summary %>% filter(molregno %in% unique(activities_collected_subset$molregno))
+compound_summary 
 
 #check to see if the names are similar for the targets
 namecheck1 <- compound_summary %>% group_by(molregno) %>% arrange(molregno, pref_name) %>% select(molregno, pref_name) %>% slice(1) %>% rename(pref_one = pref_name)
@@ -122,7 +111,7 @@ length(unique(compound_summary$pref_name))
 
 #select probes with highest total number of observations and highest selectivity observations, and tiebreak on potency
 #high_select_probes <- compound_summary %>% group_by(pref_name) %>% arrange(pref_name, desc(n_select), desc(n_total), min_value) %>% slice(1)
-#remove targets from the one target list
+#remove compounds where both targets are in one target list
 cmpdstokeep <- compound_summary %>% filter(!(pref_name %in% top_probes_onetarget$pref_name))
 compound_summary <- compound_summary %>% filter(molregno %in% cmpdstokeep$molregno)
 cmpdstokeep <- compound_summary %>% group_by(pref_name) %>% arrange(desc(n_total), desc(n_select), min_value) %>% slice(1)
