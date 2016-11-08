@@ -1,10 +1,7 @@
 # CHEMBL
 These are R files for unbiased classification of chemical probes from the Chembl dataset. 
-These require that chembl_21.db is in the working directory
+These require that chembl_22.db is in the working directory
 
-the script makeinitiallist.R makes the main data file containing all compounds with in vitro potency < 100 nM
+the script fulldataminingscript3.R will find all probes in chembl that meet chemical probe criteria and annotates the targets with information from unprot and mygene
 
-onetarget2manualcellularcheck.R compiles a probe list for probes with one protein target
-twotarget2manualcellularcheck.R compiles a probe list for probes with two protein targets
-
-combinelists.R combines the above with the chemicalprobes.org data into one list and adds GO, kegg, entrez, uniprot annotations
+networkvisualizationfunctions.R is a set of functions for viewing Reactome, KEGG, and target-probe networks
